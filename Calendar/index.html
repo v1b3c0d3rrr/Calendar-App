@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calendar-container">
+    <!-- Header with navigation -->
+    <header class="calendar-header">
+      <button class="nav-btn" id="prevMonth" aria-label="Previous month">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+      <h1 class="month-year" id="monthYear"></h1>
+      <button class="nav-btn" id="nextMonth" aria-label="Next month">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </header>
+
+    <!-- Day of week headers -->
+    <div class="calendar-weekdays">
+      <div class="weekday">Sun</div>
+      <div class="weekday">Mon</div>
+      <div class="weekday">Tue</div>
+      <div class="weekday">Wed</div>
+      <div class="weekday">Thu</div>
+      <div class="weekday">Fri</div>
+      <div class="weekday">Sat</div>
+    </div>
+
+    <!-- Calendar grid -->
+    <div class="calendar-grid" id="calendarGrid"></div>
+  </div>
+
+  <!-- Modal for adding/editing events -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+      <div class="modal-header">
+        <h2 id="modalTitle">Add Event</h2>
+        <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+      </div>
+      <form class="event-form" id="eventForm">
+        <div class="form-group">
+          <label for="eventTitle">Title <span class="required">*</span></label>
+          <input type="text" id="eventTitle" name="title" required>
+          <span class="error-message" id="titleError"></span>
+        </div>
+        <div class="form-group">
+          <label for="eventDate">Date <span class="required">*</span></label>
+          <input type="date" id="eventDate" name="date" required>
+          <span class="error-message" id="dateError"></span>
+        </div>
+        <div class="form-group">
+          <label for="eventDescription">Description</label>
+          <textarea id="eventDescription" name="description" rows="3"></textarea>
+        </div>
+        <input type="hidden" id="eventId" name="id">
+        <div class="form-actions">
+          <button type="button" class="btn btn-delete" id="deleteBtn">Delete</button>
+          <button type="submit" class="btn btn-primary" id="saveBtn">Save Event</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
