@@ -8,6 +8,7 @@ const CalendarApp = (function() {
   let currentDate = new Date();
   let events = [];
   let editingEventId = null;
+  let lastFocusedElement = null;
 
   // DOM Elements
   const monthYearEl = document.getElementById('monthYear');
@@ -98,24 +99,30 @@ const CalendarApp = (function() {
     for (let i = 0; i < 42; i++) {
       const cell = document.createElement('div');
       cell.className = 'calendar-day';
+      cell.setAttribute('role', 'gridcell');
+      cell.setAttribute('tabindex', '0');
 
       let cellDate;
       let dayNumber;
+      let cellMonth;
 
       if (i < startingDay) {
         // Previous month days
         dayNumber = prevLastDay - startingDay + i + 1;
         cell.classList.add('other-month');
         cellDate = new Date(year, month - 1, dayNumber);
+        cellMonth = month === 0 ? 11 : month - 1;
       } else if (dayCount > totalDays) {
         // Next month days
         dayNumber = nextMonthDay++;
         cell.classList.add('other-month');
         cellDate = new Date(year, month + 1, dayNumber);
+        cellMonth = month === 11 ? 0 : month + 1;
       } else {
         // Current month days
         dayNumber = dayCount++;
         cellDate = new Date(year, month, dayNumber);
+        cellMonth = month;
 
         if (isCurrentMonth && dayNumber === today.getDate()) {
           cell.classList.add('today');
@@ -124,6 +131,10 @@ const CalendarApp = (function() {
 
       const dateStr = formatDate(cellDate);
       cell.dataset.date = dateStr;
+
+      // Accessible label for screen readers
+      const monthName = MONTHS[cellDate.getMonth()];
+      cell.setAttribute('aria-label', `${monthName} ${dayNumber}, ${cellDate.getFullYear()}`);
 
       // Day number
       const dayNumberEl = document.createElement('div');
@@ -143,9 +154,19 @@ const CalendarApp = (function() {
           pill.className = 'event-pill';
           pill.textContent = event.title;
           pill.dataset.eventId = event.id;
+          pill.setAttribute('role', 'button');
+          pill.setAttribute('tabindex', '0');
+          pill.setAttribute('aria-label', `Edit event: ${event.title}`);
           pill.addEventListener('click', (e) => {
             e.stopPropagation();
             openModal(dateStr, event);
+          });
+          pill.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              e.stopPropagation();
+              openModal(dateStr, event);
+            }
           });
           eventsContainer.appendChild(pill);
         });
@@ -162,6 +183,14 @@ const CalendarApp = (function() {
 
       // Click handler to add event
       cell.addEventListener('click', () => openModal(dateStr));
+
+      // Keyboard handler for accessibility
+      cell.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openModal(dateStr);
+        }
+      });
 
       calendarGridEl.appendChild(cell);
     }
@@ -225,6 +254,9 @@ const CalendarApp = (function() {
    * Open the modal for adding/editing an event
    */
   function openModal(dateStr, event = null) {
+    // Store last focused element for restoration
+    lastFocusedElement = document.activeElement;
+
     editingEventId = event ? event.id : null;
 
     // Update modal title and delete button visibility
@@ -255,6 +287,12 @@ const CalendarApp = (function() {
     editingEventId = null;
     eventForm.reset();
     clearErrors();
+
+    // Restore focus to last focused element
+    if (lastFocusedElement) {
+      setTimeout(() => lastFocusedElement.focus(), 100);
+      lastFocusedElement = null;
+    }
   }
 
   /**
@@ -270,8 +308,35 @@ const CalendarApp = (function() {
    * Handle keyboard events
    */
   function handleKeydown(e) {
-    if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
+    if (!modalOverlay.classList.contains('active')) return;
+
+    if (e.key === 'Escape') {
       closeModal();
+      return;
+    }
+
+    // Focus trap for Tab key
+    if (e.key === 'Tab') {
+      const modal = modalOverlay.querySelector('.modal');
+      const focusableElements = modal.querySelectorAll(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+      );
+      const firstElement = focusableElements[0];
+      const lastElement = focusableElements[focusableElements.length - 1];
+
+      if (e.shiftKey) {
+        // Shift + Tab
+        if (document.activeElement === firstElement) {
+          e.preventDefault();
+          lastElement.focus();
+        }
+      } else {
+        // Tab
+        if (document.activeElement === lastElement) {
+          e.preventDefault();
+          firstElement.focus();
+        }
+      }
     }
   }
 

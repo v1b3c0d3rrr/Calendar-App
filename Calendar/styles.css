@@ -135,8 +135,15 @@ body {
   border-bottom: none;
 }
 
-.calendar-day:hover {
+.calendar-day:hover,
+.calendar-day:focus {
   background: var(--bg-color);
+}
+
+.calendar-day:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: -2px;
+  z-index: 1;
 }
 
 .calendar-day.other-month {
@@ -188,10 +195,19 @@ body {
   text-overflow: ellipsis;
   cursor: pointer;
   transition: background-color var(--transition);
+  min-height: 22px;
+  display: flex;
+  align-items: center;
 }
 
-.event-pill:hover {
+.event-pill:hover,
+.event-pill:focus {
   background: var(--primary-hover);
+}
+
+.event-pill:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 1px;
 }
 
 .event-more {
@@ -461,4 +477,15 @@ body {
 *:focus-visible {
   outline: 2px solid var(--primary-color);
   outline-offset: 2px;
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

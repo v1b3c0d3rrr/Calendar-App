@@ -24,18 +24,18 @@
     </header>
 
     <!-- Day of week headers -->
-    <div class="calendar-weekdays">
-      <div class="weekday">Sun</div>
-      <div class="weekday">Mon</div>
-      <div class="weekday">Tue</div>
-      <div class="weekday">Wed</div>
-      <div class="weekday">Thu</div>
-      <div class="weekday">Fri</div>
-      <div class="weekday">Sat</div>
+    <div class="calendar-weekdays" role="row">
+      <div class="weekday" role="columnheader">Sun</div>
+      <div class="weekday" role="columnheader">Mon</div>
+      <div class="weekday" role="columnheader">Tue</div>
+      <div class="weekday" role="columnheader">Wed</div>
+      <div class="weekday" role="columnheader">Thu</div>
+      <div class="weekday" role="columnheader">Fri</div>
+      <div class="weekday" role="columnheader">Sat</div>
     </div>
 
     <!-- Calendar grid -->
-    <div class="calendar-grid" id="calendarGrid"></div>
+    <div class="calendar-grid" id="calendarGrid" role="grid" aria-label="Calendar"></div>
   </div>
 
   <!-- Modal for adding/editing events -->
