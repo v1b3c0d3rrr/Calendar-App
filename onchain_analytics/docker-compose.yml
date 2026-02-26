@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  # TimescaleDB - Time-series optimized PostgreSQL for swap/price data
+  db:
+    image: timescale/timescaledb:latest-pg15
+    container_name: acu_timescaledb
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-acu_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-acu_password}
+      POSTGRES_DB: ${POSTGRES_DB:-acu_analytics}
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescale_data:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-acu_user} -d ${POSTGRES_DB:-acu_analytics}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis - Caching for prices and rate limiting
+  redis:
+    image: redis:7-alpine
+    container_name: acu_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  timescale_data:
+  redis_data:
