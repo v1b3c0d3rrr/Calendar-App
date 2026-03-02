@@ -52,8 +52,9 @@ class Settings(BaseSettings):
     celery_broker_url: str = "redis://localhost:6379/1"
     celery_result_backend: str = "redis://localhost:6379/2"
 
-    # Google Gemini (for natural language queries)
-    gemini_api_key: str = ""
+    # Ollama (local LLM for natural language queries)
+    ollama_url: str = "http://localhost:11434"
+    ollama_model: str = "qwen2.5-coder:3b"
 
     # Logging
     log_level: str = "INFO"

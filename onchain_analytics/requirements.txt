@@ -29,8 +29,7 @@ ratelimit>=2.2.1
 # Environment & Config
 python-dotenv>=1.0.0
 
-# AI / NL Query
-google-genai>=1.0.0
+# AI / NL Query — Ollama (local, no extra deps — uses httpx)
 
 # Utilities
 pandas>=2.0.0

@@ -1,13 +1,13 @@
 """
 Natural language query endpoint.
-Converts user questions to SQL via Google Gemini, executes read-only,
+Converts user questions to SQL via Ollama (local LLM), executes read-only,
 and returns structured results with a visualization hint.
 """
 import re
 from datetime import datetime, date
 from decimal import Decimal
 
-from google import genai
+import httpx
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from sqlalchemy import text
@@ -108,16 +108,22 @@ def validate_sql(sql: str) -> str:
 # LLM call
 # ---------------------------------------------------------------------------
 async def text_to_sql(question: str) -> str:
-    """Convert a natural-language question to SQL via Gemini."""
-    client = genai.Client(api_key=settings.gemini_api_key)
-    response = client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=question,
-        config=genai.types.GenerateContentConfig(
-            system_instruction=SYSTEM_PROMPT,
-        ),
-    )
-    return response.text.strip()
+    """Convert a natural-language question to SQL via Ollama (local)."""
+    async with httpx.AsyncClient(timeout=180) as client:
+        resp = await client.post(
+            f"{settings.ollama_url}/api/chat",
+            json={
+                "model": settings.ollama_model,
+                "messages": [
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": question},
+                ],
+                "stream": False,
+                "options": {"temperature": 0},
+            },
+        )
+        resp.raise_for_status()
+        return resp.json()["message"]["content"].strip()
 
 
 # ---------------------------------------------------------------------------
@@ -201,8 +207,12 @@ class QueryResponse(BaseModel):
 @router.post("", response_model=QueryResponse)
 async def ask_question(body: QueryRequest):
     """Convert a natural-language question to SQL and return results."""
-    if not settings.gemini_api_key:
-        raise HTTPException(status_code=503, detail="GEMINI_API_KEY is not configured.")
+    # Check Ollama is reachable
+    try:
+        async with httpx.AsyncClient(timeout=5) as client:
+            await client.get(f"{settings.ollama_url}/api/tags")
+    except httpx.ConnectError:
+        raise HTTPException(status_code=503, detail="Ollama is not running. Start with: brew services start ollama")
 
     question = body.question.strip()
     if not question:
