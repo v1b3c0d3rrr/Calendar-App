@@ -183,6 +183,54 @@ Analytics platform for ACU token on BSC (Binance Smart Chain). Collects swap/tra
 
 ---
 
+## Phase 10: BSCScan Historical Collection + ML Indexes — DONE
+
+### 10.1: Config
+- [x] Add `bscscan_rate_limit` setting (default 5 req/sec) to `config.py`
+
+### 10.2: BSCScan API Client
+- [x] Create `collectors/bsc/bscscan_logs.py` — HTTP client with httpx
+- [x] Rate limiting (5 req/sec free plan)
+- [x] Retry with exponential backoff on HTTP errors and BSCScan rate limits
+- [x] `get_logs()` — single page of logs (up to 1000)
+- [x] `get_all_logs()` — automatic pagination across all pages
+- [x] `get_first_tx_block()` — find pool creation block
+- [x] API key validation at client creation
+
+### 10.3: BSCScan Swap Sync
+- [x] `normalize_bscscan_log()` — convert BSCScan hex format to parser-compatible format
+- [x] `parse_bscscan_swap()` — parse BSCScan logs (reuses `calculate_price_from_sqrt()`)
+- [x] `detect_pool_token_order()` — detect via RPC with fallback to known value
+- [x] `sync_swaps_via_bscscan()` — full historical sync in 50k-block batches
+- [x] CLI: `python -m collectors.bsc.pool_swaps --bscscan`
+- [x] Fixed CLI: replaced `logging.basicConfig` with `setup_logging()`
+
+### 10.4: Database Indexes for Search & ML
+- [x] `idx_swaps_recipient_timestamp` — search by recipient wallet + time
+- [x] `idx_swaps_amount_usdt` — filter by trade size
+- [x] `idx_swaps_is_buy_timestamp` — filter buy/sell by time
+- [x] Alembic migration `209d9e9747ad` — applied to DB
+
+### 10.5: Verification
+- [x] 47/47 tests pass (no regressions)
+
+### Usage
+```bash
+# Set BSCScan API key in .env
+BSCSCAN_API_KEY=your_real_key_here
+
+# Run historical collection
+python -m collectors.bsc.pool_swaps --bscscan
+
+# Check results
+psql -d acu_analytics -c "SELECT COUNT(*) FROM swaps"
+
+# After historical sync, use RPC for continuous updates
+python -m collectors.bsc.pool_swaps --continuous
+```
+
+---
+
 ## Review Section
 
 ### Phase 8 Review
@@ -219,3 +267,16 @@ Analytics platform for ACU token on BSC (Binance Smart Chain). Collects swap/tra
   - Alembic autogenerate detected index name diffs (init.sql used `idx_*`, SQLAlchemy uses `ix_*`) → replaced with empty baseline migration + stamp
 - **Deviations from plan:** None — all 4 sub-phases completed as planned
 - **Lessons learned:** structlog works best when routed through stdlib LoggerFactory so third-party libraries (uvicorn, celery) output in the same format
+
+### Phase 10 Review
+- **Changes made:**
+  - `config.py` — added `bscscan_rate_limit` setting (5 req/sec default)
+  - `collectors/bsc/bscscan_logs.py` — **new file**: BSCScan API client (httpx, rate limiting, pagination, retry)
+  - `collectors/bsc/pool_swaps.py` — added BSCScan sync path (`sync_swaps_via_bscscan`, `parse_bscscan_swap`, `--bscscan` CLI flag), fixed CLI logging setup
+  - `db/models.py` — added 3 indexes (recipient+timestamp, amount_usdt, is_buy+timestamp)
+  - `alembic/versions/209d9e9747ad_*.py` — migration for new indexes (applied)
+- **Challenges encountered:**
+  - Alembic autogenerate detected noise: init.sql used `idx_*` names with DESC, SQLAlchemy generates `ix_*` — trimmed migration to only the 3 new indexes
+  - BSCScan log format differs from RPC (hex strings vs bytes) — wrote separate `parse_bscscan_swap` to handle this cleanly
+- **Deviations from plan:** Cleaning test data (step 4 of plan) left to user discretion — test data has distinct block_number range (99000000+) and won't conflict with real data
+- **Lessons learned:** BSCScan getLogs is far more reliable than public RPC for historical data — no block range limits, includes timestamps, paginated up to 1000 per page

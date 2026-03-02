@@ -62,6 +62,10 @@ class Swap(Base):
         Index("idx_swaps_timestamp", "timestamp"),
         Index("idx_swaps_sender_timestamp", "sender", "timestamp"),
         Index("idx_swaps_block_log", "block_number", "log_index", unique=True),
+        # Indexes for search and ML queries
+        Index("idx_swaps_recipient_timestamp", "recipient", "timestamp"),
+        Index("idx_swaps_amount_usdt", "amount_usdt"),
+        Index("idx_swaps_is_buy_timestamp", "is_buy", "timestamp"),
     )
 
 

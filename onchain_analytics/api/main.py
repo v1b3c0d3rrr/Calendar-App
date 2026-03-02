@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from api.routers import analytics, holders, jobs, price, swaps, whales, ws
+from api.routers import analytics, holders, jobs, price, query, swaps, whales, ws
 from api.schemas import HealthResponse
 from collectors.bsc.connection import bsc_connection
 from config import settings
@@ -87,6 +87,7 @@ app.include_router(analytics.router, prefix="/analytics", tags=["Analytics"])
 app.include_router(whales.router, prefix="/whales", tags=["Whales"])
 app.include_router(jobs.router, prefix="/jobs", tags=["Jobs"])
 app.include_router(ws.router, prefix="/ws", tags=["WebSocket"])
+app.include_router(query.router, prefix="/query", tags=["Query"])
 
 
 @app.get("/", tags=["Root"])

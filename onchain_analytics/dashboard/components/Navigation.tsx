@@ -10,6 +10,7 @@ const navItems = [
   { href: '/trades', label: 'Trades' },
   { href: '/holders', label: 'Holders' },
   { href: '/whales', label: 'Whales' },
+  { href: '/query', label: 'Ask' },
 ];
 
 export function Navigation() {

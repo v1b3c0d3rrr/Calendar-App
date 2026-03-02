@@ -1,6 +1,13 @@
 'use client';
 
+import { useEffect, useRef } from 'react';
 import { usePriceHistory } from '@/lib/hooks';
+import {
+  createChart,
+  ColorType,
+  type IChartApi,
+  type UTCTimestamp,
+} from 'lightweight-charts';
 import {
   AreaChart,
   Area,
@@ -8,9 +15,8 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
-  CartesianGrid,
 } from 'recharts';
-import { formatPrice, formatTime } from '@/lib/utils';
+import { formatTime } from '@/lib/utils';
 
 interface PriceChartProps {
   interval?: string;
@@ -19,13 +25,104 @@ interface PriceChartProps {
 }
 
 export function PriceChart({ interval = '1h', limit = 48, height = 300 }: PriceChartProps) {
+  const chartContainerRef = useRef<HTMLDivElement>(null);
+  const chartRef = useRef<IChartApi | null>(null);
   const { data, isLoading, error } = usePriceHistory(interval, limit);
+
+  useEffect(() => {
+    if (!chartContainerRef.current || !data?.candles?.length) return;
+
+    // Remove old chart
+    if (chartRef.current) {
+      chartRef.current.remove();
+      chartRef.current = null;
+    }
+
+    const chart = createChart(chartContainerRef.current, {
+      height,
+      layout: {
+        background: { type: ColorType.Solid, color: 'transparent' },
+        textColor: '#94a3b8',
+        fontFamily: 'Inter, sans-serif',
+        fontSize: 12,
+      },
+      grid: {
+        vertLines: { color: 'rgba(55, 65, 81, 0.1)' },
+        horzLines: { color: 'rgba(55, 65, 81, 0.1)' },
+      },
+      crosshair: {
+        vertLine: { labelBackgroundColor: '#1e293b' },
+        horzLine: { labelBackgroundColor: '#1e293b' },
+      },
+      rightPriceScale: {
+        borderVisible: false,
+      },
+      timeScale: {
+        borderVisible: false,
+        timeVisible: true,
+        secondsVisible: false,
+      },
+    });
+
+    chartRef.current = chart;
+
+    const candlestickSeries = chart.addCandlestickSeries({
+      upColor: '#10B981',
+      downColor: '#EF4444',
+      borderUpColor: '#10B981',
+      borderDownColor: '#EF4444',
+      wickUpColor: '#10B981',
+      wickDownColor: '#EF4444',
+    });
+
+    const volumeSeries = chart.addHistogramSeries({
+      priceFormat: { type: 'volume' },
+      priceScaleId: 'volume',
+    });
+
+    chart.priceScale('volume').applyOptions({
+      scaleMargins: { top: 0.8, bottom: 0 },
+    });
+
+    const candles = data.candles.map((c: any) => ({
+      time: (Math.floor(new Date(c.timestamp).getTime() / 1000)) as UTCTimestamp,
+      open: c.open,
+      high: c.high,
+      low: c.low,
+      close: c.close,
+    }));
+
+    const volumes = data.candles.map((c: any) => ({
+      time: (Math.floor(new Date(c.timestamp).getTime() / 1000)) as UTCTimestamp,
+      value: c.volume_usdt,
+      color: c.close >= c.open ? 'rgba(16, 185, 129, 0.3)' : 'rgba(239, 68, 68, 0.3)',
+    }));
+
+    candlestickSeries.setData(candles);
+    volumeSeries.setData(volumes);
+
+    chart.timeScale().fitContent();
+
+    // Resize observer
+    const resizeObserver = new ResizeObserver(() => {
+      if (chartContainerRef.current) {
+        chart.applyOptions({ width: chartContainerRef.current.clientWidth });
+      }
+    });
+    resizeObserver.observe(chartContainerRef.current);
+
+    return () => {
+      resizeObserver.disconnect();
+      chart.remove();
+      chartRef.current = null;
+    };
+  }, [data, height]);
 
   if (isLoading) {
     return (
       <div
         className="bg-white dark:bg-slate-800 rounded-xl p-4 shadow-sm animate-pulse"
-        style={{ height }}
+        style={{ height: height + 60 }}
       >
         <div className="h-full bg-slate-200 dark:bg-slate-700 rounded"></div>
       </div>
@@ -36,23 +133,12 @@ export function PriceChart({ interval = '1h', limit = 48, height = 300 }: PriceC
     return (
       <div
         className="bg-white dark:bg-slate-800 rounded-xl p-4 shadow-sm flex items-center justify-center"
-        style={{ height }}
+        style={{ height: height + 60 }}
       >
         <p className="text-slate-500">No chart data available</p>
       </div>
     );
   }
-
-  const chartData = data.candles.map((c: any) => ({
-    time: new Date(c.timestamp).getTime(),
-    price: c.close,
-    volume: c.volume_usdt,
-  }));
-
-  // Determine if price went up or down
-  const firstPrice = chartData[0]?.price || 0;
-  const lastPrice = chartData[chartData.length - 1]?.price || 0;
-  const isUp = lastPrice >= firstPrice;
 
   return (
     <div className="bg-white dark:bg-slate-800 rounded-xl p-4 shadow-sm">
@@ -73,59 +159,7 @@ export function PriceChart({ interval = '1h', limit = 48, height = 300 }: PriceC
           ))}
         </div>
       </div>
-      <ResponsiveContainer width="100%" height={height}>
-        <AreaChart data={chartData}>
-          <defs>
-            <linearGradient id="priceGradient" x1="0" y1="0" x2="0" y2="1">
-              <stop
-                offset="5%"
-                stopColor={isUp ? '#10B981' : '#EF4444'}
-                stopOpacity={0.3}
-              />
-              <stop
-                offset="95%"
-                stopColor={isUp ? '#10B981' : '#EF4444'}
-                stopOpacity={0}
-              />
-            </linearGradient>
-          </defs>
-          <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.1} />
-          <XAxis
-            dataKey="time"
-            tickFormatter={(t) => formatTime(new Date(t).toISOString())}
-            stroke="#94a3b8"
-            fontSize={12}
-            tickLine={false}
-            axisLine={false}
-          />
-          <YAxis
-            domain={['auto', 'auto']}
-            tickFormatter={(v) => formatPrice(v)}
-            stroke="#94a3b8"
-            fontSize={12}
-            tickLine={false}
-            axisLine={false}
-            width={80}
-          />
-          <Tooltip
-            contentStyle={{
-              backgroundColor: '#1e293b',
-              border: 'none',
-              borderRadius: '8px',
-              color: '#fff',
-            }}
-            labelFormatter={(t) => new Date(t).toLocaleString()}
-            formatter={(value: number) => [formatPrice(value), 'Price']}
-          />
-          <Area
-            type="monotone"
-            dataKey="price"
-            stroke={isUp ? '#10B981' : '#EF4444'}
-            fill="url(#priceGradient)"
-            strokeWidth={2}
-          />
-        </AreaChart>
-      </ResponsiveContainer>
+      <div ref={chartContainerRef} />
     </div>
   );
 }

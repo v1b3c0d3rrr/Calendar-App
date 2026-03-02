@@ -6,6 +6,7 @@ import time
 from typing import Any, Optional
 
 from web3 import AsyncWeb3, Web3
+from requests.exceptions import HTTPError
 from web3.exceptions import Web3Exception
 from web3.middleware import ExtraDataToPOAMiddleware
 
@@ -144,13 +145,18 @@ class BSCConnection:
             try:
                 logs = w3.eth.get_logs(filter_params)
                 return [dict(log) for log in logs]
-            except Web3Exception as e:
+            except (Web3Exception, HTTPError) as e:
                 error_msg = str(e)
                 logger.warning(f"RPC error (attempt {attempt+1}/{max_retries}) on {self.current_endpoint}: {error_msg}")
 
-                # Check for rate limit errors
-                if "limit exceeded" in error_msg.lower() or "-32005" in error_msg:
-                    # Exponential backoff for rate limits
+                # Check for rate limit errors (RPC -32005 or HTTP 429)
+                is_rate_limit = (
+                    "limit exceeded" in error_msg.lower()
+                    or "-32005" in error_msg
+                    or "429" in error_msg
+                    or "too many requests" in error_msg.lower()
+                )
+                if is_rate_limit:
                     delay = base_delay * (2 ** attempt)
                     logger.info(f"Rate limited, waiting {delay}s before retry...")
                     await asyncio.sleep(delay)

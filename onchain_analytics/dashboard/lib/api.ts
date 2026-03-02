@@ -124,6 +124,20 @@ export const api = {
   getDistributors: (days = 7) =>
     fetchAPI<{ wallets: any[] }>(`/whales/distributing?days=${days}`),
 
+  // Natural language query
+  submitQuery: (question: string) =>
+    fetchAPI<{
+      question: string;
+      sql: string;
+      columns: string[];
+      rows: (string | number | boolean | null)[][];
+      row_count: number;
+      visualization_hint: string;
+    }>('/query', {
+      method: 'POST',
+      body: JSON.stringify({ question }),
+    }),
+
   // Health
   getHealth: () => fetchAPI<any>('/health'),
 };

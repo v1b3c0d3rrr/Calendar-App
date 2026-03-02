@@ -19,15 +19,16 @@ class Settings(BaseSettings):
     # Redis
     redis_url: str = "redis://localhost:6379/0"
 
-    # BSC RPC
-    bsc_rpc_primary: str = "https://bsc-dataseed.binance.org"
-    bsc_rpc_fallback_1: str = "https://bsc-dataseed1.binance.org"
-    bsc_rpc_fallback_2: str = "https://bsc-dataseed2.binance.org"
-    bsc_rpc_fallback_3: str = "https://bsc-dataseed3.binance.org"
-    bsc_rpc_fallback_4: str = "https://bsc-dataseed4.binance.org"
+    # BSC RPC (dRPC has archive; PublicNode/1RPC for recent blocks; Binance fallback)
+    bsc_rpc_primary: str = "https://bsc.drpc.org"
+    bsc_rpc_fallback_1: str = "https://bsc-rpc.publicnode.com"
+    bsc_rpc_fallback_2: str = "https://1rpc.io/bnb"
+    bsc_rpc_fallback_3: str = "https://bsc-dataseed.binance.org"
+    bsc_rpc_fallback_4: str = "https://bsc-dataseed1.binance.org"
 
     # BscScan API
     bscscan_api_key: str = ""
+    bscscan_rate_limit: int = 5  # free plan: 5 req/sec
 
     # Token addresses
     acu_token_address: str = "0x6ef2ffb38d64afe18ce782da280b300e358cfeaf"
@@ -40,7 +41,7 @@ class Settings(BaseSettings):
 
     # Collector settings
     start_block: int = 0
-    batch_size: int = 1000
+    batch_size: int = 500
     rpc_rate_limit: int = 10
 
     # API settings
@@ -50,6 +51,9 @@ class Settings(BaseSettings):
     # Celery
     celery_broker_url: str = "redis://localhost:6379/1"
     celery_result_backend: str = "redis://localhost:6379/2"
+
+    # Google Gemini (for natural language queries)
+    gemini_api_key: str = ""
 
     # Logging
     log_level: str = "INFO"
