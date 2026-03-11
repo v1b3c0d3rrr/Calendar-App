@@ -1,0 +1,566 @@
+{
+  "4-2": {
+    "start_date": "2026-01-03",
+    "peak_date": "2026-01-03"
+  },
+  "aia": {
+    "start_date": "2025-12-09",
+    "peak_date": "2025-12-09"
+  },
+  "infinity-ground": {
+    "start_date": "2025-10-28",
+    "peak_date": "2025-10-28"
+  },
+  "okzoo": {
+    "start_date": "2025-12-09",
+    "peak_date": "2025-12-09"
+  },
+  "solidus-aitech": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "allora": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "ampleforth": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "heyanon": {
+    "start_date": "2025-10-27",
+    "peak_date": "2025-10-27"
+  },
+  "apraemio": {
+    "start_date": "2026-01-25",
+    "peak_date": "2026-01-25"
+  },
+  "aria-ai": {
+    "start_date": "2025-11-07",
+    "peak_date": "2025-11-07"
+  },
+  "arpa": {
+    "start_date": "2026-01-20",
+    "peak_date": "2026-01-20"
+  },
+  "aspecta": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-12"
+  },
+  "avalon-2": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "bas": {
+    "start_date": "2025-10-22",
+    "peak_date": "2025-10-22"
+  },
+  "marina-protocol": {
+    "start_date": "2025-12-01",
+    "peak_date": "2025-12-01"
+  },
+  "babyboomtoken": {
+    "start_date": "2025-11-13",
+    "peak_date": "2025-11-13"
+  },
+  "beta-finance": {
+    "start_date": "2025-10-13",
+    "peak_date": "2025-10-13"
+  },
+  "bugscoin": {
+    "start_date": "2025-11-26",
+    "peak_date": "2025-11-26"
+  },
+  "bless-2": {
+    "start_date": "2026-01-02",
+    "peak_date": "2026-01-02"
+  },
+  "bluwhale": {
+    "start_date": "2025-11-20",
+    "peak_date": "2025-11-20"
+  },
+  "czs-dog": {
+    "start_date": "2026-01-08",
+    "peak_date": "2026-01-08"
+  },
+  "baby-shark-universe": {
+    "start_date": "2026-01-25",
+    "peak_date": "2026-01-25"
+  },
+  "bitlayer-bitvm": {
+    "start_date": "2025-10-22",
+    "peak_date": "2025-10-22"
+  },
+  "cjournal-2": {
+    "start_date": "2026-01-23",
+    "peak_date": "2026-01-23"
+  },
+  "yei-finance": {
+    "start_date": "2026-01-30",
+    "peak_date": "2026-01-30"
+  },
+  "cofinex-2": {
+    "start_date": "2025-11-14",
+    "peak_date": "2025-11-14"
+  },
+  "clash-of-lilliput": {
+    "start_date": "2026-01-04",
+    "peak_date": "2026-01-04"
+  },
+  "cookie": {
+    "start_date": "2026-01-08",
+    "peak_date": "2026-01-08"
+  },
+  "crepe-2": {
+    "start_date": "2025-11-30",
+    "peak_date": "2025-11-30"
+  },
+  "cortex-2": {
+    "start_date": "2025-10-13",
+    "peak_date": "2025-10-13"
+  },
+  "reservoir": {
+    "start_date": "2025-10-17",
+    "peak_date": "2025-10-17"
+  },
+  "dego-finance": {
+    "start_date": "2025-10-16",
+    "peak_date": "2025-10-16"
+  },
+  "diamond-token-2": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-12"
+  },
+  "diamond-launch": {
+    "start_date": "2026-01-05",
+    "peak_date": "2026-01-05"
+  },
+  "the-doge-nft": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "edel": {
+    "start_date": "2025-12-13",
+    "peak_date": "2025-12-13"
+  },
+  "openeden": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "elizaos": {
+    "start_date": "2026-01-11",
+    "peak_date": "2026-01-11"
+  },
+  "galeon": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-12"
+  },
+  "genius-ai": {
+    "start_date": "2025-12-27",
+    "peak_date": "2025-12-27"
+  },
+  "hana-network": {
+    "start_date": "2025-10-26",
+    "peak_date": "2025-10-26"
+  },
+  "heima": {
+    "start_date": "2025-12-03",
+    "peak_date": "2025-12-03"
+  },
+  "hemi": {
+    "start_date": "2025-11-14",
+    "peak_date": "2025-11-14"
+  },
+  "ice": {
+    "start_date": "2025-10-15",
+    "peak_date": "2025-10-15"
+  },
+  "meet48": {
+    "start_date": "2026-01-28",
+    "peak_date": "2026-01-28"
+  },
+  "infrared-finance": {
+    "start_date": "2026-02-22",
+    "peak_date": "2026-02-22"
+  },
+  "janction": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "joe": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "layer3": {
+    "start_date": "2025-10-26",
+    "peak_date": "2025-10-26"
+  },
+  "torch-of-liberty": {
+    "start_date": "2025-11-19",
+    "peak_date": "2025-11-19"
+  },
+  "bitlight": {
+    "start_date": "2026-01-04",
+    "peak_date": "2026-01-04"
+  },
+  "lumia": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "everlyn": {
+    "start_date": "2025-11-15",
+    "peak_date": "2025-11-15"
+  },
+  "heroes-of-mavia": {
+    "start_date": "2025-10-28",
+    "peak_date": "2025-10-28"
+  },
+  "mimbogamegroup": {
+    "start_date": "2025-12-02",
+    "peak_date": "2025-12-02"
+  },
+  "mia-2": {
+    "start_date": "2026-01-15",
+    "peak_date": "2026-01-15"
+  },
+  "metaplex": {
+    "start_date": "2026-01-10",
+    "peak_date": "2026-01-10"
+  },
+  "midas-xrp": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "naoris": {
+    "start_date": "2025-10-19",
+    "peak_date": "2025-10-19"
+  },
+  "numine-token": {
+    "start_date": "2025-11-15",
+    "peak_date": "2025-11-15"
+  },
+  "oort": {
+    "start_date": "2026-01-10",
+    "peak_date": "2026-01-10"
+  },
+  "oraichain-token": {
+    "start_date": "2025-11-25",
+    "peak_date": "2025-11-25"
+  },
+  "osaka-protocol": {
+    "start_date": "2026-01-21",
+    "peak_date": "2026-01-21"
+  },
+  "paal-ai": {
+    "start_date": "2026-01-08",
+    "peak_date": "2026-01-08"
+  },
+  "playsout": {
+    "start_date": "2026-01-17",
+    "peak_date": "2026-01-17"
+  },
+  "pre-sp": {
+    "start_date": "2026-02-12",
+    "peak_date": "2026-02-12"
+  },
+  "pundi-aifx": {
+    "start_date": "2025-11-01",
+    "peak_date": "2025-11-01"
+  },
+  "realio-network": {
+    "start_date": "2026-01-07",
+    "peak_date": "2026-01-07"
+  },
+  "roam-token": {
+    "start_date": "2025-12-28",
+    "peak_date": "2025-12-28"
+  },
+  "sentismai": {
+    "start_date": "2025-12-08",
+    "peak_date": "2025-12-08"
+  },
+  "myshell": {
+    "start_date": "2025-11-05",
+    "peak_date": "2025-11-05"
+  },
+  "stakestone": {
+    "start_date": "2026-01-18",
+    "peak_date": "2026-01-18"
+  },
+  "insure": {
+    "start_date": "2025-10-19",
+    "peak_date": "2025-10-19"
+  },
+  "surge-4": {
+    "start_date": "2025-12-06",
+    "peak_date": "2025-12-06"
+  },
+  "swipe": {
+    "start_date": "2026-01-30",
+    "peak_date": "2026-01-30"
+  },
+  "synapse-2": {
+    "start_date": "2026-01-31",
+    "peak_date": "2026-01-31"
+  },
+  "trusta-ai": {
+    "start_date": "2025-10-16",
+    "peak_date": "2025-10-16"
+  },
+  "tokenfi": {
+    "start_date": "2025-11-08",
+    "peak_date": "2025-11-08"
+  },
+  "tradoor": {
+    "start_date": "2025-11-04",
+    "peak_date": "2025-11-04"
+  },
+  "usdx-money-usdx": {
+    "start_date": "2025-12-17",
+    "peak_date": "2025-12-17"
+  },
+  "velas": {
+    "start_date": "2025-10-13",
+    "peak_date": "2025-10-13"
+  },
+  "von": {
+    "start_date": "2026-01-16",
+    "peak_date": "2026-01-16"
+  },
+  "wilder-world": {
+    "start_date": "2026-01-20",
+    "peak_date": "2026-01-20"
+  },
+  "codatta": {
+    "start_date": "2025-10-26",
+    "peak_date": "2025-10-26"
+  },
+  "yield-basis": {
+    "start_date": "2026-01-17",
+    "peak_date": "2026-01-17"
+  },
+  "yu": {
+    "start_date": "2025-11-18",
+    "peak_date": "2025-11-18"
+  },
+  "zeus-network": {
+    "start_date": "2025-10-26",
+    "peak_date": "2025-10-26"
+  },
+  "hakimi": {
+    "start_date": "2026-01-31",
+    "peak_date": "2026-01-31"
+  },
+  "wo-ta-ma-laile": {
+    "start_date": "2026-02-11",
+    "peak_date": "2026-02-11"
+  },
+  "apro": {
+    "start_date": "2025-12-15",
+    "peak_date": "2025-12-29"
+  },
+  "bsquared-network": {
+    "start_date": "2025-11-23",
+    "peak_date": "2025-12-22"
+  },
+  "banana-for-scale-2": {
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-27"
+  },
+  "bitchemical-token": {
+    "start_date": "2025-10-22",
+    "peak_date": "2025-11-06"
+  },
+  "audiera": {
+    "start_date": "2026-02-06",
+    "peak_date": "2026-03-08"
+  },
+  "burnedfi": {
+    "start_date": "2025-10-16",
+    "peak_date": "2025-10-29"
+  },
+  "cumulus-encrypted-storage-system": {
+    "start_date": "2026-02-05",
+    "peak_date": "2026-03-07"
+  },
+  "chex-token": {
+    "start_date": "2025-12-17",
+    "peak_date": "2026-01-16"
+  },
+  "coinmarketcap-20-index-dtf": {
+    "start_date": "2026-01-19",
+    "peak_date": "2026-02-15"
+  },
+  "coinbase-xstock": {
+    "start_date": "2025-10-28",
+    "peak_date": "2025-11-27"
+  },
+  "collect-on-fanable": {
+    "start_date": "2026-02-02",
+    "peak_date": "2026-02-16"
+  },
+  "circle-xstock": {
+    "start_date": "2025-10-30",
+    "peak_date": "2025-11-29"
+  },
+  "dusk-network": {
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-08"
+  },
+  "egl1": {
+    "start_date": "2025-12-27",
+    "peak_date": "2026-01-26"
+  },
+  "enso": {
+    "start_date": "2025-12-26",
+    "peak_date": "2026-01-25"
+  },
+  "synfutures": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-25"
+  },
+  "farcana": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-30"
+  },
+  "project-galaxy": {
+    "start_date": "2025-12-24",
+    "peak_date": "2026-01-14"
+  },
+  "gold-xstock": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-11"
+  },
+  "alphabet-xstock": {
+    "start_date": "2025-10-21",
+    "peak_date": "2025-11-20"
+  },
+  "goplus-security": {
+    "start_date": "2025-12-29",
+    "peak_date": "2026-01-26"
+  },
+  "idia": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-10"
+  },
+  "metfi-2": {
+    "start_date": "2025-10-28",
+    "peak_date": "2025-11-27"
+  },
+  "mindwavedao": {
+    "start_date": "2025-10-26",
+    "peak_date": "2025-11-25"
+  },
+  "niza-global-2": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-03"
+  },
+  "nvidia-xstock": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-11"
+  },
+  "open-loot": {
+    "start_date": "2025-10-25",
+    "peak_date": "2025-10-30"
+  },
+  "particle-network": {
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-25"
+  },
+  "pocket-network": {
+    "start_date": "2026-02-01",
+    "peak_date": "2026-02-07"
+  },
+  "power-protocol": {
+    "start_date": "2026-01-13",
+    "peak_date": "2026-02-12"
+  },
+  "quack-ai": {
+    "start_date": "2025-12-11",
+    "peak_date": "2026-01-10"
+  },
+  "nasdaq-xstock": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-11"
+  },
+  "resolv": {
+    "start_date": "2025-10-15",
+    "peak_date": "2025-11-14"
+  },
+  "river-pts": {
+    "start_date": "2025-12-16",
+    "peak_date": "2026-01-15"
+  },
+  "rize": {
+    "start_date": "2025-12-04",
+    "peak_date": "2025-12-21"
+  },
+  "ryze": {
+    "start_date": "2025-12-06",
+    "peak_date": "2026-01-05"
+  },
+  "safecoin": {
+    "start_date": "2025-12-15",
+    "peak_date": "2025-12-21"
+  },
+  "smardex": {
+    "start_date": "2025-11-17",
+    "peak_date": "2025-12-17"
+  },
+  "battle-of-three-kingdoms": {
+    "start_date": "2025-10-18",
+    "peak_date": "2025-11-10"
+  },
+  "sigmadotmoney": {
+    "start_date": "2025-12-16",
+    "peak_date": "2026-01-15"
+  },
+  "singularry": {
+    "start_date": "2026-01-12",
+    "peak_date": "2026-02-11"
+  },
+  "saakuru-labs": {
+    "start_date": "2025-12-17",
+    "peak_date": "2026-01-15"
+  },
+  "skyai": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-13"
+  },
+  "tagger": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-07"
+  },
+  "tokenised-gbp": {
+    "start_date": "2026-01-30",
+    "peak_date": "2026-03-01"
+  },
+  "usual": {
+    "start_date": "2025-11-04",
+    "peak_date": "2025-11-26"
+  },
+  "velvet": {
+    "start_date": "2026-02-04",
+    "peak_date": "2026-03-06"
+  },
+  "vow": {
+    "start_date": "2026-02-05",
+    "peak_date": "2026-02-21"
+  },
+  "wazirx": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-01"
+  },
+  "xpin-network": {
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-24"
+  },
+  "zerobase": {
+    "start_date": "2025-12-16",
+    "peak_date": "2025-12-30"
+  },
+  "chainopera-ai": {
+    "start_date": "2025-10-01",
+    "peak_date": "2025-10-12"
+  }
+}

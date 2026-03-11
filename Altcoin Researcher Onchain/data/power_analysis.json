@@ -1,0 +1,185 @@
+{
+  "parameters": {
+    "power": 0.9,
+    "alpha": 0.05,
+    "test": "mann_whitney_u"
+  },
+  "current_sample": {
+    "total": 92,
+    "winners": 58,
+    "losers": 34
+  },
+  "features": [
+    {
+      "feature": "delta_transfer_count",
+      "effect_r": 0.3228,
+      "cohen_d": 0.6821155558729745,
+      "n_per_group": 48,
+      "total_needed": 96,
+      "p_value": 0.034007,
+      "currently_significant": true
+    },
+    {
+      "feature": "transfer_intensity",
+      "effect_r": 0.3217,
+      "cohen_d": 0.6795222834385208,
+      "n_per_group": 48,
+      "total_needed": 96,
+      "p_value": 0.034614,
+      "currently_significant": true
+    },
+    {
+      "feature": "whale_shift",
+      "effect_r": 0.2609,
+      "cohen_d": 0.5405204768901252,
+      "n_per_group": 76,
+      "total_needed": 152,
+      "p_value": 0.08669,
+      "currently_significant": false
+    },
+    {
+      "feature": "address_growth",
+      "effect_r": 0.2554,
+      "cohen_d": 0.5283215314686226,
+      "n_per_group": 79,
+      "total_needed": 158,
+      "p_value": 0.093458,
+      "currently_significant": false
+    },
+    {
+      "feature": "delta_unique_addresses",
+      "effect_r": 0.2543,
+      "cohen_d": 0.525888378045897,
+      "n_per_group": 80,
+      "total_needed": 160,
+      "p_value": 0.094861,
+      "currently_significant": false
+    },
+    {
+      "feature": "delta_dex_volume",
+      "effect_r": 0.3346,
+      "cohen_d": 0.7101318209187142,
+      "n_per_group": 44,
+      "total_needed": 88,
+      "p_value": 0.105028,
+      "currently_significant": false
+    },
+    {
+      "feature": "delta_whale_volume",
+      "effect_r": 0.2318,
+      "cohen_d": 0.4765803984173599,
+      "n_per_group": 97,
+      "total_needed": 194,
+      "p_value": 0.133446,
+      "currently_significant": false
+    },
+    {
+      "feature": "delta_cex_inflow",
+      "effect_r": 0.2361,
+      "cohen_d": 0.48593807005621553,
+      "n_per_group": 94,
+      "total_needed": 188,
+      "p_value": 0.280364,
+      "currently_significant": false
+    },
+    {
+      "feature": "delta_cex_outflow",
+      "effect_r": 0.2088,
+      "cohen_d": 0.4270120444258236,
+      "n_per_group": 121,
+      "total_needed": 242,
+      "p_value": 0.312497,
+      "currently_significant": false
+    },
+    {
+      "feature": "sp_dex_volume_pct",
+      "effect_r": 0.1435,
+      "cohen_d": 0.29000142278633284,
+      "n_per_group": 262,
+      "total_needed": 524,
+      "p_value": 0.346082,
+      "currently_significant": false
+    },
+    {
+      "feature": "sp_whale_volume_pct",
+      "effect_r": 0.1109,
+      "cohen_d": 0.2231766494870736,
+      "n_per_group": 442,
+      "total_needed": 884,
+      "p_value": 0.466567,
+      "currently_significant": false
+    },
+    {
+      "feature": "dex_shift",
+      "effect_r": 0.1109,
+      "cohen_d": 0.2231766494870736,
+      "n_per_group": 442,
+      "total_needed": 884,
+      "p_value": 0.466567,
+      "currently_significant": false
+    },
+    {
+      "feature": "delta_cex_net_flow",
+      "effect_r": 0.1104,
+      "cohen_d": 0.222157999183199,
+      "n_per_group": 446,
+      "total_needed": 892,
+      "p_value": 0.581188,
+      "currently_significant": false
+    },
+    {
+      "feature": "cex_flow_shift",
+      "effect_r": 0.075,
+      "cohen_d": 0.15042366316917005,
+      "n_per_group": 973,
+      "total_needed": 1946,
+      "p_value": 0.62235,
+      "currently_significant": false
+    },
+    {
+      "feature": "sp_bridge_volume_pct",
+      "effect_r": 0.0641,
+      "cohen_d": 0.1284641891275288,
+      "n_per_group": 1334,
+      "total_needed": 2668,
+      "p_value": 0.673651,
+      "currently_significant": false
+    },
+    {
+      "feature": "sp_cex_outflow_pct",
+      "effect_r": 0.0217,
+      "cohen_d": 0.04341022192319276,
+      "n_per_group": 11678,
+      "total_needed": 23356,
+      "p_value": 0.88648,
+      "currently_significant": false
+    },
+    {
+      "feature": "sp_cex_inflow_pct",
+      "effect_r": 0.0152,
+      "cohen_d": 0.030403512416643276,
+      "n_per_group": 23806,
+      "total_needed": 47612,
+      "p_value": 0.920398,
+      "currently_significant": false
+    },
+    {
+      "feature": "sp_transfer_count",
+      "effect_r": 0.012,
+      "cohen_d": 0.0240017281866464,
+      "n_per_group": 38198,
+      "total_needed": 76396,
+      "p_value": 0.937416,
+      "currently_significant": false
+    },
+    {
+      "feature": "sp_cex_net_flow_pct",
+      "effect_r": 0.0109,
+      "cohen_d": 0.021801295144408223,
+      "n_per_group": 46298,
+      "total_needed": 92596,
+      "p_value": 0.943095,
+      "currently_significant": false
+    }
+  ]
+}

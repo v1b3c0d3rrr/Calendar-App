@@ -1,0 +1,601 @@
+{
+  "completed": [
+    "adventure-gold",
+    "alchemix",
+    "autonomi",
+    "anvil",
+    "apro",
+    "chex-token",
+    "coindepo",
+    "coinbase-xstock",
+    "circle-xstock",
+    "crypto-trading-fund",
+    "dent",
+    "dovu-2",
+    "dusk-network",
+    "enso",
+    "synfutures",
+    "faith-tribe",
+    "project-galaxy",
+    "gold-xstock",
+    "alphabet-xstock",
+    "idia",
+    "lava-network",
+    "tokenlon",
+    "meeds-dao",
+    "liquid-mercury",
+    "melon",
+    "main-street-usd",
+    "main-street-yield",
+    "niza-global-2",
+    "nvidia-xstock",
+    "open-loot",
+    "pha",
+    "palladium-network",
+    "pond-coin",
+    "pocket-network",
+    "power-protocol",
+    "vulcan-forged",
+    "quack-ai",
+    "quantixai",
+    "nasdaq-xstock",
+    "resolv",
+    "re-protocol-reusde",
+    "renzo",
+    "rize",
+    "ryze",
+    "smardex",
+    "seda-2",
+    "sierra-2",
+    "saakuru-labs",
+    "swarm-markets",
+    "soil",
+    "ssv-network",
+    "tokenised-gbp",
+    "usd-coinvertible",
+    "usp-yield-optimized-stablecoin",
+    "usual",
+    "croatian-ff-fan-token",
+    "vow",
+    "vestra-dao",
+    "vultisig",
+    "wecan",
+    "wfca",
+    "wazirx",
+    "worldwide-usd",
+    "xion-2",
+    "yieldnest-rwa-max",
+    "zerobase",
+    "arena-z",
+    "ado-network",
+    "singularitynet",
+    "alethea-artificial-liquid-intelligence-token",
+    "allora",
+    "ampleforth",
+    "andy-the-wisguy",
+    "heyanon",
+    "airtor-protocol",
+    "apu-s-club",
+    "arpa",
+    "avalon-2",
+    "balancer",
+    "bouncebit",
+    "best",
+    "beta-finance",
+    "beefy-finance",
+    "boba-network",
+    "sentinel-protocol",
+    "brla-digital-brla",
+    "bitlayer-bitvm",
+    "checkmate-2",
+    "cookie",
+    "chrema-coin",
+    "curve-fi-frax-usdc",
+    "cross-the-ages",
+    "cudos",
+    "milady-cult-coin",
+    "cortex-2",
+    "reservoir",
+    "dego-finance",
+    "dinero-2",
+    "dimitra",
+    "the-doge-nft",
+    "dolomite",
+    "data-ownership-protocol-2",
+    "destra-network",
+    "edel",
+    "openeden",
+    "elizaos",
+    "epic-chain",
+    "foom",
+    "forta",
+    "ftmtoken",
+    "gems-vip",
+    "goldfinch",
+    "giza",
+    "game-stop",
+    "gamer-tag",
+    "genius-ai",
+    "green",
+    "superwalk",
+    "hairdao",
+    "handy",
+    "heima",
+    "hemi",
+    "ice",
+    "ix-swap",
+    "ix-token",
+    "janction",
+    "joe-coin",
+    "joe",
+    "konnect",
+    "kekius-maximus",
+    "layer3",
+    "milady-meme-coin",
+    "localcoinswap",
+    "houdini-swap",
+    "lumia",
+    "messier",
+    "manyu-2",
+    "heroes-of-mavia",
+    "midas-medge",
+    "morpheusai",
+    "midas-msyrupusdp",
+    "midas-mtbill",
+    "naoris",
+    "neuralai",
+    "nomina",
+    "numine-token",
+    "autonolas",
+    "oort",
+    "oraichain-token",
+    "osaka-protocol",
+    "overtime",
+    "paal-ai",
+    "paparazzi-token",
+    "pepecoin-2",
+    "pinlink",
+    "punkstrategy",
+    "pepefork",
+    "pundi-aifx",
+    "i-love-puppies",
+    "plume-usd",
+    "augur",
+    "ostrich",
+    "realio-network",
+    "researchcoin",
+    "rss3",
+    "stake-link",
+    "openserv",
+    "seth",
+    "saffron-finance",
+    "sharp-token",
+    "myshell",
+    "solaxy",
+    "stakestone",
+    "insure",
+    "switch-token",
+    "sx-network-2",
+    "swipe",
+    "synapse-2",
+    "syndicate-3",
+    "trusta-ai",
+    "thorwallet",
+    "thorswap",
+    "tokenfi",
+    "shardus",
+    "web-3-dollar",
+    "usdx-money-usdx",
+    "usualx",
+    "velas",
+    "ambire-wallet",
+    "connect-token-wct",
+    "wilder-world",
+    "win-3",
+    "landwolf-0x67",
+    "xborg",
+    "yield-basis",
+    "yu"
+  ],
+  "errors": [
+    {
+      "coin_id": "victoria-vr",
+      "error": "_request() got multiple values for argument 'module'",
+      "phase": "blocks"
+    }
+  ],
+  "skipped": [
+    {
+      "coin_id": "auki-labs",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "bsquared-network",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "banana-for-scale-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "bitchemical-token",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "audiera",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "balsa-mm-fund",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "bankercoin-2",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "burnedfi",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "cumulus-encrypted-storage-system",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "tokenbot-2",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "coinmarketcap-20-index-dtf",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "collect-on-fanable",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "diem",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "definitive",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "egl1",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "freysa-ai",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "farcana",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "goplus-security",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "gunz",
+      "reason": "Chain 43114 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "metfi-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "mey-network",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "moltbook",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "mwx-token",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "mindwavedao",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "particle-network",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "ponke",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "river-pts",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "safecoin",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "sapien-2",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "battle-of-three-kingdoms",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "sigmadotmoney",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "singularry",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "skyai",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "tagger",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "velvet",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "xpin-network",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "4-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "aia",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "infinity-ground",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "okzoo",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "solidus-aitech",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "anyspend",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "apraemio",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "aria-ai",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "aspecta",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "b3",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "bas",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "marina-protocol",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "babyboomtoken",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "bugscoin",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "bless-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "bluwhale",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "czs-dog",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "baby-shark-universe",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "cjournal-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "yei-finance",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "cofinex-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "clash-of-lilliput",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "coq-inu",
+      "reason": "Chain 43114 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "crepe-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "diamond-token-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "diamond-launch",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "doginme",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "debtreliefbot",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "daydreams",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "galeon",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "game-by-virtuals",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "hana-network",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "meet48",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "imo",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "infrared-finance",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "torch-of-liberty",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "bitlight",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "limitless-3",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "luna-by-virtuals",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "everlyn",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "mamo",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "mimbogamegroup",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "mia-2",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "metaplex",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "midas-xrp",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "nockchain",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "owb",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "playsout",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "pangolin",
+      "reason": "Chain 43114 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "pre-sp",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "unit-00-rei",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "roam-token",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "send-token-2",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "sentismai",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "ski-mask-dog",
+      "reason": "Chain 8453 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "surge-4",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "tradoor",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "von",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "codatta",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "zeus-network",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "hakimi",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    },
+    {
+      "coin_id": "wo-ta-ma-laile",
+      "reason": "Chain 56 requires paid plan: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverag"
+    }
+  ]
+}

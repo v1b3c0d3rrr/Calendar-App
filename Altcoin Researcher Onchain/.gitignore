@@ -1,0 +1,11 @@
+.env
+venv/
+__pycache__/
+*.pyc
+data/evm_filter_progress.json
+data/transfers/
+data/snapshots/
+data/manipulator_analysis/*_transfers.json
+data/labeled/
+data/labels/
+*.log
