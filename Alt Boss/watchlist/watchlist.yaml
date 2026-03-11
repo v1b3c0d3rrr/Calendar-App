@@ -1,0 +1,174 @@
+# Watchlist — токены в ожидании
+# Добавляются автоматически при вердикте WATCH/BUY из /research
+# Обновляются через /watchlist update
+
+last_updated: "2026-03-11"
+
+tokens:
+  - ticker: "PLUME"
+    added_date: "2026-03-11"
+    added_price: 0.012
+    current_price: 0.012
+    cluster: "small"
+    lifecycle: "growth"
+    narrative: "RWAfi L1"
+    status: "BUY"
+    thesis: "SEC-registered transfer agent (единственный L1), Tier-1 VCs (Apollo, Galaxy, Brevan Howard, Haun), Vol/MC 62-78% extreme, +41.7% 7d momentum, RWA narrative Phase 2. Mainnet live, Dinero acquired."
+    entry_conditions:
+      - "Pullback к $0.010-0.012 (текущая зона)"
+      - "Или breakout retest"
+    invalidation:
+      - "Пробой ATL $0.0085 вниз"
+      - "TVL не восстанавливается >$50M за 30 дней"
+      - "Team sells (мониторинг)"
+    target_entry: 0.012
+    target_stop: 0.008
+    target_tp1: 0.025
+    target_tp2: 0.040
+    target_tp3: 0.068
+    rr_tp1: 3.25
+    size_pct_nav: 3
+    time_stop_days: 30
+    next_review: "2026-03-25"
+    source_report: "reports/PLUME_20260311.md"
+    scores:
+      cc: 74
+      cg: 7.05
+      g: "BUY conditional"
+      weighted: 71.1
+
+  - ticker: "AEVO"
+    added_date: "2026-03-10"
+    added_price: 0.0248
+    current_price: 0.0246
+    cluster: "micro"
+    lifecycle: "mature"
+    narrative: "DEX Derivatives"
+    status: "CAUTIOUS BUY"
+    thesis: "Апгрейд с WATCH (10 марта). Dated catalyst 16 марта (новый продукт, 5 дней), Vol/MC 41% extreme, Tier-1 VCs (Paradigm, Dragonfly, Pantera, Coinbase), 69M burn + monthly buyback, FDV/TVL 0.89 undervalued. -99.3% от ATH, +14% от ATL."
+    entry_conditions:
+      - "Вход в зоне $0.023-$0.025"
+      - "16 марта: продукт = конкретный"
+      - "Volume holds >$5M/day"
+    invalidation:
+      - "Пробой ATL $0.0216 вниз"
+      - "Продукт 16 марта = разочарование"
+      - "VC/team transfers на биржи"
+    target_entry: 0.024
+    target_stop: 0.0203
+    target_tp1: 0.035
+    target_tp2: 0.043
+    target_tp3: 0.053
+    rr_tp1: 2.38
+    size_pct_nav: 2
+    time_stop_days: 21
+    next_review: "2026-03-18"
+    source_report: "reports/AEVO_20260311.md"
+    scores:
+      cc: 62
+      cg: 6.15
+      g: "WATCH→BUY"
+      weighted: 60.5
+    updates:
+      - date: "2026-03-11"
+        note: "Апгрейд WATCH → CAUTIOUS BUY. Catalyst на 5 дней ближе, MC/FDV 0.92 переоценён: для mature с burn = neutral."
+
+  - ticker: "PHA"
+    added_date: "2026-03-11"
+    added_price: 0.0318
+    current_price: 0.0318
+    cluster: "micro"
+    lifecycle: "growth"
+    narrative: "AI + DePIN + TEE"
+    status: "CONDITIONAL ADD"
+    thesis: "V-Reversal pattern (Cluster E). Vol/MC 0.74 extreme (strongest bull signal). ATL 10 дней назад ($0.0212), bounce +50%. AI+DePIN narrative Phase 2-3. Phala Cloud live product. Valuation gap 13x vs Akash. RISK: Futures/Spot 20x, DWF Labs, MC/FDV 0.83 (no scarcity)."
+    entry_conditions:
+      - "Вход ТОЛЬКО в PEZ $0.025-$0.028 (ретест ATL зоны)"
+      - "Или higher low на daily"
+      - "OI/MC < 1.0"
+      - "Orderbook depth ≥$50K на ±2%"
+    invalidation:
+      - "Новый ATL ниже $0.0212"
+      - "OI/MC > 1.0"
+      - "Revenue $200M опровергнут"
+    target_entry: 0.0265
+    target_stop: 0.019
+    target_tp1: 0.050
+    target_tp2: 0.080
+    target_tp3: 0.112
+    rr_tp1: 3.5
+    size_pct_nav: 1.5
+    time_stop_days: 30
+    next_review: "2026-03-25"
+    source_report: "reports/PHA_20260311.md"
+    scores:
+      cc: 61
+      cg: 6.0
+      g: "CONDITIONAL WATCH→ADD"
+      weighted: 59.15
+
+  - ticker: "ACU"
+    added_date: "2026-03-11"
+    added_price: 0.0998
+    current_price: 0.0998
+    cluster: "micro"
+    lifecycle: "growth"
+    narrative: "DePIN + AI (smartphones)"
+    status: "WATCH → CONDITIONAL BUY"
+    thesis: "Все 3 combo signals GREEN (MC/FDV 0.23, supply 0.23, Vol/MC 9.9%). 56K+ smartphones connected = real DePIN. Gavin Wood angel. По бэктесту 0% catastrophic FP в GREEN zone. WAIT для pullback entry или breakout confirmation."
+    entry_conditions:
+      - "Pullback к $0.085-$0.095 → buy"
+      - "ИЛИ breakout выше $0.12 (ICO wall) с volume → buy"
+    invalidation:
+      - "Пробой ATL $0.069 вниз"
+      - "GitHub 0 commits >8 недель"
+      - "ICO investors dump (volume spike + price drop)"
+    target_entry_pullback: 0.090
+    target_entry_breakout: 0.125
+    target_stop_pullback: 0.078
+    target_stop_breakout: 0.105
+    target_tp1: 0.165
+    target_tp2: 0.220
+    rr_tp1: 2.9
+    size_pct_nav: 2
+    time_stop_days: 30
+    next_review: "2026-03-25"
+    source_report: "reports/ACU_20260311.md"
+    scores:
+      cc: 62
+      cg: 5.8
+      g: "WATCH with lean BUY"
+      weighted: 58
+
+  - ticker: "ELSA"
+    added_date: "2026-03-11"
+    added_price: 0.08
+    current_price: 0.08
+    cluster: "micro"
+    lifecycle: "growth"
+    narrative: "AI Agent DeFi (Base)"
+    status: "WATCH → CONDITIONAL BUY"
+    thesis: "MC/FDV 0.23 + supply 0.23 = double GREEN scarcity. Vol/MC 54% extreme. AI Agent narrative Phase 2. Coinbase/Base backing. $168M processed. RISK: 7d -8.5% (losers zone), unlock Mar 20, $3M raise only, single founder."
+    entry_conditions:
+      - "Pullback к $0.070-$0.085 (support zone)"
+      - "7d momentum turns positive"
+      - "Post-unlock (после 20 марта) стабилизация"
+    invalidation:
+      - "Пробой ATL $0.063 вниз"
+      - "7d momentum < -15%"
+      - "Продукт теряет users/volume"
+    target_entry: 0.077
+    target_stop: 0.058
+    target_tp1: 0.15
+    target_tp2: 0.22
+    target_tp3: 0.30
+    rr_tp1: 3.8
+    size_pct_nav: 1.5
+    time_stop_days: 21
+    next_review: "2026-03-25"
+    source_report: "reports/ELSA_20260311.md"
+    scores:
+      cc: 63
+      cg: 5.7
+      g: "WATCH with lean BUY"
+      weighted: 58.9

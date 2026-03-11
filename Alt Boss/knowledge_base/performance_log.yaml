@@ -1,0 +1,34 @@
+# Performance Log — история результатов исследований
+# Каждая запись добавляется через /review
+# Используется для пересчёта весов исследователей
+
+entries: []
+
+# Формат записи:
+# - ticker: "TOKEN"
+#   date_research: "YYYY-MM-DD"
+#   date_review: "YYYY-MM-DD"
+#   context:
+#     market_trend: "bull/bear/sideways"
+#     cap_tier: "micro/small/mid/large"
+#     narrative_phase: "early/mid/late"
+#     volatility: "high/low"
+#     lifecycle: "pre_product/growth/mature/revival"
+#     opportunity_type: "undervalued/momentum/reversal/trend"
+#     catalyst: "dated/undated/none"
+#   consensus_verdict: "BUY/WATCH/AVOID"
+#   entry_price: 0.00
+#   review_price: 0.00
+#   result_pct: 0.0
+#   tp1_hit: false
+#   tp2_hit: false
+#   tp3_hit: false
+#   stop_hit: false
+#   max_upside_pct: 0.0
+#   max_drawdown_pct: 0.0
+#   researcher_scores:
+#     cc: 5   # 0-10, насколько точен был прогноз
+#     cg: 5
+#     g: 5
+#   key_lessons:
+#     - "Описание урока"

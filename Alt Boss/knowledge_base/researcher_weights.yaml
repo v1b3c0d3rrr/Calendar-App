@@ -1,0 +1,128 @@
+# Динамические веса исследователей
+# Обновляются через /review на основе performance_log
+
+base_weights:
+  cc: 0.40  # Cluster Analyst — нарративы, скоринг, peer comparison
+  cg: 0.35  # Evidence Analyst — evidence-first, TA, конфликт-детекция
+  g: 0.25   # Due Diligence — ончейн, команда, red flags
+
+# Корректировки по контексту
+# Формат: context_adjustments[parameter][value][researcher] = adjustment (-0.5 to +0.5)
+# effective_weight = base_weight × (1 + avg(applicable_adjustments)), затем нормализация до sum=1
+
+context_adjustments:
+
+  market_trend:
+    bull:
+      cc: 0.0     # Нет данных — начальное значение
+      cg: 0.0
+      g: 0.0
+    bear:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    sideways:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+
+  cap_tier:
+    micro:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    small:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    mid:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    large:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+
+  narrative_phase:
+    early:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    mid:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    late:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+
+  volatility:
+    high:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    low:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+
+  lifecycle:
+    pre_product:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    growth:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    mature:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    revival:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+
+  opportunity_type:
+    undervalued:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    momentum:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    reversal:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    trend:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+
+  catalyst:
+    dated:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    undated:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+    none:
+      cc: 0.0
+      cg: 0.0
+      g: 0.0
+
+# История изменений весов
+weight_history: []
+# Формат:
+# - date: "YYYY-MM-DD"
+#   trigger: "review TICKER"
+#   old_weights: {cc: X, cg: X, g: X}
+#   new_weights: {cc: X, cg: X, g: X}
+#   reason: "..."

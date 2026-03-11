@@ -1,0 +1,41 @@
+{
+  "generated": "2026-03-11",
+  "attribution": "Data provided by CoinGecko (https://www.coingecko.com/en/api/)",
+  "description": "Final 30 tokens for calibration study: 20 winners, 5 control, 5 losers",
+  "winners": [
+    {"coin_id": "anvil-2", "symbol": "ANVL", "name": "Anvil", "start_mc": 1143000, "peak_mc": 82900000, "multiplier": 72.5, "start_date": "2025-10-12", "peak_date": "2025-10-30"},
+    {"coin_id": "ore", "symbol": "ORE", "name": "ORE", "start_mc": 4100000, "peak_mc": 200300000, "multiplier": 49.0, "start_date": "2025-10-12", "peak_date": "2025-11-10"},
+    {"coin_id": "amiko", "symbol": "AMIKO", "name": "Amiko", "start_mc": 800000, "peak_mc": 32800000, "multiplier": 39.9, "start_date": "2025-10-12", "peak_date": "2025-10-29"},
+    {"coin_id": "niza-global", "symbol": "NIZA", "name": "Niza Global", "start_mc": 7300000, "peak_mc": 84100000, "multiplier": 11.5, "start_date": "2025-10-12", "peak_date": "2025-11-03"},
+    {"coin_id": "the9bit", "symbol": "9BIT", "name": "The9bit", "start_mc": 16300000, "peak_mc": 183100000, "multiplier": 11.2, "start_date": "2026-02-07", "peak_date": "2026-03-09"},
+    {"coin_id": "xpin-network", "symbol": "XPIN", "name": "XPIN Network", "start_mc": 11900000, "peak_mc": 131000000, "multiplier": 11.0, "start_date": "2025-10-12", "peak_date": "2025-10-24"},
+    {"coin_id": "quantixai", "symbol": "QAI", "name": "QuantixAI", "start_mc": 11200000, "peak_mc": 76000000, "multiplier": 6.8, "start_date": "2025-10-12", "peak_date": "2025-10-27"},
+    {"coin_id": "mey-network", "symbol": "MEY", "name": "Mey Network", "start_mc": 9000000, "peak_mc": 60000000, "multiplier": 6.6, "start_date": "2025-12-23", "peak_date": "2026-01-22"},
+    {"coin_id": "tokenlon", "symbol": "LON", "name": "Tokenlon", "start_mc": 8300000, "peak_mc": 50300000, "multiplier": 6.1, "start_date": "2026-01-25", "peak_date": "2026-01-28"},
+    {"coin_id": "seda-2", "symbol": "SEDA", "name": "SEDA", "start_mc": 25600000, "peak_mc": 155400000, "multiplier": 6.1, "start_date": "2025-10-12", "peak_date": "2025-11-03"},
+    {"coin_id": "clanker", "symbol": "CLANKER", "name": "tokenbot", "start_mc": 25400000, "peak_mc": 116500000, "multiplier": 4.6, "start_date": "2025-10-12", "peak_date": "2025-10-28"},
+    {"coin_id": "kinetiq", "symbol": "KNTQ", "name": "Kinetiq", "start_mc": 16100000, "peak_mc": 63700000, "multiplier": 4.0, "start_date": "2025-12-27", "peak_date": "2026-01-25"},
+    {"coin_id": "tensor", "symbol": "TNSR", "name": "Tensor", "start_mc": 21300000, "peak_mc": 83000000, "multiplier": 3.9, "start_date": "2025-10-22", "peak_date": "2025-11-21"},
+    {"coin_id": "vestra-dao", "symbol": "VSTR", "name": "Vestra DAO", "start_mc": 6600000, "peak_mc": 21700000, "multiplier": 3.3, "start_date": "2025-10-12", "peak_date": "2025-11-06"},
+    {"coin_id": "swarm-network", "symbol": "TRUTH", "name": "Swarm Network", "start_mc": 27800000, "peak_mc": 88100000, "multiplier": 3.2, "start_date": "2025-10-31", "peak_date": "2025-11-10"},
+    {"coin_id": "sapien", "symbol": "SAPIEN", "name": "Sapien", "start_mc": 26300000, "peak_mc": 85300000, "multiplier": 3.2, "start_date": "2025-10-12", "peak_date": "2025-11-07"},
+    {"coin_id": "synfutures", "symbol": "F", "name": "SynFutures", "start_mc": 21100000, "peak_mc": 64800000, "multiplier": 3.1, "start_date": "2025-10-12", "peak_date": "2025-10-25"},
+    {"coin_id": "wazirx", "symbol": "WRX", "name": "WazirX", "start_mc": 20100000, "peak_mc": 59300000, "multiplier": 3.0, "start_date": "2025-10-12", "peak_date": "2025-11-01"},
+    {"coin_id": "pippin", "symbol": "PIPPIN", "name": "pippin", "start_mc": 14000000, "peak_mc": 38700000, "multiplier": 2.8, "start_date": "2025-10-12", "peak_date": "2025-11-01"},
+    {"coin_id": "power-protocol", "symbol": "POWER", "name": "Power Protocol", "start_mc": 29400000, "peak_mc": 82500000, "multiplier": 2.8, "start_date": "2026-01-13", "peak_date": "2026-02-12"}
+  ],
+  "control": [
+    {"coin_id": "uquid-coin", "symbol": "UQC", "name": "Uquid Coin", "avg_mc_6m": 30700000, "max_min_ratio": 1.61},
+    {"coin_id": "qanplatform", "symbol": "QANX", "name": "QANplatform", "avg_mc_6m": 36700000, "max_min_ratio": 2.10},
+    {"coin_id": "bit2me", "symbol": "B2M", "name": "Bit2Me", "avg_mc_6m": 36700000, "max_min_ratio": 1.86},
+    {"coin_id": "shentu", "symbol": "CTK", "name": "Shentu", "avg_mc_6m": 41600000, "max_min_ratio": 2.35},
+    {"coin_id": "ozapay", "symbol": "OZA", "name": "Ozapay", "avg_mc_6m": 24200000, "max_min_ratio": 1.84}
+  ],
+  "losers": [
+    {"coin_id": "beta-finance", "symbol": "BETA", "name": "Beta Finance", "start_mc": 11500000, "bottom_mc": 700000, "loss_pct": -93.9, "start_date": "2025-10-13", "bottom_date": "2025-11-03"},
+    {"coin_id": "apraemio", "symbol": "APRA", "name": "Apraemio", "start_mc": 11300000, "bottom_mc": 1400000, "loss_pct": -88.0, "start_date": "2026-01-25", "bottom_date": "2026-02-24"},
+    {"coin_id": "heroes-of-mavia", "symbol": "MAVIA", "name": "Heroes of Mavia", "start_mc": 12800000, "bottom_mc": 3100000, "loss_pct": -75.9, "start_date": "2025-10-28", "bottom_date": "2025-11-24"},
+    {"coin_id": "velas", "symbol": "VLX", "name": "Velas", "start_mc": 12200000, "bottom_mc": 3000000, "loss_pct": -75.4, "start_date": "2025-10-13", "bottom_date": "2025-11-10"},
+    {"coin_id": "balancer", "symbol": "BAL", "name": "Balancer", "start_mc": 29300000, "bottom_mc": 8300000, "loss_pct": -71.7, "start_date": "2026-01-31", "bottom_date": "2026-03-02"}
+  ]
+}

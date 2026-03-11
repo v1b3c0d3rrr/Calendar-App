@@ -1,0 +1,24 @@
+# Context Profiles — Профили эффективности исследователей по контексту
+# Обновляются через /review при обнаружении устойчивых паттернов
+
+profiles: []
+
+# Формат:
+# - researcher: "cc/cg/g"
+#   strength: "Описание сильной стороны"
+#   context:
+#     parameter: "cap_tier"
+#     value: "micro"
+#     secondary_parameter: "market_trend"  # опционально
+#     secondary_value: "bear"              # опционально
+#   evidence:
+#     - ticker: "TOKEN"
+#       score: 8
+#       note: "Точно определил разворот нарратива"
+#   confidence: "low/medium/high"  # low = 1-2 примера, medium = 3-5, high = 6+
+#   discovered_at: "YYYY-MM-DD"
+
+# Примеры паттернов (появятся после накопления данных):
+# - "CC лучше всех определяет тайминг входа для micro-cap в ранней фазе нарратива"
+# - "CG наиболее точен в уровнях для mid-cap на боковом рынке"
+# - "G лучше всех ловит red flags для pre-product токенов"

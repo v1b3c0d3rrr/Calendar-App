@@ -1,0 +1,2938 @@
+{
+  "andy70b": {
+    "symbol": "ANDY70B",
+    "name": "ANDY70B",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-06",
+    "start_mc": 70236,
+    "peak_mc": 11621014,
+    "multiplier": 165.5,
+    "features": {
+      "ath_drawdown_pct": -53.5,
+      "pre_trend_30d_pct": -50.4,
+      "pre_trend_7d_pct": -30.3,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 17.1,
+      "pump_days": 25.0,
+      "multiplier": 165.5,
+      "mc_at_t0": 70236
+    },
+    "cluster": "E_v_reversal"
+  },
+  "anvil": {
+    "error": "insufficient_data",
+    "symbol": "ANVL"
+  },
+  "ore": {
+    "symbol": "ORE",
+    "name": "ORE",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-10",
+    "start_mc": 4090557,
+    "peak_mc": 200337941,
+    "multiplier": 49.0,
+    "features": {
+      "ath_drawdown_pct": -16.2,
+      "pre_trend_30d_pct": -3.5,
+      "pre_trend_7d_pct": 11.1,
+      "accumulation_days": 30,
+      "volatility_30d_pct": 8.2,
+      "pump_days": 29.0,
+      "multiplier": 49.0,
+      "mc_at_t0": 4090557
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "amiko": {
+    "error": "insufficient_data",
+    "symbol": "AMIKO"
+  },
+  "niza-global-2": {
+    "error": "insufficient_data",
+    "symbol": "NIZA"
+  },
+  "the9bit": {
+    "symbol": "9BIT",
+    "name": "The9bit",
+    "start_date": "2026-02-07",
+    "peak_date": "2026-03-09",
+    "start_mc": 16349153,
+    "peak_mc": 183051061,
+    "multiplier": 11.2,
+    "features": {
+      "ath_drawdown_pct": -56.8,
+      "pre_trend_30d_pct": -56.0,
+      "pre_trend_7d_pct": -15.7,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 25.9,
+      "pump_days": 30.0,
+      "multiplier": 11.2,
+      "mc_at_t0": 16349153
+    },
+    "cluster": "E_v_reversal"
+  },
+  "xpin-network": {
+    "symbol": "XPIN",
+    "name": "XPIN Network",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-24",
+    "start_mc": 11885949,
+    "peak_mc": 131030255,
+    "multiplier": 11.0,
+    "features": {
+      "ath_drawdown_pct": -55.1,
+      "pre_trend_30d_pct": -48.8,
+      "pre_trend_7d_pct": -14.4,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 28.0,
+      "pump_days": 12.0,
+      "multiplier": 11.0,
+      "mc_at_t0": 11885949
+    },
+    "cluster": "E_v_reversal"
+  },
+  "quantixai": {
+    "symbol": "QAI",
+    "name": "QuantixAI",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-27",
+    "start_mc": 11236999,
+    "peak_mc": 75991814,
+    "multiplier": 6.8,
+    "features": {
+      "ath_drawdown_pct": -19.1,
+      "pre_trend_30d_pct": -19.1,
+      "pre_trend_7d_pct": -12.9,
+      "accumulation_days": 20,
+      "volatility_30d_pct": 4.9,
+      "pump_days": 15.0,
+      "multiplier": 6.8,
+      "mc_at_t0": 11236999
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "mey-network": {
+    "symbol": "MEY",
+    "name": "Mey Network",
+    "start_date": "2025-12-23",
+    "peak_date": "2026-01-22",
+    "start_mc": 9048876,
+    "peak_mc": 59950090,
+    "multiplier": 6.6,
+    "features": {
+      "ath_drawdown_pct": -46.3,
+      "pre_trend_30d_pct": 9.8,
+      "pre_trend_7d_pct": 1.8,
+      "accumulation_days": 16,
+      "volatility_30d_pct": 8.5,
+      "pump_days": 30.0,
+      "multiplier": 6.6,
+      "mc_at_t0": 9048876
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "moltbook": {
+    "symbol": "MOLT",
+    "name": "Moltbook",
+    "start_date": "2026-03-02",
+    "peak_date": "2026-03-11",
+    "start_mc": 1419641,
+    "peak_mc": 8922189,
+    "multiplier": 6.3,
+    "features": {
+      "ath_drawdown_pct": -96.9,
+      "pre_trend_30d_pct": -96.9,
+      "pre_trend_7d_pct": -49.0,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 118.6,
+      "pump_days": 9.0,
+      "multiplier": 6.5,
+      "mc_at_t0": 1419641
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "tokenlon": {
+    "symbol": "LON",
+    "name": "Tokenlon",
+    "start_date": "2026-01-25",
+    "peak_date": "2026-01-28",
+    "start_mc": 8252163,
+    "peak_mc": 50277987,
+    "multiplier": 6.1,
+    "features": {
+      "ath_drawdown_pct": -89.7,
+      "pre_trend_30d_pct": -84.2,
+      "pre_trend_7d_pct": -84.7,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 3.4,
+      "pump_days": 3.0,
+      "multiplier": 6.1,
+      "mc_at_t0": 8252163
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "seda-2": {
+    "symbol": "SEDA",
+    "name": "SEDA",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-03",
+    "start_mc": 25565793,
+    "peak_mc": 155359236,
+    "multiplier": 6.1,
+    "features": {
+      "ath_drawdown_pct": -15.2,
+      "pre_trend_30d_pct": -0.6,
+      "pre_trend_7d_pct": 4.9,
+      "accumulation_days": 30,
+      "volatility_30d_pct": 8.8,
+      "pump_days": 22.0,
+      "multiplier": 6.1,
+      "mc_at_t0": 25565793
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "meeds-dao": {
+    "symbol": "MEED",
+    "name": "Meeds DAO",
+    "start_date": "2025-11-14",
+    "peak_date": "2025-12-13",
+    "start_mc": 1035342,
+    "peak_mc": 5303824,
+    "multiplier": 5.1,
+    "features": {
+      "ath_drawdown_pct": -57.8,
+      "pre_trend_30d_pct": -27.5,
+      "pre_trend_7d_pct": -9.9,
+      "accumulation_days": 5,
+      "volatility_30d_pct": 8.2,
+      "pump_days": 29.0,
+      "multiplier": 5.1,
+      "mc_at_t0": 1035342
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "coindepo": {
+    "symbol": "COINDEPO",
+    "name": "COINDEPO",
+    "start_date": "2026-02-01",
+    "peak_date": "2026-03-03",
+    "start_mc": 1289725,
+    "peak_mc": 6050071,
+    "multiplier": 4.7,
+    "features": {
+      "ath_drawdown_pct": -27.3,
+      "pre_trend_30d_pct": -4.2,
+      "pre_trend_7d_pct": -3.7,
+      "accumulation_days": 57,
+      "volatility_30d_pct": 1.6,
+      "pump_days": 30.0,
+      "multiplier": 4.7,
+      "mc_at_t0": 1289725
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "tokenbot-2": {
+    "symbol": "CLANKER",
+    "name": "tokenbot",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-28",
+    "start_mc": 25438160,
+    "peak_mc": 116500365,
+    "multiplier": 4.6,
+    "features": {
+      "ath_drawdown_pct": -36.3,
+      "pre_trend_30d_pct": -32.1,
+      "pre_trend_7d_pct": -21.0,
+      "accumulation_days": 4,
+      "volatility_30d_pct": 10.7,
+      "pump_days": 16.0,
+      "multiplier": 4.6,
+      "mc_at_t0": 25438160
+    },
+    "cluster": "E_v_reversal"
+  },
+  "kinetiq": {
+    "symbol": "KNTQ",
+    "name": "Kinetiq",
+    "start_date": "2025-12-27",
+    "peak_date": "2026-01-25",
+    "start_mc": 16102262,
+    "peak_mc": 63655716,
+    "multiplier": 4.0,
+    "features": {
+      "ath_drawdown_pct": -64.4,
+      "pre_trend_30d_pct": -59.9,
+      "pre_trend_7d_pct": 12.6,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 46.7,
+      "pump_days": 29.0,
+      "multiplier": 4.0,
+      "mc_at_t0": 16102262
+    },
+    "cluster": "E_v_reversal"
+  },
+  "tensor": {
+    "symbol": "TNSR",
+    "name": "Tensor",
+    "start_date": "2025-10-22",
+    "peak_date": "2025-11-21",
+    "start_mc": 21266204,
+    "peak_mc": 83024296,
+    "multiplier": 3.9,
+    "features": {
+      "ath_drawdown_pct": -50.6,
+      "pre_trend_30d_pct": -44.9,
+      "pre_trend_7d_pct": -15.2,
+      "accumulation_days": 7,
+      "volatility_30d_pct": 17.9,
+      "pump_days": 30.0,
+      "multiplier": 3.9,
+      "mc_at_t0": 21266204
+    },
+    "cluster": "E_v_reversal"
+  },
+  "usd-coinvertible": {
+    "symbol": "USDCV",
+    "name": "USD CoinVertible",
+    "start_date": "2025-12-25",
+    "peak_date": "2026-01-24",
+    "start_mc": 8280251,
+    "peak_mc": 29978357,
+    "multiplier": 3.6,
+    "features": {
+      "ath_drawdown_pct": -0.3,
+      "pre_trend_30d_pct": 0.0,
+      "pre_trend_7d_pct": -0.0,
+      "accumulation_days": 82,
+      "volatility_30d_pct": 0.1,
+      "pump_days": 30.0,
+      "multiplier": 3.6,
+      "mc_at_t0": 8280251
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "pandacoin": {
+    "symbol": "PND",
+    "name": "Pandacoin",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-02",
+    "start_mc": 1197715,
+    "peak_mc": 4359185,
+    "multiplier": 3.6,
+    "features": {
+      "ath_drawdown_pct": -13.2,
+      "pre_trend_30d_pct": 2.5,
+      "pre_trend_7d_pct": 0.3,
+      "accumulation_days": 10,
+      "volatility_30d_pct": 17.0,
+      "pump_days": 21.0,
+      "multiplier": 3.6,
+      "mc_at_t0": 1197715
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "nasdaq-xstock": {
+    "symbol": "QQQX",
+    "name": "Nasdaq xStock",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-11",
+    "start_mc": 3012646,
+    "peak_mc": 10022336,
+    "multiplier": 3.3,
+    "features": {
+      "ath_drawdown_pct": -2.1,
+      "pre_trend_30d_pct": 2.8,
+      "pre_trend_7d_pct": -0.5,
+      "accumulation_days": 30,
+      "volatility_30d_pct": 1.1,
+      "pump_days": 30.0,
+      "multiplier": 3.3,
+      "mc_at_t0": 3012646
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "vestra-dao": {
+    "symbol": "VSTR",
+    "name": "Vestra DAO",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-06",
+    "start_mc": 6576665,
+    "peak_mc": 21714984,
+    "multiplier": 3.3,
+    "features": {
+      "ath_drawdown_pct": -30.2,
+      "pre_trend_30d_pct": -20.2,
+      "pre_trend_7d_pct": -21.9,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 7.3,
+      "pump_days": 25.0,
+      "multiplier": 3.3,
+      "mc_at_t0": 6576665
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "swarm-network": {
+    "symbol": "TRUTH",
+    "name": "Swarm Network",
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-10",
+    "start_mc": 27759725,
+    "peak_mc": 88059379,
+    "multiplier": 3.2,
+    "features": {
+      "ath_drawdown_pct": -22.3,
+      "pre_trend_30d_pct": -8.0,
+      "pre_trend_7d_pct": -20.7,
+      "accumulation_days": 4,
+      "volatility_30d_pct": 9.9,
+      "pump_days": 10.0,
+      "multiplier": 3.2,
+      "mc_at_t0": 27759725
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "sapien-2": {
+    "symbol": "SAPIEN",
+    "name": "Sapien",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-07",
+    "start_mc": 26326927,
+    "peak_mc": 85327296,
+    "multiplier": 3.2,
+    "features": {
+      "ath_drawdown_pct": -66.6,
+      "pre_trend_30d_pct": -60.9,
+      "pre_trend_7d_pct": -40.0,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 25.5,
+      "pump_days": 26.0,
+      "multiplier": 3.2,
+      "mc_at_t0": 26326927
+    },
+    "cluster": "E_v_reversal"
+  },
+  "saakuru-labs": {
+    "symbol": "SKR",
+    "name": "Saakuru",
+    "start_date": "2025-12-17",
+    "peak_date": "2026-01-15",
+    "start_mc": 307801,
+    "peak_mc": 962895,
+    "multiplier": 3.1,
+    "features": {
+      "ath_drawdown_pct": -55.3,
+      "pre_trend_30d_pct": -16.0,
+      "pre_trend_7d_pct": -13.0,
+      "accumulation_days": 19,
+      "volatility_30d_pct": 6.6,
+      "pump_days": 29.0,
+      "multiplier": 3.1,
+      "mc_at_t0": 307801
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "synfutures": {
+    "symbol": "F",
+    "name": "SynFutures",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-25",
+    "start_mc": 21142804,
+    "peak_mc": 64789143,
+    "multiplier": 3.1,
+    "features": {
+      "ath_drawdown_pct": -67.1,
+      "pre_trend_30d_pct": -24.1,
+      "pre_trend_7d_pct": -36.8,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 24.9,
+      "pump_days": 13.0,
+      "multiplier": 3.1,
+      "mc_at_t0": 21142804
+    },
+    "cluster": "E_v_reversal"
+  },
+  "worldwide-usd": {
+    "symbol": "WUSD",
+    "name": "Worldwide USD",
+    "start_date": "2025-10-26",
+    "peak_date": "2025-11-25",
+    "start_mc": 4577902,
+    "peak_mc": 14048250,
+    "multiplier": 3.1,
+    "features": {
+      "ath_drawdown_pct": -0.1,
+      "pre_trend_30d_pct": 0.0,
+      "pre_trend_7d_pct": 0.0,
+      "accumulation_days": 44,
+      "volatility_30d_pct": 0.0,
+      "pump_days": 30.0,
+      "multiplier": 3.1,
+      "mc_at_t0": 4577902
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "wazirx": {
+    "symbol": "WRX",
+    "name": "WazirX",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-01",
+    "start_mc": 20080499,
+    "peak_mc": 59303628,
+    "multiplier": 3.0,
+    "features": {
+      "ath_drawdown_pct": -30.0,
+      "pre_trend_30d_pct": -23.6,
+      "pre_trend_7d_pct": -6.4,
+      "accumulation_days": 21,
+      "volatility_30d_pct": 11.6,
+      "pump_days": 20.0,
+      "multiplier": 3.0,
+      "mc_at_t0": 20080499
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "pippin": {
+    "symbol": "PIPPIN",
+    "name": "pippin",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-01",
+    "start_mc": 13995212,
+    "peak_mc": 38657402,
+    "multiplier": 2.8,
+    "features": {
+      "ath_drawdown_pct": -40.1,
+      "pre_trend_30d_pct": -30.0,
+      "pre_trend_7d_pct": -35.3,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 10.1,
+      "pump_days": 20.0,
+      "multiplier": 2.8,
+      "mc_at_t0": 13995212
+    },
+    "cluster": "E_v_reversal"
+  },
+  "ryze": {
+    "symbol": "RYZE",
+    "name": "Ryze",
+    "start_date": "2025-12-06",
+    "peak_date": "2026-01-05",
+    "start_mc": 3630321,
+    "peak_mc": 10035469,
+    "multiplier": 2.8,
+    "features": {
+      "ath_drawdown_pct": -8.1,
+      "pre_trend_30d_pct": -3.6,
+      "pre_trend_7d_pct": 0.2,
+      "accumulation_days": 85,
+      "volatility_30d_pct": 3.0,
+      "pump_days": 30.0,
+      "multiplier": 2.8,
+      "mc_at_t0": 3630321
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "power-protocol": {
+    "symbol": "POWER",
+    "name": "Power Protocol",
+    "start_date": "2026-01-13",
+    "peak_date": "2026-02-12",
+    "start_mc": 29428051,
+    "peak_mc": 82464535,
+    "multiplier": 2.8,
+    "features": {
+      "ath_drawdown_pct": -62.3,
+      "pre_trend_30d_pct": -41.1,
+      "pre_trend_7d_pct": -45.8,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 20.5,
+      "pump_days": 30.0,
+      "multiplier": 2.8,
+      "mc_at_t0": 29428051
+    },
+    "cluster": "E_v_reversal"
+  },
+  "burnedfi": {
+    "symbol": "BURN",
+    "name": "BurnedFi",
+    "start_date": "2025-10-16",
+    "peak_date": "2025-10-29",
+    "start_mc": 27894704,
+    "peak_mc": 74482999,
+    "multiplier": 2.7,
+    "features": {
+      "ath_drawdown_pct": -38.2,
+      "pre_trend_30d_pct": -23.5,
+      "pre_trend_7d_pct": -23.4,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 10.0,
+      "pump_days": 13.0,
+      "multiplier": 2.7,
+      "mc_at_t0": 27894704
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "melon": {
+    "symbol": "MLN",
+    "name": "Enzyme",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-20",
+    "start_mc": 16358730,
+    "peak_mc": 43617048,
+    "multiplier": 2.7,
+    "features": {
+      "ath_drawdown_pct": -35.2,
+      "pre_trend_30d_pct": -33.5,
+      "pre_trend_7d_pct": -30.6,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 7.5,
+      "pump_days": 8.0,
+      "multiplier": 2.7,
+      "mc_at_t0": 16358730
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "skyai": {
+    "symbol": "SKYAI",
+    "name": "SkyAI",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-13",
+    "start_mc": 16592226,
+    "peak_mc": 42762863,
+    "multiplier": 2.6,
+    "features": {
+      "ath_drawdown_pct": -64.6,
+      "pre_trend_30d_pct": -64.6,
+      "pre_trend_7d_pct": -39.5,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 23.9,
+      "pump_days": 1,
+      "multiplier": 2.6,
+      "mc_at_t0": 16592226
+    },
+    "cluster": "E_v_reversal"
+  },
+  "smardex": {
+    "symbol": "SDEX",
+    "name": "SMARDEX",
+    "start_date": "2025-11-17",
+    "peak_date": "2025-12-17",
+    "start_mc": 25990303,
+    "peak_mc": 67070650,
+    "multiplier": 2.6,
+    "features": {
+      "ath_drawdown_pct": -40.1,
+      "pre_trend_30d_pct": -22.8,
+      "pre_trend_7d_pct": -7.7,
+      "accumulation_days": 17,
+      "volatility_30d_pct": 8.5,
+      "pump_days": 30.0,
+      "multiplier": 2.6,
+      "mc_at_t0": 25990303
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "hydrated-dollar": {
+    "symbol": "HOLLAR",
+    "name": "Hydrated Dollar",
+    "start_date": "2025-11-11",
+    "peak_date": "2025-12-11",
+    "start_mc": 3460505,
+    "peak_mc": 8999111,
+    "multiplier": 2.6,
+    "features": {
+      "ath_drawdown_pct": -0.4,
+      "pre_trend_30d_pct": 0.4,
+      "pre_trend_7d_pct": 0.1,
+      "accumulation_days": 47,
+      "volatility_30d_pct": 0.2,
+      "pump_days": 30.0,
+      "multiplier": 2.6,
+      "mc_at_t0": 3460505
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "fih": {
+    "symbol": "FIH",
+    "name": "fih",
+    "start_date": "2026-01-24",
+    "peak_date": "2026-02-23",
+    "start_mc": 2026575,
+    "peak_mc": 5212484,
+    "multiplier": 2.6,
+    "features": {
+      "ath_drawdown_pct": -71.1,
+      "pre_trend_30d_pct": -45.1,
+      "pre_trend_7d_pct": -17.2,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 40.0,
+      "pump_days": 30.0,
+      "multiplier": 2.6,
+      "mc_at_t0": 2026575
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "just-memecoin": {
+    "symbol": "MEMECOIN",
+    "name": "just memecoin",
+    "start_date": "2025-12-07",
+    "peak_date": "2026-01-05",
+    "start_mc": 225824,
+    "peak_mc": 584298,
+    "multiplier": 2.6,
+    "features": {
+      "ath_drawdown_pct": -92.9,
+      "pre_trend_30d_pct": -32.9,
+      "pre_trend_7d_pct": 9.1,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 25.7,
+      "pump_days": 29.0,
+      "multiplier": 2.6,
+      "mc_at_t0": 225824
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "tagger": {
+    "symbol": "TAG",
+    "name": "TAGGER",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-07",
+    "start_mc": 23444103,
+    "peak_mc": 59441000,
+    "multiplier": 2.5,
+    "features": {
+      "ath_drawdown_pct": -68.2,
+      "pre_trend_30d_pct": -63.7,
+      "pre_trend_7d_pct": -47.3,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 22.4,
+      "pump_days": 26.0,
+      "multiplier": 2.5,
+      "mc_at_t0": 23444103
+    },
+    "cluster": "E_v_reversal"
+  },
+  "ai-rig-complex": {
+    "symbol": "ARC",
+    "name": "AI Rig Complex",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-10",
+    "start_mc": 11975351,
+    "peak_mc": 30191697,
+    "multiplier": 2.5,
+    "features": {
+      "ath_drawdown_pct": -48.7,
+      "pre_trend_30d_pct": -39.2,
+      "pre_trend_7d_pct": -47.0,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 11.1,
+      "pump_days": 29.0,
+      "multiplier": 2.5,
+      "mc_at_t0": 11975351
+    },
+    "cluster": "E_v_reversal"
+  },
+  "victoria-vr": {
+    "symbol": "VR",
+    "name": "Victoria VR",
+    "start_date": "2025-12-03",
+    "peak_date": "2026-01-02",
+    "start_mc": 29995119,
+    "peak_mc": 75128585,
+    "multiplier": 2.5,
+    "features": {
+      "ath_drawdown_pct": -49.0,
+      "pre_trend_30d_pct": -22.3,
+      "pre_trend_7d_pct": 2.6,
+      "accumulation_days": 28,
+      "volatility_30d_pct": 7.8,
+      "pump_days": 30.0,
+      "multiplier": 2.5,
+      "mc_at_t0": 29995119
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "chex-token": {
+    "symbol": "CHEX",
+    "name": "Chintai",
+    "start_date": "2025-12-17",
+    "peak_date": "2026-01-16",
+    "start_mc": 29332047,
+    "peak_mc": 72014897,
+    "multiplier": 2.5,
+    "features": {
+      "ath_drawdown_pct": -75.7,
+      "pre_trend_30d_pct": -11.2,
+      "pre_trend_7d_pct": -37.3,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 14.8,
+      "pump_days": 30.0,
+      "multiplier": 2.5,
+      "mc_at_t0": 29332047
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "coldint": {
+    "symbol": "SN29",
+    "name": "Coldint",
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-30",
+    "start_mc": 3790002,
+    "peak_mc": 9314261,
+    "multiplier": 2.5,
+    "features": {
+      "ath_drawdown_pct": -9.8,
+      "pre_trend_30d_pct": 32.6,
+      "pre_trend_7d_pct": -4.0,
+      "accumulation_days": 18,
+      "volatility_30d_pct": 12.2,
+      "pump_days": 30.0,
+      "multiplier": 2.5,
+      "mc_at_t0": 3790002
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "gold-xstock": {
+    "symbol": "GLDX",
+    "name": "Gold xStock",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-11",
+    "start_mc": 1212552,
+    "peak_mc": 3002986,
+    "multiplier": 2.5,
+    "features": {
+      "ath_drawdown_pct": 2.8,
+      "pre_trend_30d_pct": 14.7,
+      "pre_trend_7d_pct": 6.7,
+      "accumulation_days": 30,
+      "volatility_30d_pct": 3.3,
+      "pump_days": 30.0,
+      "multiplier": 2.5,
+      "mc_at_t0": 1212552
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "freysa-ai": {
+    "symbol": "FAI",
+    "name": "Freysa AI",
+    "start_date": "2026-02-01",
+    "peak_date": "2026-03-03",
+    "start_mc": 11640804,
+    "peak_mc": 27546365,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -88.4,
+      "pre_trend_30d_pct": -44.9,
+      "pre_trend_7d_pct": -28.7,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 13.0,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 11640804
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "audiera": {
+    "symbol": "BEAT",
+    "name": "Audiera",
+    "start_date": "2026-02-06",
+    "peak_date": "2026-03-08",
+    "start_mc": 21050687,
+    "peak_mc": 49655510,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -96.0,
+      "pre_trend_30d_pct": -74.3,
+      "pre_trend_7d_pct": -37.3,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 34.2,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 21050687
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "diem": {
+    "symbol": "DIEM",
+    "name": "Diem",
+    "start_date": "2025-11-22",
+    "peak_date": "2025-12-22",
+    "start_mc": 2855975,
+    "peak_mc": 6730150,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -57.8,
+      "pre_trend_30d_pct": -38.7,
+      "pre_trend_7d_pct": -7.7,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 13.9,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 2855975
+    },
+    "cluster": "E_v_reversal"
+  },
+  "enso": {
+    "symbol": "ENSO",
+    "name": "Enso",
+    "start_date": "2025-12-26",
+    "peak_date": "2026-01-25",
+    "start_mc": 15889961,
+    "peak_mc": 37457193,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -75.6,
+      "pre_trend_30d_pct": -7.1,
+      "pre_trend_7d_pct": 25.6,
+      "accumulation_days": 6,
+      "volatility_30d_pct": 7.9,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 15889961
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "vultisig": {
+    "symbol": "VULT",
+    "name": "Vultisig",
+    "start_date": "2026-01-10",
+    "peak_date": "2026-02-09",
+    "start_mc": 10284987,
+    "peak_mc": 24925329,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -90.6,
+      "pre_trend_30d_pct": -13.2,
+      "pre_trend_7d_pct": -0.2,
+      "accumulation_days": 55,
+      "volatility_30d_pct": 6.8,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 10284987
+    },
+    "cluster": "A_deep_recovery_accumulated"
+  },
+  "cumulus-encrypted-storage-system": {
+    "symbol": "CESS",
+    "name": "CESS Network",
+    "start_date": "2026-02-05",
+    "peak_date": "2026-03-07",
+    "start_mc": 3829214,
+    "peak_mc": 9079004,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -76.0,
+      "pre_trend_30d_pct": -59.0,
+      "pre_trend_7d_pct": -35.2,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 22.5,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 3829214
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "idia": {
+    "symbol": "IDIA",
+    "name": "Impossible Finance Launchpad",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-10",
+    "start_mc": 19920261,
+    "peak_mc": 48088560,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -12.8,
+      "pre_trend_30d_pct": 36.1,
+      "pre_trend_7d_pct": 16.6,
+      "accumulation_days": 9,
+      "volatility_30d_pct": 13.2,
+      "pump_days": 29.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 19920261
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "river-pts": {
+    "symbol": "RIVER PTS",
+    "name": "River Pts",
+    "start_date": "2025-12-16",
+    "peak_date": "2026-01-15",
+    "start_mc": 1531764,
+    "peak_mc": 3747296,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -95.2,
+      "pre_trend_30d_pct": -59.8,
+      "pre_trend_7d_pct": -39.0,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 20.7,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 1531764
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "pond-coin": {
+    "symbol": "PNDC",
+    "name": "PondCoin",
+    "start_date": "2026-01-01",
+    "peak_date": "2026-01-31",
+    "start_mc": 3562820,
+    "peak_mc": 8528387,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -71.0,
+      "pre_trend_30d_pct": -15.2,
+      "pre_trend_7d_pct": -24.4,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 15.0,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 3562820
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "merkle-trade": {
+    "symbol": "MKL",
+    "name": "Merkle Trade",
+    "start_date": "2026-01-14",
+    "peak_date": "2026-02-13",
+    "start_mc": 2509821,
+    "peak_mc": 6025399,
+    "multiplier": 2.4,
+    "features": {
+      "ath_drawdown_pct": -65.2,
+      "pre_trend_30d_pct": 12.2,
+      "pre_trend_7d_pct": 0.1,
+      "accumulation_days": 64,
+      "volatility_30d_pct": 5.4,
+      "pump_days": 30.0,
+      "multiplier": 2.4,
+      "mc_at_t0": 2509821
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "quack-ai": {
+    "symbol": "Q",
+    "name": "Quack AI",
+    "start_date": "2025-12-11",
+    "peak_date": "2026-01-10",
+    "start_mc": 23968181,
+    "peak_mc": 56105844,
+    "multiplier": 2.3,
+    "features": {
+      "ath_drawdown_pct": -67.5,
+      "pre_trend_30d_pct": -18.4,
+      "pre_trend_7d_pct": 29.8,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 15.7,
+      "pump_days": 30.0,
+      "multiplier": 2.3,
+      "mc_at_t0": 23968181
+    },
+    "cluster": "E_v_reversal"
+  },
+  "the-grays-currency": {
+    "symbol": "PTGC",
+    "name": "The Grays Currency",
+    "start_date": "2026-02-06",
+    "peak_date": "2026-03-06",
+    "start_mc": 20137994,
+    "peak_mc": 45718438,
+    "multiplier": 2.3,
+    "features": {
+      "ath_drawdown_pct": -82.2,
+      "pre_trend_30d_pct": -47.7,
+      "pre_trend_7d_pct": -22.1,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 21.6,
+      "pump_days": 28.0,
+      "multiplier": 2.3,
+      "mc_at_t0": 20137994
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "sosana": {
+    "symbol": "SOSANA",
+    "name": "SOSANA",
+    "start_date": "2025-12-07",
+    "peak_date": "2026-01-06",
+    "start_mc": 16913673,
+    "peak_mc": 39453909,
+    "multiplier": 2.3,
+    "features": {
+      "ath_drawdown_pct": -46.4,
+      "pre_trend_30d_pct": 1.2,
+      "pre_trend_7d_pct": -5.6,
+      "accumulation_days": 35,
+      "volatility_30d_pct": 6.4,
+      "pump_days": 30.0,
+      "multiplier": 2.3,
+      "mc_at_t0": 16913673
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "tokenised-gbp": {
+    "symbol": "TGBP",
+    "name": "Tokenised GBP",
+    "start_date": "2026-01-30",
+    "peak_date": "2026-03-01",
+    "start_mc": 4916506,
+    "peak_mc": 11532742,
+    "multiplier": 2.3,
+    "features": {
+      "ath_drawdown_pct": 1.1,
+      "pre_trend_30d_pct": 3.1,
+      "pre_trend_7d_pct": 2.7,
+      "accumulation_days": 79,
+      "volatility_30d_pct": 0.4,
+      "pump_days": 30.0,
+      "multiplier": 2.3,
+      "mc_at_t0": 4916506
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "infinite-games": {
+    "symbol": "SN6",
+    "name": "Infinite Games",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-01",
+    "start_mc": 2384440,
+    "peak_mc": 5554968,
+    "multiplier": 2.3,
+    "features": {
+      "ath_drawdown_pct": -18.5,
+      "pre_trend_30d_pct": -18.3,
+      "pre_trend_7d_pct": -8.3,
+      "accumulation_days": 22,
+      "volatility_30d_pct": 5.7,
+      "pump_days": 20.0,
+      "multiplier": 2.3,
+      "mc_at_t0": 2384440
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "yieldnest-rwa-max": {
+    "error": "insufficient_data",
+    "symbol": "YNRWAX"
+  },
+  "afreum": {
+    "symbol": "AFR",
+    "name": "Afreum",
+    "start_date": "2026-02-06",
+    "peak_date": "2026-03-08",
+    "start_mc": 3179245,
+    "peak_mc": 7165524,
+    "multiplier": 2.3,
+    "features": {
+      "ath_drawdown_pct": -79.8,
+      "pre_trend_30d_pct": -43.5,
+      "pre_trend_7d_pct": -25.1,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 11.3,
+      "pump_days": 30.0,
+      "multiplier": 2.3,
+      "mc_at_t0": 3179245
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "banana-for-scale-2": {
+    "symbol": "BANANAS31",
+    "name": "Banana For Scale",
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-27",
+    "start_mc": 28124102,
+    "peak_mc": 60639162,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -57.4,
+      "pre_trend_30d_pct": -43.6,
+      "pre_trend_7d_pct": -13.2,
+      "accumulation_days": 10,
+      "volatility_30d_pct": 25.7,
+      "pump_days": 27.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 28124102
+    },
+    "cluster": "E_v_reversal"
+  },
+  "circle-xstock": {
+    "symbol": "CRCLX",
+    "name": "Circle xStock",
+    "start_date": "2025-10-30",
+    "peak_date": "2025-11-29",
+    "start_mc": 9136836,
+    "peak_mc": 20087864,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -13.1,
+      "pre_trend_30d_pct": -2.4,
+      "pre_trend_7d_pct": 5.4,
+      "accumulation_days": 48,
+      "volatility_30d_pct": 5.8,
+      "pump_days": 30.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 9136836
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "palladium-network": {
+    "symbol": "PLLD",
+    "name": "Palladium Network",
+    "start_date": "2025-12-14",
+    "peak_date": "2026-01-13",
+    "start_mc": 27934013,
+    "peak_mc": 62166194,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -79.2,
+      "pre_trend_30d_pct": -37.6,
+      "pre_trend_7d_pct": -40.1,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 15.3,
+      "pump_days": 30.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 27934013
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "resolv": {
+    "symbol": "RESOLV",
+    "name": "Resolv",
+    "start_date": "2025-10-15",
+    "peak_date": "2025-11-14",
+    "start_mc": 23567317,
+    "peak_mc": 50988000,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -56.9,
+      "pre_trend_30d_pct": -53.9,
+      "pre_trend_7d_pct": -28.6,
+      "accumulation_days": 4,
+      "volatility_30d_pct": 23.3,
+      "pump_days": 30.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 23567317
+    },
+    "cluster": "E_v_reversal"
+  },
+  "dovu-2": {
+    "symbol": "DOVU",
+    "name": "DOVU",
+    "start_date": "2026-02-06",
+    "peak_date": "2026-03-04",
+    "start_mc": 24931623,
+    "peak_mc": 54470952,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -72.4,
+      "pre_trend_30d_pct": -50.7,
+      "pre_trend_7d_pct": -20.2,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 18.3,
+      "pump_days": 26.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 24931623
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "mango-markets": {
+    "symbol": "MNGO",
+    "name": "Mango",
+    "start_date": "2025-12-19",
+    "peak_date": "2025-12-21",
+    "start_mc": 14065922,
+    "peak_mc": 30816226,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -37.3,
+      "pre_trend_30d_pct": -24.1,
+      "pre_trend_7d_pct": -28.5,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 6.8,
+      "pump_days": 2.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 14065922
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "definitive": {
+    "symbol": "EDGE",
+    "name": "Definitive",
+    "start_date": "2026-02-03",
+    "peak_date": "2026-03-05",
+    "start_mc": 23357561,
+    "peak_mc": 50808333,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -72.4,
+      "pre_trend_30d_pct": -31.0,
+      "pre_trend_7d_pct": -2.0,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 8.9,
+      "pump_days": 30.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 23357561
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "pocket-network": {
+    "symbol": "POKT",
+    "name": "Pocket Network",
+    "start_date": "2026-02-01",
+    "peak_date": "2026-02-07",
+    "start_mc": 19081402,
+    "peak_mc": 41076192,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -72.5,
+      "pre_trend_30d_pct": -19.7,
+      "pre_trend_7d_pct": -24.7,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 6.0,
+      "pump_days": 6.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 19081402
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "bsquared-network": {
+    "symbol": "B2",
+    "name": "BSquared Network",
+    "start_date": "2025-11-23",
+    "peak_date": "2025-12-22",
+    "start_mc": 17192857,
+    "peak_mc": 37850167,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -79.6,
+      "pre_trend_30d_pct": -79.4,
+      "pre_trend_7d_pct": -48.7,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 32.4,
+      "pump_days": 29.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 17192857
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "gxchain": {
+    "symbol": "GXC",
+    "name": "GXChain",
+    "start_date": "2025-12-27",
+    "peak_date": "2026-01-26",
+    "start_mc": 26182495,
+    "peak_mc": 58006350,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -31.6,
+      "pre_trend_30d_pct": -1.8,
+      "pre_trend_7d_pct": 0.9,
+      "accumulation_days": 47,
+      "volatility_30d_pct": 2.3,
+      "pump_days": 30.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 26182495
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "usp-yield-optimized-stablecoin": {
+    "symbol": "USP",
+    "name": "USP Yield Optimized Stablecoin",
+    "start_date": "2026-01-29",
+    "peak_date": "2026-02-28",
+    "start_mc": 6210312,
+    "peak_mc": 13639825,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -0.2,
+      "pre_trend_30d_pct": 1.6,
+      "pre_trend_7d_pct": -0.1,
+      "accumulation_days": 57,
+      "volatility_30d_pct": 0.5,
+      "pump_days": 30.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 6210312
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "rize": {
+    "symbol": "RIZE",
+    "name": "RIZE",
+    "start_date": "2025-12-04",
+    "peak_date": "2025-12-21",
+    "start_mc": 7687563,
+    "peak_mc": 16719610,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -67.0,
+      "pre_trend_30d_pct": -5.8,
+      "pre_trend_7d_pct": 8.0,
+      "accumulation_days": 31,
+      "volatility_30d_pct": 7.4,
+      "pump_days": 17.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 7687563
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "portugal-national-team-fan-token": {
+    "symbol": "POR",
+    "name": "Portugal National Team Fan Token",
+    "start_date": "2025-12-15",
+    "peak_date": "2026-01-14",
+    "start_mc": 4458831,
+    "peak_mc": 9602614,
+    "multiplier": 2.2,
+    "features": {
+      "ath_drawdown_pct": -37.2,
+      "pre_trend_30d_pct": -11.8,
+      "pre_trend_7d_pct": -2.3,
+      "accumulation_days": 17,
+      "volatility_30d_pct": 7.1,
+      "pump_days": 30.0,
+      "multiplier": 2.2,
+      "mc_at_t0": 4458831
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "mindwavedao": {
+    "symbol": "NILA",
+    "name": "MindWaveDAO",
+    "start_date": "2025-10-26",
+    "peak_date": "2025-11-25",
+    "start_mc": 25813788,
+    "peak_mc": 55265774,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -60.0,
+      "pre_trend_30d_pct": -34.1,
+      "pre_trend_7d_pct": 0.7,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 42.5,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 25813788
+    },
+    "cluster": "E_v_reversal"
+  },
+  "islamic-coin": {
+    "symbol": "ISLM",
+    "name": "Islamic Coin",
+    "start_date": "2025-12-06",
+    "peak_date": "2025-12-28",
+    "start_mc": 18412560,
+    "peak_mc": 37850776,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -61.4,
+      "pre_trend_30d_pct": -54.0,
+      "pre_trend_7d_pct": -41.6,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 16.3,
+      "pump_days": 22.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 18412560
+    },
+    "cluster": "E_v_reversal"
+  },
+  "bankercoin-2": {
+    "symbol": "BNKR",
+    "name": "BankrCoin",
+    "start_date": "2025-10-23",
+    "peak_date": "2025-10-30",
+    "start_mc": 29513150,
+    "peak_mc": 61449411,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -57.9,
+      "pre_trend_30d_pct": -44.8,
+      "pre_trend_7d_pct": -32.7,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 14.8,
+      "pump_days": 7.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 29513150
+    },
+    "cluster": "E_v_reversal"
+  },
+  "dusk-network": {
+    "symbol": "DUSK",
+    "name": "DUSK",
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-08",
+    "start_mc": 20939565,
+    "peak_mc": 43753434,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -39.8,
+      "pre_trend_30d_pct": -22.0,
+      "pre_trend_7d_pct": -10.7,
+      "accumulation_days": 15,
+      "volatility_30d_pct": 13.8,
+      "pump_days": 8.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 20939565
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "quai-network": {
+    "symbol": "QUAI",
+    "name": "Quai Network",
+    "start_date": "2025-12-07",
+    "peak_date": "2026-01-06",
+    "start_mc": 16248494,
+    "peak_mc": 34120916,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -53.1,
+      "pre_trend_30d_pct": -0.0,
+      "pre_trend_7d_pct": -1.3,
+      "accumulation_days": 16,
+      "volatility_30d_pct": 9.6,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 16248494
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "ssv-network": {
+    "symbol": "SSV",
+    "name": "SSV Network",
+    "start_date": "2025-11-05",
+    "peak_date": "2025-12-04",
+    "start_mc": 27204126,
+    "peak_mc": 56354913,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -61.5,
+      "pre_trend_30d_pct": -51.9,
+      "pre_trend_7d_pct": -26.2,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 18.8,
+      "pump_days": 29.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 27204126
+    },
+    "cluster": "E_v_reversal"
+  },
+  "goplus-security": {
+    "symbol": "GPS",
+    "name": "GoPlus Security",
+    "start_date": "2025-12-29",
+    "peak_date": "2026-01-26",
+    "start_mc": 17053984,
+    "peak_mc": 36081034,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -69.6,
+      "pre_trend_30d_pct": -23.4,
+      "pre_trend_7d_pct": 1.5,
+      "accumulation_days": 18,
+      "volatility_30d_pct": 12.4,
+      "pump_days": 28.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 17053984
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "singularry": {
+    "symbol": "SINGULARRY",
+    "name": "Singularry",
+    "start_date": "2026-01-12",
+    "peak_date": "2026-02-11",
+    "start_mc": 9306810,
+    "peak_mc": 19133874,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -32.1,
+      "pre_trend_30d_pct": 12.0,
+      "pre_trend_7d_pct": 0.3,
+      "accumulation_days": 11,
+      "volatility_30d_pct": 15.5,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 9306810
+    },
+    "cluster": "E_v_reversal"
+  },
+  "project-galaxy": {
+    "symbol": "GAL",
+    "name": "GAL (migrated to Gravity - G)",
+    "start_date": "2025-12-24",
+    "peak_date": "2026-01-14",
+    "start_mc": 22715270,
+    "peak_mc": 47485600,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -75.0,
+      "pre_trend_30d_pct": -46.4,
+      "pre_trend_7d_pct": -43.1,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 10.9,
+      "pump_days": 21.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 22715270
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "apro": {
+    "symbol": "AT",
+    "name": "Apro",
+    "start_date": "2025-12-15",
+    "peak_date": "2025-12-29",
+    "start_mc": 20759892,
+    "peak_mc": 43428279,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -81.2,
+      "pre_trend_30d_pct": -69.0,
+      "pre_trend_7d_pct": -27.4,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 39.7,
+      "pump_days": 14.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 20759892
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "ridges-ai": {
+    "symbol": "SN62",
+    "name": "Ridges AI",
+    "start_date": "2026-02-12",
+    "peak_date": "2026-03-03",
+    "start_mc": 17581975,
+    "peak_mc": 36332458,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -88.0,
+      "pre_trend_30d_pct": -66.0,
+      "pre_trend_7d_pct": -35.6,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 27.4,
+      "pump_days": 19.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 17581975
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "georgeplaysclashroyale": {
+    "symbol": "CLASH",
+    "name": "GeorgePlaysClashRoyale",
+    "start_date": "2025-12-18",
+    "peak_date": "2026-01-17",
+    "start_mc": 20120476,
+    "peak_mc": 42207327,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -72.9,
+      "pre_trend_30d_pct": -30.2,
+      "pre_trend_7d_pct": -10.4,
+      "accumulation_days": 12,
+      "volatility_30d_pct": 14.1,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 20120476
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "gunz": {
+    "symbol": "GUN",
+    "name": "Gunz",
+    "start_date": "2025-12-11",
+    "peak_date": "2026-01-10",
+    "start_mc": 18175212,
+    "peak_mc": 38391215,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -56.5,
+      "pre_trend_30d_pct": -10.3,
+      "pre_trend_7d_pct": 2.5,
+      "accumulation_days": 37,
+      "volatility_30d_pct": 4.8,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 18175212
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "autonomi": {
+    "symbol": "ANT",
+    "name": "Autonomi",
+    "start_date": "2025-12-14",
+    "peak_date": "2026-01-04",
+    "start_mc": 9716637,
+    "peak_mc": 20014229,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -69.8,
+      "pre_trend_30d_pct": -35.1,
+      "pre_trend_7d_pct": -16.0,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 5.8,
+      "pump_days": 21.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 9716637
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "main-street-yield": {
+    "symbol": "MSY",
+    "name": "Main Street Yield",
+    "start_date": "2026-01-21",
+    "peak_date": "2026-02-20",
+    "start_mc": 7830956,
+    "peak_mc": 16529259,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -0.0,
+      "pre_trend_30d_pct": 0.8,
+      "pre_trend_7d_pct": 0.2,
+      "accumulation_days": 34,
+      "volatility_30d_pct": 0.3,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 7830956
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "collect-on-fanable": {
+    "symbol": "COLLECT",
+    "name": "Collect on Fanable",
+    "start_date": "2026-02-02",
+    "peak_date": "2026-02-16",
+    "start_mc": 20304164,
+    "peak_mc": 42659471,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -64.1,
+      "pre_trend_30d_pct": -51.5,
+      "pre_trend_7d_pct": -48.7,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 16.4,
+      "pump_days": 14.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 20304164
+    },
+    "cluster": "E_v_reversal"
+  },
+  "score": {
+    "symbol": "SN44",
+    "name": "Score",
+    "start_date": "2025-12-19",
+    "peak_date": "2026-01-17",
+    "start_mc": 12509153,
+    "peak_mc": 26468475,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -61.1,
+      "pre_trend_30d_pct": -43.7,
+      "pre_trend_7d_pct": -29.2,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 9.5,
+      "pump_days": 29.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 12509153
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "usual": {
+    "symbol": "USUAL",
+    "name": "Usual",
+    "start_date": "2025-11-04",
+    "peak_date": "2025-11-26",
+    "start_mc": 28447327,
+    "peak_mc": 60702501,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -62.5,
+      "pre_trend_30d_pct": -49.6,
+      "pre_trend_7d_pct": -15.3,
+      "accumulation_days": 7,
+      "volatility_30d_pct": 23.0,
+      "pump_days": 22.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 28447327
+    },
+    "cluster": "E_v_reversal"
+  },
+  "dent": {
+    "symbol": "DENT",
+    "name": "Dent",
+    "start_date": "2026-01-30",
+    "peak_date": "2026-02-27",
+    "start_mc": 16610903,
+    "peak_mc": 34923859,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -78.2,
+      "pre_trend_30d_pct": -14.6,
+      "pre_trend_7d_pct": -8.9,
+      "accumulation_days": 10,
+      "volatility_30d_pct": 8.3,
+      "pump_days": 28.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 16610903
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "renzo": {
+    "symbol": "REZ",
+    "name": "Renzo",
+    "start_date": "2026-03-02",
+    "peak_date": "2026-03-10",
+    "start_mc": 10954639,
+    "peak_mc": 22646154,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -82.9,
+      "pre_trend_30d_pct": -35.5,
+      "pre_trend_7d_pct": -2.7,
+      "accumulation_days": 11,
+      "volatility_30d_pct": 10.6,
+      "pump_days": 8.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 10954639
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "faith-tribe": {
+    "symbol": "FTRB",
+    "name": "Faith Tribe",
+    "start_date": "2025-12-12",
+    "peak_date": "2026-01-11",
+    "start_mc": 9489309,
+    "peak_mc": 20143728,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -32.9,
+      "pre_trend_30d_pct": -11.2,
+      "pre_trend_7d_pct": -16.9,
+      "accumulation_days": 6,
+      "volatility_30d_pct": 7.3,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 9489309
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "nvidia-xstock": {
+    "symbol": "NVDAX",
+    "name": "NVIDIA xStock",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-11",
+    "start_mc": 8567982,
+    "peak_mc": 18319916,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -4.5,
+      "pre_trend_30d_pct": 3.9,
+      "pre_trend_7d_pct": -1.9,
+      "accumulation_days": 30,
+      "volatility_30d_pct": 3.0,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 8567982
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "particle-network": {
+    "symbol": "PARTI",
+    "name": "Particle Network",
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-25",
+    "start_mc": 14925970,
+    "peak_mc": 31832273,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -66.2,
+      "pre_trend_30d_pct": -46.8,
+      "pre_trend_7d_pct": -20.6,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 24.6,
+      "pump_days": 25.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 14925970
+    },
+    "cluster": "E_v_reversal"
+  },
+  "bxn": {
+    "symbol": "BXN",
+    "name": "BXN",
+    "start_date": "2025-12-24",
+    "peak_date": "2026-01-23",
+    "start_mc": 13691054,
+    "peak_mc": 28744852,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -40.7,
+      "pre_trend_30d_pct": -19.5,
+      "pre_trend_7d_pct": -4.2,
+      "accumulation_days": 20,
+      "volatility_30d_pct": 7.6,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 13691054
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "zerobase": {
+    "symbol": "ZBT",
+    "name": "ZEROBASE",
+    "start_date": "2025-12-16",
+    "peak_date": "2025-12-30",
+    "start_mc": 20501672,
+    "peak_mc": 42309598,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -79.9,
+      "pre_trend_30d_pct": -38.3,
+      "pre_trend_7d_pct": -22.5,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 8.3,
+      "pump_days": 14.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 20501672
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "mwx-token": {
+    "symbol": "MWXT",
+    "name": "MWX Token",
+    "start_date": "2026-01-24",
+    "peak_date": "2026-01-29",
+    "start_mc": 21249550,
+    "peak_mc": 43961637,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -21.3,
+      "pre_trend_30d_pct": -5.0,
+      "pre_trend_7d_pct": 24.0,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 10.4,
+      "pump_days": 5.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 21249550
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "w-ai-parked": {
+    "symbol": "SN39",
+    "name": "basilica",
+    "start_date": "2025-12-19",
+    "peak_date": "2026-01-18",
+    "start_mc": 5995056,
+    "peak_mc": 12858059,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -59.7,
+      "pre_trend_30d_pct": -28.8,
+      "pre_trend_7d_pct": -25.9,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 7.4,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 5995056
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "initia": {
+    "symbol": "INIT",
+    "name": "Initia",
+    "start_date": "2026-02-06",
+    "peak_date": "2026-02-17",
+    "start_mc": 11085607,
+    "peak_mc": 23266144,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -84.6,
+      "pre_trend_30d_pct": -37.2,
+      "pre_trend_7d_pct": -30.2,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 8.1,
+      "pump_days": 11.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 11085607
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "liquid-mercury": {
+    "symbol": "MERC",
+    "name": "Liquid Mercury",
+    "start_date": "2026-01-06",
+    "peak_date": "2026-02-01",
+    "start_mc": 8978476,
+    "peak_mc": 18948047,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -63.8,
+      "pre_trend_30d_pct": -39.8,
+      "pre_trend_7d_pct": -15.7,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 10.8,
+      "pump_days": 26.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 8978476
+    },
+    "cluster": "E_v_reversal"
+  },
+  "xpla": {
+    "symbol": "CONX",
+    "name": "CONX",
+    "start_date": "2025-12-18",
+    "peak_date": "2025-12-21",
+    "start_mc": 10547629,
+    "peak_mc": 22037488,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -67.1,
+      "pre_trend_30d_pct": -35.1,
+      "pre_trend_7d_pct": -27.6,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 6.8,
+      "pump_days": 3.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 10547629
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "act-i-the-ai-prophecy": {
+    "symbol": "ACT",
+    "name": "Act I The AI Prophecy",
+    "start_date": "2025-11-26",
+    "peak_date": "2025-12-26",
+    "start_mc": 21081687,
+    "peak_mc": 43309535,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -46.6,
+      "pre_trend_30d_pct": -6.4,
+      "pre_trend_7d_pct": 16.2,
+      "accumulation_days": 7,
+      "volatility_30d_pct": 9.6,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 21081687
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "sigmadotmoney": {
+    "symbol": "SIGMA",
+    "name": "SigmaDotMoney",
+    "start_date": "2025-12-16",
+    "peak_date": "2026-01-15",
+    "start_mc": 2007807,
+    "peak_mc": 4213503,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -58.1,
+      "pre_trend_30d_pct": -17.5,
+      "pre_trend_7d_pct": 0.4,
+      "accumulation_days": 29,
+      "volatility_30d_pct": 5.7,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 2007807
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "bitcoin-diamond": {
+    "symbol": "BCD",
+    "name": "Bitcoin Diamond",
+    "start_date": "2025-11-22",
+    "peak_date": "2025-12-11",
+    "start_mc": 4311381,
+    "peak_mc": 8874368,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -46.2,
+      "pre_trend_30d_pct": -21.1,
+      "pre_trend_7d_pct": -17.3,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 4.2,
+      "pump_days": 19.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 4311381
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "achain": {
+    "symbol": "ACT",
+    "name": "Achain",
+    "start_date": "2025-11-26",
+    "peak_date": "2025-12-26",
+    "start_mc": 18981785,
+    "peak_mc": 39160475,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -12.4,
+      "pre_trend_30d_pct": -6.8,
+      "pre_trend_7d_pct": 15.2,
+      "accumulation_days": 18,
+      "volatility_30d_pct": 9.4,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 18981785
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "balsa-mm-fund": {
+    "symbol": "BMMF",
+    "name": "Balsa MM Fund",
+    "start_date": "2026-02-02",
+    "peak_date": "2026-03-04",
+    "start_mc": 4995664,
+    "peak_mc": 10482087,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -0.1,
+      "pre_trend_30d_pct": 1.6,
+      "pre_trend_7d_pct": 0.2,
+      "accumulation_days": 125,
+      "volatility_30d_pct": 0.6,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 4995664
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "metfi-2": {
+    "symbol": "METFI",
+    "name": "MetFi",
+    "start_date": "2025-10-28",
+    "peak_date": "2025-11-27",
+    "start_mc": 13585187,
+    "peak_mc": 27851400,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -60.1,
+      "pre_trend_30d_pct": -33.4,
+      "pre_trend_7d_pct": -3.5,
+      "accumulation_days": 11,
+      "volatility_30d_pct": 18.0,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 13585187
+    },
+    "cluster": "E_v_reversal"
+  },
+  "xion-2": {
+    "symbol": "XION",
+    "name": "XION",
+    "start_date": "2025-11-23",
+    "peak_date": "2025-11-27",
+    "start_mc": 15505065,
+    "peak_mc": 31874318,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -64.1,
+      "pre_trend_30d_pct": -41.9,
+      "pre_trend_7d_pct": -20.4,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 14.7,
+      "pump_days": 4.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 15505065
+    },
+    "cluster": "E_v_reversal"
+  },
+  "bitchemical-token": {
+    "symbol": "BCHEM",
+    "name": "Bitchemical Token",
+    "start_date": "2025-10-22",
+    "peak_date": "2025-11-06",
+    "start_mc": 1700,
+    "peak_mc": 3499,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -66.7,
+      "pre_trend_30d_pct": -19.1,
+      "pre_trend_7d_pct": -41.4,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 28.8,
+      "pump_days": 15.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 1700
+    },
+    "cluster": "E_v_reversal"
+  },
+  "wecan": {
+    "symbol": "WECAN",
+    "name": "Wecan",
+    "start_date": "2025-11-14",
+    "peak_date": "2025-12-11",
+    "start_mc": 10194946,
+    "peak_mc": 21263245,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -47.0,
+      "pre_trend_30d_pct": -34.4,
+      "pre_trend_7d_pct": -12.1,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 11.2,
+      "pump_days": 27.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 10194946
+    },
+    "cluster": "E_v_reversal"
+  },
+  "doge-1-satellite": {
+    "symbol": "DOGE-1",
+    "name": "DOGE-1 Satellite",
+    "start_date": "2025-10-29",
+    "peak_date": "2025-11-04",
+    "start_mc": 3946646,
+    "peak_mc": 8093512,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -90.1,
+      "pre_trend_30d_pct": -80.9,
+      "pre_trend_7d_pct": -36.8,
+      "accumulation_days": 5,
+      "volatility_30d_pct": 57.3,
+      "pump_days": 6.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 3946646
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "farcana": {
+    "symbol": "FAR",
+    "name": "FAR Labs",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-10-30",
+    "start_mc": 1206327,
+    "peak_mc": 2488362,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -16.3,
+      "pre_trend_30d_pct": -13.0,
+      "pre_trend_7d_pct": 10.3,
+      "accumulation_days": 30,
+      "volatility_30d_pct": 8.6,
+      "pump_days": 18.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 1206327
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "qup-coin": {
+    "symbol": "QUP",
+    "name": "QUP Coin",
+    "start_date": "2026-01-26",
+    "peak_date": "2026-02-22",
+    "start_mc": 4411088,
+    "peak_mc": 9196112,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -53.0,
+      "pre_trend_30d_pct": 9.7,
+      "pre_trend_7d_pct": -27.9,
+      "accumulation_days": 6,
+      "volatility_30d_pct": 10.7,
+      "pump_days": 27.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 4411088
+    },
+    "cluster": "E_v_reversal"
+  },
+  "swarm-markets": {
+    "symbol": "SMT",
+    "name": "Swarm Markets",
+    "start_date": "2026-02-01",
+    "peak_date": "2026-02-27",
+    "start_mc": 3059058,
+    "peak_mc": 6296290,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -74.6,
+      "pre_trend_30d_pct": -20.4,
+      "pre_trend_7d_pct": -32.3,
+      "accumulation_days": 2,
+      "volatility_30d_pct": 8.8,
+      "pump_days": 26.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 3059058
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "hashpack": {
+    "symbol": "PACK",
+    "name": "HashPack",
+    "start_date": "2026-02-05",
+    "peak_date": "2026-03-07",
+    "start_mc": 3339998,
+    "peak_mc": 7147373,
+    "multiplier": 2.1,
+    "features": {
+      "ath_drawdown_pct": -68.5,
+      "pre_trend_30d_pct": -26.2,
+      "pre_trend_7d_pct": -13.0,
+      "accumulation_days": 15,
+      "volatility_30d_pct": 8.7,
+      "pump_days": 30.0,
+      "multiplier": 2.1,
+      "mc_at_t0": 3339998
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "auki-labs": {
+    "symbol": "AUKI",
+    "name": "Auki",
+    "start_date": "2026-01-31",
+    "peak_date": "2026-02-20",
+    "start_mc": 22252191,
+    "peak_mc": 45062939,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -83.4,
+      "pre_trend_30d_pct": -24.9,
+      "pre_trend_7d_pct": -12.3,
+      "accumulation_days": 10,
+      "volatility_30d_pct": 14.2,
+      "pump_days": 20.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 22252191
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "egl1": {
+    "symbol": "EGL1",
+    "name": "EGL1",
+    "start_date": "2025-12-27",
+    "peak_date": "2026-01-26",
+    "start_mc": 16678281,
+    "peak_mc": 33921184,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -68.5,
+      "pre_trend_30d_pct": -15.9,
+      "pre_trend_7d_pct": -2.0,
+      "accumulation_days": 28,
+      "volatility_30d_pct": 5.6,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 16678281
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "velvet": {
+    "symbol": "VELVET",
+    "name": "Velvet",
+    "start_date": "2026-02-04",
+    "peak_date": "2026-03-06",
+    "start_mc": 17480390,
+    "peak_mc": 35710897,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -57.8,
+      "pre_trend_30d_pct": -29.3,
+      "pre_trend_7d_pct": -15.3,
+      "accumulation_days": 9,
+      "volatility_30d_pct": 10.0,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 17480390
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "main-street-usd": {
+    "symbol": "MSUSD",
+    "name": "Main Street USD",
+    "start_date": "2025-11-30",
+    "peak_date": "2025-12-30",
+    "start_mc": 1892683,
+    "peak_mc": 3812622,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -0.5,
+      "pre_trend_30d_pct": 0.2,
+      "pre_trend_7d_pct": -0.1,
+      "accumulation_days": 69,
+      "volatility_30d_pct": 0.5,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 1892683
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "pha": {
+    "symbol": "PHA",
+    "name": "PHALA",
+    "start_date": "2026-02-19",
+    "peak_date": "2026-03-06",
+    "start_mc": 20075538,
+    "peak_mc": 40523245,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -78.4,
+      "pre_trend_30d_pct": -40.6,
+      "pre_trend_7d_pct": -6.6,
+      "accumulation_days": 13,
+      "volatility_30d_pct": 18.7,
+      "pump_days": 15.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 20075538
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "ao-computer": {
+    "symbol": "AO",
+    "name": "ao Computer",
+    "start_date": "2025-10-22",
+    "peak_date": "2025-11-08",
+    "start_mc": 25961729,
+    "peak_mc": 52186749,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -46.4,
+      "pre_trend_30d_pct": -34.6,
+      "pre_trend_7d_pct": -15.5,
+      "accumulation_days": 11,
+      "volatility_30d_pct": 9.9,
+      "pump_days": 17.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 25961729
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "radix": {
+    "symbol": "XRD",
+    "name": "Radix",
+    "start_date": "2025-12-24",
+    "peak_date": "2026-01-23",
+    "start_mc": 20034327,
+    "peak_mc": 40975950,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -75.5,
+      "pre_trend_30d_pct": -26.6,
+      "pre_trend_7d_pct": -4.2,
+      "accumulation_days": 12,
+      "volatility_30d_pct": 11.9,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 20034327
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "adventure-gold": {
+    "symbol": "AGLD",
+    "name": "Adventure Gold",
+    "start_date": "2026-02-06",
+    "peak_date": "2026-02-23",
+    "start_mc": 17192965,
+    "peak_mc": 34538204,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -72.4,
+      "pre_trend_30d_pct": -34.2,
+      "pre_trend_7d_pct": -25.4,
+      "accumulation_days": 0,
+      "volatility_30d_pct": 8.8,
+      "pump_days": 17.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 17192965
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "apertum": {
+    "symbol": "APTM",
+    "name": "Apertum",
+    "start_date": "2025-11-21",
+    "peak_date": "2025-12-21",
+    "start_mc": 27194122,
+    "peak_mc": 54826165,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -70.1,
+      "pre_trend_30d_pct": -44.5,
+      "pre_trend_7d_pct": -16.7,
+      "accumulation_days": 6,
+      "volatility_30d_pct": 15.3,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 27194122
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "safecoin": {
+    "symbol": "SAFE",
+    "name": "SAFEbit",
+    "start_date": "2025-12-15",
+    "peak_date": "2025-12-21",
+    "start_mc": 25098474,
+    "peak_mc": 51060909,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -73.4,
+      "pre_trend_30d_pct": -50.6,
+      "pre_trend_7d_pct": -26.9,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 20.6,
+      "pump_days": 6.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 25098474
+    },
+    "cluster": "A_deep_recovery_quick"
+  },
+  "lava-network": {
+    "symbol": "LAVA",
+    "name": "Lava Network",
+    "start_date": "2025-11-05",
+    "peak_date": "2025-12-05",
+    "start_mc": 26091861,
+    "peak_mc": 52400316,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -43.6,
+      "pre_trend_30d_pct": 21.7,
+      "pre_trend_7d_pct": -29.3,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 18.5,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 26091861
+    },
+    "cluster": "E_v_reversal"
+  },
+  "alphabet-xstock": {
+    "symbol": "GOOGLX",
+    "name": "Alphabet xStock",
+    "start_date": "2025-10-21",
+    "peak_date": "2025-11-20",
+    "start_mc": 4398321,
+    "peak_mc": 8819662,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": 0.6,
+      "pre_trend_30d_pct": 0.6,
+      "pre_trend_7d_pct": 5.2,
+      "accumulation_days": 39,
+      "volatility_30d_pct": 2.2,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 4398321
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "catizen": {
+    "symbol": "CATI",
+    "name": "Catizen",
+    "start_date": "2025-11-05",
+    "peak_date": "2025-11-08",
+    "start_mc": 12845359,
+    "peak_mc": 26122396,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -35.1,
+      "pre_trend_30d_pct": -23.1,
+      "pre_trend_7d_pct": -22.3,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 9.1,
+      "pump_days": 3.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 12845359
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "ponke": {
+    "symbol": "PONKE",
+    "name": "PONKE",
+    "start_date": "2025-12-10",
+    "peak_date": "2026-01-09",
+    "start_mc": 18385838,
+    "peak_mc": 37385511,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -71.2,
+      "pre_trend_30d_pct": -41.2,
+      "pre_trend_7d_pct": -6.9,
+      "accumulation_days": 17,
+      "volatility_30d_pct": 15.5,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 18385838
+    },
+    "cluster": "A_deep_recovery_accumulated"
+  },
+  "vulcan-forged": {
+    "symbol": "PYR",
+    "name": "Vulcan Forged",
+    "start_date": "2025-11-04",
+    "peak_date": "2025-11-09",
+    "start_mc": 12744342,
+    "peak_mc": 25702057,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -55.3,
+      "pre_trend_30d_pct": -45.2,
+      "pre_trend_7d_pct": -18.5,
+      "accumulation_days": 4,
+      "volatility_30d_pct": 17.0,
+      "pump_days": 5.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 12744342
+    },
+    "cluster": "E_v_reversal"
+  },
+  "coinmarketcap-20-index-dtf": {
+    "symbol": "CMC20",
+    "name": "CoinMarketCap 20 Index DTF",
+    "start_date": "2026-01-19",
+    "peak_date": "2026-02-15",
+    "start_mc": 6659878,
+    "peak_mc": 13395001,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -2.9,
+      "pre_trend_30d_pct": 7.6,
+      "pre_trend_7d_pct": 3.7,
+      "accumulation_days": 30,
+      "volatility_30d_pct": 3.7,
+      "pump_days": 27.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 6659878
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "alchemix": {
+    "symbol": "ALCX",
+    "name": "Alchemix",
+    "start_date": "2025-10-31",
+    "peak_date": "2025-11-14",
+    "start_mc": 17425949,
+    "peak_mc": 35626508,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -31.3,
+      "pre_trend_30d_pct": -16.5,
+      "pre_trend_7d_pct": -10.7,
+      "accumulation_days": 9,
+      "volatility_30d_pct": 7.8,
+      "pump_days": 14.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 17425949
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "crypto-trading-fund": {
+    "symbol": "CTF",
+    "name": "Crypto Trading Fund",
+    "start_date": "2026-02-05",
+    "peak_date": "2026-03-06",
+    "start_mc": 7744796,
+    "peak_mc": 15493026,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -69.3,
+      "pre_trend_30d_pct": -35.0,
+      "pre_trend_7d_pct": -12.0,
+      "accumulation_days": 12,
+      "volatility_30d_pct": 16.5,
+      "pump_days": 29.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 7744796
+    },
+    "cluster": "E_v_reversal"
+  },
+  "argentine-football-association-fan-token": {
+    "symbol": "ARG",
+    "name": "Argentine Football Association Fan Token",
+    "start_date": "2025-12-16",
+    "peak_date": "2026-01-13",
+    "start_mc": 6908200,
+    "peak_mc": 13824640,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -31.4,
+      "pre_trend_30d_pct": -13.0,
+      "pre_trend_7d_pct": -11.0,
+      "accumulation_days": 26,
+      "volatility_30d_pct": 3.8,
+      "pump_days": 28.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 6908200
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "re-protocol-reusde": {
+    "symbol": "REUSDE",
+    "name": "Re Protocol reUSDe",
+    "start_date": "2026-01-03",
+    "peak_date": "2026-02-02",
+    "start_mc": 3877706,
+    "peak_mc": 7934060,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -0.1,
+      "pre_trend_30d_pct": 2.3,
+      "pre_trend_7d_pct": 0.2,
+      "accumulation_days": 113,
+      "volatility_30d_pct": 0.8,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 3877706
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "patrol-tao-com": {
+    "symbol": "SN81",
+    "name": "grail",
+    "start_date": "2025-12-24",
+    "peak_date": "2026-01-15",
+    "start_mc": 5274212,
+    "peak_mc": 10562013,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -58.4,
+      "pre_trend_30d_pct": -22.4,
+      "pre_trend_7d_pct": -18.3,
+      "accumulation_days": 6,
+      "volatility_30d_pct": 8.9,
+      "pump_days": 22.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 5274212
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "wfca": {
+    "symbol": "WFCA",
+    "name": "World Friendship Cash",
+    "start_date": "2025-11-13",
+    "peak_date": "2025-12-12",
+    "start_mc": 6871341,
+    "peak_mc": 13745042,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -46.1,
+      "pre_trend_30d_pct": -20.6,
+      "pre_trend_7d_pct": -6.7,
+      "accumulation_days": 19,
+      "volatility_30d_pct": 11.2,
+      "pump_days": 29.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 6871341
+    },
+    "cluster": "B_gradual_accumulation"
+  },
+  "jobcoin-2": {
+    "symbol": "JOBCOIN",
+    "name": "JOBCOIN",
+    "start_date": "2025-11-17",
+    "peak_date": "2025-12-17",
+    "start_mc": 3510184,
+    "peak_mc": 7170547,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -50.4,
+      "pre_trend_30d_pct": -41.0,
+      "pre_trend_7d_pct": -26.2,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 19.8,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 3510184
+    },
+    "cluster": "E_v_reversal"
+  },
+  "open-loot": {
+    "symbol": "OL",
+    "name": "OPENLOOT",
+    "start_date": "2025-10-25",
+    "peak_date": "2025-10-30",
+    "start_mc": 14989631,
+    "peak_mc": 30373965,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -59.7,
+      "pre_trend_30d_pct": -46.7,
+      "pre_trend_7d_pct": -16.5,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 23.5,
+      "pump_days": 5.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 14989631
+    },
+    "cluster": "E_v_reversal"
+  },
+  "vow": {
+    "symbol": "VOW",
+    "name": "Vow",
+    "start_date": "2026-02-05",
+    "peak_date": "2026-02-21",
+    "start_mc": 6232726,
+    "peak_mc": 12532325,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -64.7,
+      "pre_trend_30d_pct": -23.6,
+      "pre_trend_7d_pct": -23.5,
+      "accumulation_days": 5,
+      "volatility_30d_pct": 7.4,
+      "pump_days": 16.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 6232726
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "hermetica-usdh": {
+    "symbol": "USDH",
+    "name": "Hermetica USDh",
+    "start_date": "2026-01-30",
+    "peak_date": "2026-03-01",
+    "start_mc": 5062870,
+    "peak_mc": 10203254,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -2.6,
+      "pre_trend_30d_pct": -0.1,
+      "pre_trend_7d_pct": -0.1,
+      "accumulation_days": 139,
+      "volatility_30d_pct": 0.0,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 5062870
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "sierra-2": {
+    "symbol": "SIERRA",
+    "name": "Sierra",
+    "start_date": "2025-11-23",
+    "peak_date": "2025-12-22",
+    "start_mc": 694921,
+    "peak_mc": 1423496,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -0.0,
+      "pre_trend_30d_pct": 0.4,
+      "pre_trend_7d_pct": -0.0,
+      "accumulation_days": 30,
+      "volatility_30d_pct": 0.2,
+      "pump_days": 29.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 694921
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "save": {
+    "symbol": "SAVE",
+    "name": "Save",
+    "start_date": "2025-11-02",
+    "peak_date": "2025-11-11",
+    "start_mc": 5992519,
+    "peak_mc": 12242600,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -63.3,
+      "pre_trend_30d_pct": -49.6,
+      "pre_trend_7d_pct": -31.2,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 13.1,
+      "pump_days": 9.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 5992519
+    },
+    "cluster": "E_v_reversal"
+  },
+  "croatian-ff-fan-token": {
+    "symbol": "VATRENI",
+    "name": "Croatian Football Federation Token",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-10",
+    "start_mc": 3834002,
+    "peak_mc": 7795946,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -27.0,
+      "pre_trend_30d_pct": -22.3,
+      "pre_trend_7d_pct": -20.0,
+      "accumulation_days": 1,
+      "volatility_30d_pct": 9.3,
+      "pump_days": 29.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 3834002
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "coinbase-xstock": {
+    "symbol": "COINX",
+    "name": "Coinbase xStock",
+    "start_date": "2025-10-28",
+    "peak_date": "2025-11-27",
+    "start_mc": 3218047,
+    "peak_mc": 6567595,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -7.0,
+      "pre_trend_30d_pct": 15.1,
+      "pre_trend_7d_pct": 4.4,
+      "accumulation_days": 46,
+      "volatility_30d_pct": 6.2,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 3218047
+    },
+    "cluster": "D_momentum_continuation"
+  },
+  "omron": {
+    "symbol": "SN2",
+    "name": "Omron",
+    "start_date": "2025-10-12",
+    "peak_date": "2025-11-02",
+    "start_mc": 2923935,
+    "peak_mc": 5867620,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -27.9,
+      "pre_trend_30d_pct": -27.3,
+      "pre_trend_7d_pct": -3.1,
+      "accumulation_days": 21,
+      "volatility_30d_pct": 13.3,
+      "pump_days": 21.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 2923935
+    },
+    "cluster": "C_breakout_sideways"
+  },
+  "battle-of-three-kingdoms": {
+    "symbol": "SGC",
+    "name": "SGC",
+    "start_date": "2025-10-18",
+    "peak_date": "2025-11-10",
+    "start_mc": 1721161,
+    "peak_mc": 3457309,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -69.7,
+      "pre_trend_30d_pct": -36.8,
+      "pre_trend_7d_pct": -26.1,
+      "accumulation_days": 3,
+      "volatility_30d_pct": 32.9,
+      "pump_days": 23.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 1721161
+    },
+    "cluster": "E_v_reversal"
+  },
+  "soil": {
+    "symbol": "SOIL",
+    "name": "Soil",
+    "start_date": "2025-12-21",
+    "peak_date": "2026-01-20",
+    "start_mc": 4625946,
+    "peak_mc": 9297133,
+    "multiplier": 2.0,
+    "features": {
+      "ath_drawdown_pct": -52.0,
+      "pre_trend_30d_pct": 17.2,
+      "pre_trend_7d_pct": -12.0,
+      "accumulation_days": 50,
+      "volatility_30d_pct": 9.2,
+      "pump_days": 30.0,
+      "multiplier": 2.0,
+      "mc_at_t0": 4625946
+    },
+    "cluster": "B_gradual_accumulation"
+  }
+}

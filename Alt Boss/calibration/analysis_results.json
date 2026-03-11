@@ -1,0 +1,17 @@
+{
+  "generated": "2026-03-11T03:38:09.327158",
+  "attribution": "Data provided by CoinGecko (https://www.coingecko.com/en/api/)",
+  "sample_sizes": {
+    "winners": 17,
+    "control": 4,
+    "losers": 5
+  },
+  "findings": [
+    "1. Volume/MC ratio at T-7: Winners 0.0544 vs Losers 0.0076",
+    "2. Volatility 14d at T-7: Winners 10.21% vs Losers 9.18%",
+    "3. Volume trend T-30→T-1: Winners 0.73x vs Losers 1.03x",
+    "4. MC/FDV ratio: Winners 0.1559 vs Losers 0.7377",
+    "5. GitHub presence: Winners 10/17 vs Losers 3/5",
+    "7. Price 7d change at T-7: Winners 6.37% vs Losers -9.0%"
+  ]
+}

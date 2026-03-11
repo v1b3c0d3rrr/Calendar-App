@@ -1,0 +1,65 @@
+{
+  "summary": {},
+  "by_cluster": {
+    "A_deep_recovery": {
+      "count": 35,
+      "watchlist_median": 2404,
+      "watchlist_mean": 14318.8,
+      "watchlist_p25": 988,
+      "watchlist_p75": 16682,
+      "sentiment_up_median": 100.0,
+      "github_pct": 2.857142857142857,
+      "twitter_pct": 91.42857142857143,
+      "telegram_pct": 54.285714285714285,
+      "commits_4w_median": 4
+    },
+    "B_gradual_accumulation": {
+      "count": 17,
+      "watchlist_median": 3024,
+      "watchlist_mean": 17521.29411764706,
+      "watchlist_p25": 1205,
+      "watchlist_p75": 18762,
+      "sentiment_up_median": 100.0,
+      "github_pct": 23.529411764705884,
+      "twitter_pct": 100.0,
+      "telegram_pct": 94.11764705882354,
+      "commits_4w_median": null
+    },
+    "C_breakout_sideways": {
+      "count": 25,
+      "watchlist_median": 1501,
+      "watchlist_mean": 11916.8,
+      "watchlist_p25": 290,
+      "watchlist_p75": 14051,
+      "sentiment_up_median": 100.0,
+      "github_pct": 36.0,
+      "twitter_pct": 96.0,
+      "telegram_pct": 56.0,
+      "commits_4w_median": 94.5
+    },
+    "D_momentum_continuation": {
+      "count": 7,
+      "watchlist_median": 3855,
+      "watchlist_mean": 3098.8571428571427,
+      "watchlist_p25": 101,
+      "watchlist_p75": 4835,
+      "sentiment_up_median": 100.0,
+      "github_pct": 42.857142857142854,
+      "twitter_pct": 85.71428571428571,
+      "telegram_pct": 71.42857142857143,
+      "commits_4w_median": null
+    },
+    "E_v_reversal": {
+      "count": 37,
+      "watchlist_median": 2330,
+      "watchlist_mean": 5877.486486486487,
+      "watchlist_p25": 621,
+      "watchlist_p75": 4081,
+      "sentiment_up_median": 100.0,
+      "github_pct": 10.81081081081081,
+      "twitter_pct": 94.5945945945946,
+      "telegram_pct": 62.16216216216216,
+      "commits_4w_median": 7.0
+    }
+  }
+}

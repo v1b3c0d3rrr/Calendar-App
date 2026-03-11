@@ -1,0 +1,572 @@
+{
+  "andy70b": {
+    "symbol": "ANDY70B",
+    "twitter_handle": "Andy70bsol_",
+    "name": "ANDY70B"
+  },
+  "ore": {
+    "symbol": "ORE",
+    "twitter_handle": "OREsupply",
+    "name": "ORE"
+  },
+  "the9bit": {
+    "symbol": "9BIT",
+    "twitter_handle": "official_9bit",
+    "name": "The9bit"
+  },
+  "xpin-network": {
+    "symbol": "XPIN",
+    "twitter_handle": "XPINNetwork",
+    "name": "XPIN Network"
+  },
+  "quantixai": {
+    "symbol": "QAI",
+    "twitter_handle": "QuantixCapital",
+    "name": "QuantixAI"
+  },
+  "mey-network": {
+    "symbol": "MEY",
+    "twitter_handle": "Mey_Network",
+    "name": "Mey Network"
+  },
+  "moltbook": {
+    "symbol": "MOLT",
+    "twitter_handle": "moltbook",
+    "name": "Moltbook"
+  },
+  "seda-2": {
+    "symbol": "SEDA",
+    "twitter_handle": "sedaprotocol",
+    "name": "SEDA"
+  },
+  "coindepo": {
+    "symbol": "COINDEPO",
+    "twitter_handle": "DepoCoin",
+    "name": "COINDEPO"
+  },
+  "kinetiq": {
+    "symbol": "KNTQ",
+    "twitter_handle": "kinetiq_xyz",
+    "name": "Kinetiq"
+  },
+  "tensor": {
+    "symbol": "TNSR",
+    "twitter_handle": "tensorfdn",
+    "name": "Tensor"
+  },
+  "pandacoin": {
+    "symbol": "PND",
+    "twitter_handle": "pandacoinpnd",
+    "name": "Pandacoin"
+  },
+  "vestra-dao": {
+    "symbol": "VSTR",
+    "twitter_handle": "Vestra_DAO",
+    "name": "Vestra DAO"
+  },
+  "swarm-network": {
+    "symbol": "TRUTH",
+    "twitter_handle": "GetSwarmed",
+    "name": "Swarm Network"
+  },
+  "sapien-2": {
+    "symbol": "SAPIEN",
+    "twitter_handle": "joinsapien",
+    "name": "Sapien"
+  },
+  "saakuru-labs": {
+    "symbol": "SKR",
+    "twitter_handle": "saakuru_labs",
+    "name": "Saakuru"
+  },
+  "synfutures": {
+    "symbol": "F",
+    "twitter_handle": "SynFuturesDefi",
+    "name": "SynFutures"
+  },
+  "wazirx": {
+    "symbol": "WRX",
+    "twitter_handle": "wazirxindia",
+    "name": "WazirX"
+  },
+  "pippin": {
+    "symbol": "PIPPIN",
+    "twitter_handle": "pippinlovesyou",
+    "name": "pippin"
+  },
+  "ryze": {
+    "symbol": "RYZE",
+    "twitter_handle": "ARYZEofficial",
+    "name": "Ryze"
+  },
+  "power-protocol": {
+    "symbol": "POWER",
+    "twitter_handle": "PowerPrtcl",
+    "name": "Power Protocol"
+  },
+  "burnedfi": {
+    "symbol": "BURN",
+    "twitter_handle": "burnArmy",
+    "name": "BurnedFi"
+  },
+  "skyai": {
+    "symbol": "SKYAI",
+    "twitter_handle": "SKYAIpro",
+    "name": "SkyAI"
+  },
+  "fih": {
+    "symbol": "FIH",
+    "twitter_handle": "fih_usd1",
+    "name": "fih"
+  },
+  "tagger": {
+    "symbol": "TAG",
+    "twitter_handle": "taggerai",
+    "name": "TAGGER"
+  },
+  "ai-rig-complex": {
+    "symbol": "ARC",
+    "twitter_handle": "arcdotfun",
+    "name": "AI Rig Complex"
+  },
+  "victoria-vr": {
+    "symbol": "VR",
+    "twitter_handle": "VictoriaVR",
+    "name": "Victoria VR"
+  },
+  "chex-token": {
+    "symbol": "CHEX",
+    "twitter_handle": "ChintaiNexus",
+    "name": "Chintai"
+  },
+  "freysa-ai": {
+    "symbol": "FAI",
+    "twitter_handle": "freysa_ai",
+    "name": "Freysa AI"
+  },
+  "audiera": {
+    "symbol": "BEAT",
+    "twitter_handle": "Audiera_web3",
+    "name": "Audiera"
+  },
+  "diem": {
+    "symbol": "DIEM",
+    "twitter_handle": "AskVenice",
+    "name": "Diem"
+  },
+  "enso": {
+    "symbol": "ENSO",
+    "twitter_handle": "EnsoBuild",
+    "name": "Enso"
+  },
+  "vultisig": {
+    "symbol": "VULT",
+    "twitter_handle": "vultisig",
+    "name": "Vultisig"
+  },
+  "cumulus-encrypted-storage-system": {
+    "symbol": "CESS",
+    "twitter_handle": "CESS_Storage",
+    "name": "CESS Network"
+  },
+  "idia": {
+    "symbol": "IDIA",
+    "twitter_handle": "impossiblefi",
+    "name": "Impossible Finance Launchpad"
+  },
+  "river-pts": {
+    "symbol": "RIVER PTS",
+    "twitter_handle": "RiverdotInc",
+    "name": "River Pts"
+  },
+  "pond-coin": {
+    "symbol": "PNDC",
+    "twitter_handle": "pond0x",
+    "name": "PondCoin"
+  },
+  "merkle-trade": {
+    "symbol": "MKL",
+    "twitter_handle": "Merkle_Trade",
+    "name": "Merkle Trade"
+  },
+  "quack-ai": {
+    "symbol": "Q",
+    "twitter_handle": "QuackAI_AI",
+    "name": "Quack AI"
+  },
+  "the-grays-currency": {
+    "symbol": "PTGC",
+    "twitter_handle": "TheGray369",
+    "name": "The Grays Currency"
+  },
+  "sosana": {
+    "symbol": "SOSANA",
+    "twitter_handle": "SosanaToken",
+    "name": "SOSANA"
+  },
+  "infinite-games": {
+    "symbol": "SN6",
+    "twitter_handle": "Playinfgames",
+    "name": "Infinite Games"
+  },
+  "afreum": {
+    "symbol": "AFR",
+    "twitter_handle": "Afreum1",
+    "name": "Afreum"
+  },
+  "banana-for-scale-2": {
+    "symbol": "BANANAS31",
+    "twitter_handle": "BananaS31_bsc",
+    "name": "Banana For Scale"
+  },
+  "palladium-network": {
+    "symbol": "PLLD",
+    "twitter_handle": "DDTechGroup",
+    "name": "Palladium Network"
+  },
+  "resolv": {
+    "symbol": "RESOLV",
+    "twitter_handle": "ResolvLabs",
+    "name": "Resolv"
+  },
+  "mango-markets": {
+    "symbol": "MNGO",
+    "twitter_handle": "mangomarkets",
+    "name": "Mango"
+  },
+  "definitive": {
+    "symbol": "EDGE",
+    "twitter_handle": "DefinitiveFi",
+    "name": "Definitive"
+  },
+  "pocket-network": {
+    "symbol": "POKT",
+    "twitter_handle": "POKTnetwork",
+    "name": "Pocket Network"
+  },
+  "bsquared-network": {
+    "symbol": "B2",
+    "twitter_handle": "BsquaredNetwork",
+    "name": "BSquared Network"
+  },
+  "gxchain": {
+    "symbol": "GXC",
+    "twitter_handle": "GXChainGlobal",
+    "name": "GXChain"
+  },
+  "rize": {
+    "symbol": "RIZE",
+    "twitter_handle": "trize_io",
+    "name": "RIZE"
+  },
+  "mindwavedao": {
+    "symbol": "NILA",
+    "twitter_handle": "nilatoken",
+    "name": "MindWaveDAO"
+  },
+  "islamic-coin": {
+    "symbol": "ISLM",
+    "twitter_handle": "Islamic_Coin",
+    "name": "Islamic Coin"
+  },
+  "bankercoin-2": {
+    "symbol": "BNKR",
+    "twitter_handle": "bankrbot",
+    "name": "BankrCoin"
+  },
+  "dusk-network": {
+    "symbol": "DUSK",
+    "twitter_handle": "DuskFoundation",
+    "name": "DUSK"
+  },
+  "quai-network": {
+    "symbol": "QUAI",
+    "twitter_handle": "QuaiNetwork",
+    "name": "Quai Network"
+  },
+  "ssv-network": {
+    "symbol": "SSV",
+    "twitter_handle": "ssv_network",
+    "name": "SSV Network"
+  },
+  "goplus-security": {
+    "symbol": "GPS",
+    "twitter_handle": "GoPlusSecurity",
+    "name": "GoPlus Security"
+  },
+  "singularry": {
+    "symbol": "SINGULARRY",
+    "twitter_handle": "singularryai",
+    "name": "Singularry"
+  },
+  "project-galaxy": {
+    "symbol": "GAL",
+    "twitter_handle": "Galxe",
+    "name": "GAL (migrated to Gravity - G)"
+  },
+  "apro": {
+    "symbol": "AT",
+    "twitter_handle": "APRO_Oracle",
+    "name": "Apro"
+  },
+  "georgeplaysclashroyale": {
+    "symbol": "CLASH",
+    "twitter_handle": "GeorgePlayClash",
+    "name": "GeorgePlaysClashRoyale"
+  },
+  "gunz": {
+    "symbol": "GUN",
+    "twitter_handle": "GUNbyGUNZ",
+    "name": "Gunz"
+  },
+  "autonomi": {
+    "symbol": "ANT",
+    "twitter_handle": "WithAutonomi",
+    "name": "Autonomi"
+  },
+  "collect-on-fanable": {
+    "symbol": "COLLECT",
+    "twitter_handle": "CollectFDN",
+    "name": "Collect on Fanable"
+  },
+  "score": {
+    "symbol": "SN44",
+    "twitter_handle": "webuildscore",
+    "name": "Score"
+  },
+  "dent": {
+    "symbol": "DENT",
+    "twitter_handle": "dentcoin",
+    "name": "Dent"
+  },
+  "renzo": {
+    "symbol": "REZ",
+    "twitter_handle": "RenzoProtocol",
+    "name": "Renzo"
+  },
+  "faith-tribe": {
+    "symbol": "FTRB",
+    "twitter_handle": "realfaithtribe",
+    "name": "Faith Tribe"
+  },
+  "particle-network": {
+    "symbol": "PARTI",
+    "twitter_handle": "ParticleNtwrk",
+    "name": "Particle Network"
+  },
+  "bxn": {
+    "symbol": "BXN",
+    "twitter_handle": "blackfortbxn",
+    "name": "BXN"
+  },
+  "zerobase": {
+    "symbol": "ZBT",
+    "twitter_handle": "zerobasezk",
+    "name": "ZEROBASE"
+  },
+  "mwx-token": {
+    "symbol": "MWXT",
+    "twitter_handle": "mwx_ai",
+    "name": "MWX Token"
+  },
+  "w-ai-parked": {
+    "symbol": "SN39",
+    "twitter_handle": "basilic_ai",
+    "name": "basilica"
+  },
+  "initia": {
+    "symbol": "INIT",
+    "twitter_handle": "initiaFDN",
+    "name": "Initia"
+  },
+  "liquid-mercury": {
+    "symbol": "MERC",
+    "twitter_handle": "PowerProDigital",
+    "name": "Liquid Mercury"
+  },
+  "xpla": {
+    "symbol": "CONX",
+    "twitter_handle": "Official_CONX",
+    "name": "CONX"
+  },
+  "act-i-the-ai-prophecy": {
+    "symbol": "ACT",
+    "twitter_handle": "ACTICOMMUNITY",
+    "name": "Act I The AI Prophecy"
+  },
+  "sigmadotmoney": {
+    "symbol": "SIGMA",
+    "twitter_handle": "sigmadotmoney",
+    "name": "SigmaDotMoney"
+  },
+  "bitcoin-diamond": {
+    "symbol": "BCD",
+    "twitter_handle": "BitcoinDiamond_",
+    "name": "Bitcoin Diamond"
+  },
+  "achain": {
+    "symbol": "ACT",
+    "twitter_handle": "AchainOfficial",
+    "name": "Achain"
+  },
+  "metfi-2": {
+    "symbol": "METFI",
+    "twitter_handle": "MetFi_DAO",
+    "name": "MetFi"
+  },
+  "xion-2": {
+    "symbol": "XION",
+    "twitter_handle": "burnt_xion",
+    "name": "XION"
+  },
+  "bitchemical-token": {
+    "symbol": "BCHEM",
+    "twitter_handle": "Bitchemical",
+    "name": "Bitchemical Token"
+  },
+  "wecan": {
+    "symbol": "WECAN",
+    "twitter_handle": "WecanGroupSwiss",
+    "name": "Wecan"
+  },
+  "doge-1-satellite": {
+    "symbol": "DOGE-1",
+    "twitter_handle": "doge1meme",
+    "name": "DOGE-1 Satellite"
+  },
+  "farcana": {
+    "symbol": "FAR",
+    "twitter_handle": "FARLabsAI",
+    "name": "FAR Labs"
+  },
+  "qup-coin": {
+    "symbol": "QUP",
+    "twitter_handle": "qupcorp",
+    "name": "QUP Coin"
+  },
+  "swarm-markets": {
+    "symbol": "SMT",
+    "twitter_handle": "SwarmMarkets",
+    "name": "Swarm Markets"
+  },
+  "hashpack": {
+    "symbol": "PACK",
+    "twitter_handle": "HashPackApp",
+    "name": "HashPack"
+  },
+  "auki-labs": {
+    "symbol": "AUKI",
+    "twitter_handle": "Auki",
+    "name": "Auki"
+  },
+  "egl1": {
+    "symbol": "EGL1",
+    "twitter_handle": "egll_american",
+    "name": "EGL1"
+  },
+  "velvet": {
+    "symbol": "VELVET",
+    "twitter_handle": "velvet_capital",
+    "name": "Velvet"
+  },
+  "pha": {
+    "symbol": "PHA",
+    "twitter_handle": "PhalaNetwork",
+    "name": "PHALA"
+  },
+  "ao-computer": {
+    "symbol": "AO",
+    "twitter_handle": "aoTheComputer",
+    "name": "ao Computer"
+  },
+  "radix": {
+    "symbol": "XRD",
+    "twitter_handle": "radixdlt",
+    "name": "Radix"
+  },
+  "adventure-gold": {
+    "symbol": "AGLD",
+    "twitter_handle": "lootproject",
+    "name": "Adventure Gold"
+  },
+  "apertum": {
+    "symbol": "APTM",
+    "twitter_handle": "apertum_io",
+    "name": "Apertum"
+  },
+  "safecoin": {
+    "symbol": "SAFE",
+    "twitter_handle": "safebitcom",
+    "name": "SAFEbit"
+  },
+  "lava-network": {
+    "symbol": "LAVA",
+    "twitter_handle": "lavanetxyz",
+    "name": "Lava Network"
+  },
+  "catizen": {
+    "symbol": "CATI",
+    "twitter_handle": "CatizenAI",
+    "name": "Catizen"
+  },
+  "ponke": {
+    "symbol": "PONKE",
+    "twitter_handle": "ponkehq",
+    "name": "PONKE"
+  },
+  "vulcan-forged": {
+    "symbol": "PYR",
+    "twitter_handle": "VulcanForged",
+    "name": "Vulcan Forged"
+  },
+  "alchemix": {
+    "symbol": "ALCX",
+    "twitter_handle": "alchemixfi",
+    "name": "Alchemix"
+  },
+  "patrol-tao-com": {
+    "symbol": "SN81",
+    "twitter_handle": "grail_ai",
+    "name": "grail"
+  },
+  "wfca": {
+    "symbol": "WFCA",
+    "twitter_handle": "wfca_global",
+    "name": "World Friendship Cash"
+  },
+  "jobcoin-2": {
+    "symbol": "JOBCOIN",
+    "twitter_handle": "JobCoinSOL",
+    "name": "JOBCOIN"
+  },
+  "open-loot": {
+    "symbol": "OL",
+    "twitter_handle": "openloot",
+    "name": "OPENLOOT"
+  },
+  "vow": {
+    "symbol": "VOW",
+    "twitter_handle": "vowcurrency",
+    "name": "Vow"
+  },
+  "save": {
+    "symbol": "SAVE",
+    "twitter_handle": "solendprotocol",
+    "name": "Save"
+  },
+  "omron": {
+    "symbol": "SN2",
+    "twitter_handle": "inference_labs",
+    "name": "Omron"
+  },
+  "battle-of-three-kingdoms": {
+    "symbol": "SGC",
+    "twitter_handle": "b3k_games",
+    "name": "SGC"
+  },
+  "soil": {
+    "symbol": "SOIL",
+    "twitter_handle": "soil_farm",
+    "name": "Soil"
+  }
+}

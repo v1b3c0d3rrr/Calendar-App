@@ -1,0 +1,2636 @@
+{
+  "generated": "2026-03-11T03:35:51.305725",
+  "attribution": "Data provided by CoinGecko (https://www.coingecko.com/en/api/)",
+  "token_count": 30,
+  "tokens": {
+    "anvil-2": {
+      "error": "chart_not_found",
+      "symbol": "ANVL",
+      "group": "winner"
+    },
+    "ore": {
+      "symbol": "ORE",
+      "name": "ORE",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 49.0,
+        "loss_pct": null,
+        "peak_mc": 200300000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 10.3580743,
+          "market_cap": 4208566,
+          "volume_24h": 59121,
+          "avg_volume_7d": 56092,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.014
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 9.42562174,
+          "market_cap": 3801039,
+          "volume_24h": 103267,
+          "avg_volume_7d": 149350,
+          "price_change_7d_pct": -0.67,
+          "volatility_14d_pct": 10.11,
+          "volume_mc_ratio": 0.0272
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 8.99652047,
+          "market_cap": 3663899,
+          "volume_24h": 102985,
+          "avg_volume_7d": 103235,
+          "price_change_7d_pct": -4.55,
+          "volatility_14d_pct": 10.21,
+          "volume_mc_ratio": 0.0281
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 9.45348024,
+          "market_cap": 3888159,
+          "volume_24h": 111106,
+          "avg_volume_7d": 70647,
+          "price_change_7d_pct": -4.77,
+          "volatility_14d_pct": 6.81,
+          "volume_mc_ratio": 0.0286
+        }
+      },
+      "details": {
+        "categories": [
+          "Decentralized Finance (DeFi)",
+          "Solana Ecosystem",
+          "Mobile Mining"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "solana"
+        ],
+        "fdv": 24942041,
+        "mc_fdv_ratio": 0.1559,
+        "circulating_supply": 437985.9277241808,
+        "total_supply": 437985.9277241808,
+        "max_supply": 3000000.0,
+        "ath_change_pct": -96.0558,
+        "atl_change_pct": 812.50098,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": null,
+        "github_forks": 290,
+        "github_stars": 811,
+        "github_subscribers": 25,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 66,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": 837,
+        "github_deletions_4_weeks": -288,
+        "homepage": "https://ore.supply/",
+        "github_repos": [
+          "https://github.com/regolith-labs/ore"
+        ],
+        "has_github": true,
+        "supply_ratio": 1.0
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.26,
+        "mc_fdv_ratio": 0.1559,
+        "supply_ratio": 1.0
+      }
+    },
+    "amiko": {
+      "symbol": "AMIKO",
+      "name": "Amiko",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 39.9,
+        "loss_pct": null,
+        "peak_mc": 32800000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 0.00119142,
+          "market_cap": 908039,
+          "volume_24h": 4084,
+          "avg_volume_7d": 2776,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.0045
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 0.00125485,
+          "market_cap": 961622,
+          "volume_24h": 196,
+          "avg_volume_7d": 569,
+          "price_change_7d_pct": -4.41,
+          "volatility_14d_pct": 2.85,
+          "volume_mc_ratio": 0.0002
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 0.00144993,
+          "market_cap": 1111113,
+          "volume_24h": 1,
+          "avg_volume_7d": 487,
+          "price_change_7d_pct": 15.55,
+          "volatility_14d_pct": 5.61,
+          "volume_mc_ratio": 0.0
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 0.00119929,
+          "market_cap": 919047,
+          "volume_24h": 664,
+          "avg_volume_7d": 11709,
+          "price_change_7d_pct": -17.29,
+          "volatility_14d_pct": 4.64,
+          "volume_mc_ratio": 0.0007
+        }
+      },
+      "details": {
+        "categories": [
+          "Artificial Intelligence (AI)",
+          "Solana Ecosystem",
+          "AI Agents",
+          "Pump.fun Ecosystem",
+          "AI Agent Launchpad",
+          "x402 Ecosystem"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "solana"
+        ],
+        "fdv": 29925179,
+        "mc_fdv_ratio": 0.0307,
+        "circulating_supply": 787195597.627398,
+        "total_supply": 999999157.627395,
+        "max_supply": 1000000000.0,
+        "ath_change_pct": -60.9764,
+        "atl_change_pct": 3040.43654,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": null,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://heyamiko.com/",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 0.7872
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 4.22,
+        "mc_fdv_ratio": 0.0307,
+        "supply_ratio": 0.7872
+      }
+    },
+    "niza-global": {
+      "error": "chart_not_found",
+      "symbol": "NIZA",
+      "group": "winner"
+    },
+    "the9bit": {
+      "symbol": "9BIT",
+      "name": "The9bit",
+      "group": "winner",
+      "t0_date": "2026-02-07",
+      "outcome": {
+        "multiplier": 11.2,
+        "loss_pct": null,
+        "peak_mc": 183100000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2026-01-08",
+          "price": 0.0151298,
+          "market_cap": 12103842,
+          "volume_24h": 47193760,
+          "avg_volume_7d": 46903974,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 3.8991
+        },
+        "T-14": {
+          "date": "2026-01-24",
+          "price": 0.0077641,
+          "market_cap": 18750315,
+          "volume_24h": 17278256,
+          "avg_volume_7d": 17307191,
+          "price_change_7d_pct": -30.21,
+          "volatility_14d_pct": 18.38,
+          "volume_mc_ratio": 0.9215
+        },
+        "T-7": {
+          "date": "2026-01-31",
+          "price": 0.00789072,
+          "market_cap": 19046038,
+          "volume_24h": 10525194,
+          "avg_volume_7d": 13775483,
+          "price_change_7d_pct": 1.63,
+          "volatility_14d_pct": 14.92,
+          "volume_mc_ratio": 0.5526
+        },
+        "T-1": {
+          "date": "2026-02-06",
+          "price": 0.00756689,
+          "market_cap": 18520683,
+          "volume_24h": 6274068,
+          "avg_volume_7d": 8217836,
+          "price_change_7d_pct": -5.06,
+          "volatility_14d_pct": 5.46,
+          "volume_mc_ratio": 0.3388
+        }
+      },
+      "details": {
+        "categories": [
+          "Gaming (GameFi)",
+          "Solana Ecosystem",
+          "Gaming Marketplace"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "solana"
+        ],
+        "fdv": 232796368,
+        "mc_fdv_ratio": 0.0796,
+        "circulating_supply": 8199997214.895939,
+        "total_supply": 9999997214.895939,
+        "max_supply": 10000000000.0,
+        "ath_change_pct": -0.13022,
+        "atl_change_pct": 294.96179,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 61189,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://the9bit.com/",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 0.82
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.18,
+        "mc_fdv_ratio": 0.0796,
+        "supply_ratio": 0.82
+      }
+    },
+    "xpin-network": {
+      "symbol": "XPIN",
+      "name": "XPIN Network",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 11.0,
+        "loss_pct": null,
+        "peak_mc": 131000000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 0.00149978,
+          "market_cap": 23281160,
+          "volume_24h": 73480804,
+          "avg_volume_7d": 83664463,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 3.1562
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 0.00084688,
+          "market_cap": 13100606,
+          "volume_24h": 16767793,
+          "avg_volume_7d": 21113051,
+          "price_change_7d_pct": -43.08,
+          "volatility_14d_pct": 23.06,
+          "volume_mc_ratio": 1.2799
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 0.00089704,
+          "market_cap": 13823345,
+          "volume_24h": 16916311,
+          "avg_volume_7d": 17817309,
+          "price_change_7d_pct": 5.92,
+          "volatility_14d_pct": 24.8,
+          "volume_mc_ratio": 1.2237
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 0.00075377,
+          "market_cap": 11657950,
+          "volume_24h": 35926306,
+          "avg_volume_7d": 24363403,
+          "price_change_7d_pct": -12.7,
+          "volatility_14d_pct": 13.44,
+          "volume_mc_ratio": 3.0817
+        }
+      },
+      "details": {
+        "categories": [
+          "Communication",
+          "BNB Chain Ecosystem",
+          "DePIN",
+          "Binance Alpha Spotlight"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "binance-smart-chain"
+        ],
+        "fdv": 129639498,
+        "mc_fdv_ratio": 0.0899,
+        "circulating_supply": 15465000000.0,
+        "total_supply": 100000000000.0,
+        "max_supply": 100000000000.0,
+        "ath_change_pct": -87.05307,
+        "atl_change_pct": 148.49133,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": null,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://www.xpin.network/",
+        "github_repos": [
+          "https://github.com/x-pin/dorahacks"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.1547
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.29,
+        "mc_fdv_ratio": 0.0899,
+        "supply_ratio": 0.1547
+      }
+    },
+    "quantixai": {
+      "symbol": "QAI",
+      "name": "QuantixAI",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 6.8,
+        "loss_pct": null,
+        "peak_mc": 76000000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 105.01662852,
+          "market_cap": 84474341,
+          "volume_24h": 8819808,
+          "avg_volume_7d": 8985396,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.1044
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 90.13105262,
+          "market_cap": 72510500,
+          "volume_24h": 8001619,
+          "avg_volume_7d": 7476674,
+          "price_change_7d_pct": -11.73,
+          "volatility_14d_pct": 3.44,
+          "volume_mc_ratio": 0.1104
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 97.54221828,
+          "market_cap": 11236999,
+          "volume_24h": 6613830,
+          "avg_volume_7d": 7346572,
+          "price_change_7d_pct": 8.22,
+          "volatility_14d_pct": 4.22,
+          "volume_mc_ratio": 0.5886
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 87.5776725,
+          "market_cap": 11236999,
+          "volume_24h": 7500018,
+          "avg_volume_7d": 6548408,
+          "price_change_7d_pct": -11.18,
+          "volatility_14d_pct": 2.89,
+          "volume_mc_ratio": 0.6674
+        }
+      },
+      "details": {
+        "categories": [
+          "Artificial Intelligence (AI)",
+          "Ethereum Ecosystem",
+          "Trading Bots",
+          "Governance"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum"
+        ],
+        "fdv": 630910901,
+        "mc_fdv_ratio": 0.0178,
+        "circulating_supply": 803852.1410055176,
+        "total_supply": 10000000.0,
+        "max_supply": 10000000.0,
+        "ath_change_pct": -42.46305,
+        "atl_change_pct": 27514.97921,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 89,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://quantixai.io/",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 0.0804
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.73,
+        "mc_fdv_ratio": 0.0178,
+        "supply_ratio": 0.0804
+      }
+    },
+    "mey-network": {
+      "symbol": "MEY",
+      "name": "Mey Network",
+      "group": "winner",
+      "t0_date": "2025-12-23",
+      "outcome": {
+        "multiplier": 6.6,
+        "loss_pct": null,
+        "peak_mc": 60000000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-11-23",
+          "price": 0.09443776,
+          "market_cap": 8221230,
+          "volume_24h": 490716,
+          "avg_volume_7d": 328352,
+          "price_change_7d_pct": -10.99,
+          "volatility_14d_pct": 10.37,
+          "volume_mc_ratio": 0.0597
+        },
+        "T-14": {
+          "date": "2025-12-09",
+          "price": 0.08509738,
+          "market_cap": 7431212,
+          "volume_24h": 171066,
+          "avg_volume_7d": 227250,
+          "price_change_7d_pct": 3.08,
+          "volatility_14d_pct": 3.1,
+          "volume_mc_ratio": 0.023
+        },
+        "T-7": {
+          "date": "2025-12-16",
+          "price": 0.1018931,
+          "market_cap": 8891469,
+          "volume_24h": 480749,
+          "avg_volume_7d": 213021,
+          "price_change_7d_pct": 19.74,
+          "volatility_14d_pct": 2.05,
+          "volume_mc_ratio": 0.0541
+        },
+        "T-1": {
+          "date": "2025-12-22",
+          "price": 0.1032017,
+          "market_cap": 8966323,
+          "volume_24h": 53883,
+          "avg_volume_7d": 129912,
+          "price_change_7d_pct": 16.46,
+          "volatility_14d_pct": 9.45,
+          "volume_mc_ratio": 0.006
+        }
+      },
+      "details": {
+        "categories": [
+          "Decentralized Finance (DeFi)",
+          "Real World Assets (RWA)",
+          "Base Ecosystem",
+          "Base Native"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "base"
+        ],
+        "fdv": 209853519,
+        "mc_fdv_ratio": 0.0427,
+        "circulating_supply": 278456536.97027916,
+        "total_supply": 2300000000.0,
+        "max_supply": 2300000000.0,
+        "ath_change_pct": -81.45883,
+        "atl_change_pct": 313.36748,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 16230,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://mey.network",
+        "github_repos": [
+          "https://github.com/meynetwork/"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.1211
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.4,
+        "mc_fdv_ratio": 0.0427,
+        "supply_ratio": 0.1211
+      }
+    },
+    "tokenlon": {
+      "symbol": "LON",
+      "name": "Tokenlon",
+      "group": "winner",
+      "t0_date": "2026-01-25",
+      "outcome": {
+        "multiplier": 6.1,
+        "loss_pct": null,
+        "peak_mc": 50300000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-12-26",
+          "price": 0.42274338,
+          "market_cap": 52404080,
+          "volume_24h": 24886,
+          "avg_volume_7d": 19661,
+          "price_change_7d_pct": 2.41,
+          "volatility_14d_pct": 3.3,
+          "volume_mc_ratio": 0.0005
+        },
+        "T-14": {
+          "date": "2026-01-11",
+          "price": 0.42361259,
+          "market_cap": 52432792,
+          "volume_24h": 32710,
+          "avg_volume_7d": 26813,
+          "price_change_7d_pct": -2.33,
+          "volatility_14d_pct": 3.07,
+          "volume_mc_ratio": 0.0006
+        },
+        "T-7": {
+          "date": "2026-01-18",
+          "price": 0.43734068,
+          "market_cap": 54145009,
+          "volume_24h": 7809,
+          "avg_volume_7d": 24050,
+          "price_change_7d_pct": 3.24,
+          "volatility_14d_pct": 2.47,
+          "volume_mc_ratio": 0.0001
+        },
+        "T-1": {
+          "date": "2026-01-24",
+          "price": 0.40767496,
+          "market_cap": 50285879,
+          "volume_24h": 5922,
+          "avg_volume_7d": 26562,
+          "price_change_7d_pct": -6.74,
+          "volatility_14d_pct": 3.57,
+          "volume_mc_ratio": 0.0001
+        }
+      },
+      "details": {
+        "categories": [
+          "Decentralized Exchange (DEX)",
+          "Exchange-based Tokens",
+          "Decentralized Finance (DeFi)",
+          "Arbitrum Ecosystem",
+          "Ethereum Ecosystem"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "arbitrum-one"
+        ],
+        "fdv": 39479575,
+        "mc_fdv_ratio": 1.2737,
+        "circulating_supply": 123437690.7523306,
+        "total_supply": 140451028.838767,
+        "max_supply": 200000000.0,
+        "ath_change_pct": -97.1316,
+        "atl_change_pct": 320.57542,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": null,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://tokenlon.im/",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 0.8789
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.35,
+        "mc_fdv_ratio": 1.2737,
+        "supply_ratio": 0.8789
+      }
+    },
+    "seda-2": {
+      "symbol": "SEDA",
+      "name": "SEDA",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 6.1,
+        "loss_pct": null,
+        "peak_mc": 155400000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 0.04192543,
+          "market_cap": 25636220,
+          "volume_24h": 630102,
+          "avg_volume_7d": 451841,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.0246
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 0.03728012,
+          "market_cap": 22587383,
+          "volume_24h": 521846,
+          "avg_volume_7d": 527854,
+          "price_change_7d_pct": -5.59,
+          "volatility_14d_pct": 3.91,
+          "volume_mc_ratio": 0.0231
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 0.03972962,
+          "market_cap": 24231174,
+          "volume_24h": 643087,
+          "avg_volume_7d": 701937,
+          "price_change_7d_pct": 6.57,
+          "volatility_14d_pct": 2.79,
+          "volume_mc_ratio": 0.0265
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 0.04517949,
+          "market_cap": 27986843,
+          "volume_24h": 564211,
+          "avg_volume_7d": 663771,
+          "price_change_7d_pct": 13.88,
+          "volatility_14d_pct": 11.43,
+          "volume_mc_ratio": 0.0202
+        }
+      },
+      "details": {
+        "categories": [
+          "Smart Contract Platform",
+          "Oracle",
+          "Ethereum Ecosystem",
+          "Base Ecosystem",
+          "Modular Blockchain",
+          "Osmosis Ecosystem",
+          "HyperEVM Ecosystem",
+          "Base Native"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "osmosis",
+          "base",
+          "hyperevm",
+          "ethereum"
+        ],
+        "fdv": 22319935,
+        "mc_fdv_ratio": 1.2539,
+        "circulating_supply": 655750841.9094765,
+        "total_supply": 1019626178.336207,
+        "max_supply": null,
+        "ath_change_pct": -91.66515,
+        "atl_change_pct": 5.20938,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 3904,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://www.seda.xyz/",
+        "github_repos": [
+          "https://github.com/sedaprotocol"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.6431
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.47,
+        "mc_fdv_ratio": 1.2539,
+        "supply_ratio": 0.6431
+      }
+    },
+    "clanker": {
+      "symbol": "CLANKER",
+      "name": "tokenbot",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 4.6,
+        "loss_pct": null,
+        "peak_mc": 116500000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 2.721e-05,
+          "market_cap": 27202,
+          "volume_24h": 27,
+          "avg_volume_7d": 1149,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.001
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 1.378e-05,
+          "market_cap": 13781,
+          "volume_24h": 79,
+          "avg_volume_7d": 245,
+          "price_change_7d_pct": -36.07,
+          "volatility_14d_pct": 19.37,
+          "volume_mc_ratio": 0.0057
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 1.503e-05,
+          "market_cap": 15029,
+          "volume_24h": 5,
+          "avg_volume_7d": 258,
+          "price_change_7d_pct": 9.11,
+          "volatility_14d_pct": 17.53,
+          "volume_mc_ratio": 0.0003
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 1.373e-05,
+          "market_cap": 13722,
+          "volume_24h": 20,
+          "avg_volume_7d": 200,
+          "price_change_7d_pct": -11.15,
+          "volatility_14d_pct": 6.23,
+          "volume_mc_ratio": 0.0014
+        }
+      },
+      "details": {
+        "categories": [
+          "Solana Ecosystem",
+          "Meme",
+          "Solana Meme"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "solana"
+        ],
+        "fdv": 4296.17,
+        "mc_fdv_ratio": 3.194,
+        "circulating_supply": 999491831.845093,
+        "total_supply": 999491831.845093,
+        "max_supply": 999653938.0,
+        "ath_change_pct": -99.73992,
+        "atl_change_pct": 1.40674,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": null,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": null,
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 1.0
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.17,
+        "mc_fdv_ratio": 3.194,
+        "supply_ratio": 1.0
+      }
+    },
+    "kinetiq": {
+      "symbol": "KNTQ",
+      "name": "Kinetiq",
+      "group": "winner",
+      "t0_date": "2025-12-27",
+      "outcome": {
+        "multiplier": 4.0,
+        "loss_pct": null,
+        "peak_mc": 63700000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-11-27",
+          "price": 0.14876726,
+          "market_cap": null,
+          "volume_24h": 4798660,
+          "avg_volume_7d": 4881367,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": null
+        },
+        "T-14": {
+          "date": "2025-12-13",
+          "price": 0.05890318,
+          "market_cap": 15939124,
+          "volume_24h": 371878,
+          "avg_volume_7d": 1000335,
+          "price_change_7d_pct": -46.19,
+          "volatility_14d_pct": 28.88,
+          "volume_mc_ratio": 0.0233
+        },
+        "T-7": {
+          "date": "2025-12-20",
+          "price": 0.05299602,
+          "market_cap": 14340992,
+          "volume_24h": 779646,
+          "avg_volume_7d": 637742,
+          "price_change_7d_pct": -10.03,
+          "volatility_14d_pct": 33.13,
+          "volume_mc_ratio": 0.0544
+        },
+        "T-1": {
+          "date": "2025-12-26",
+          "price": 0.0624849,
+          "market_cap": 16885797,
+          "volume_24h": 771253,
+          "avg_volume_7d": 666935,
+          "price_change_7d_pct": 63.91,
+          "volatility_14d_pct": 15.31,
+          "volume_mc_ratio": 0.0457
+        }
+      },
+      "details": {
+        "categories": [
+          "Decentralized Finance (DeFi)",
+          "Liquid Staking Governance Tokens",
+          "Liquid Staking",
+          "HyperEVM Ecosystem"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "hyperevm"
+        ],
+        "fdv": 138195387,
+        "mc_fdv_ratio": 0.1222,
+        "circulating_supply": 270000000.0,
+        "total_supply": 1000000000.0,
+        "max_supply": 1000000000.0,
+        "ath_change_pct": -54.08361,
+        "atl_change_pct": 287.50634,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 1298,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://kinetiq.xyz/",
+        "github_repos": [
+          "https://github.com/kinetiq-research"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.27
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.14,
+        "mc_fdv_ratio": 0.1222,
+        "supply_ratio": 0.27
+      }
+    },
+    "tensor": {
+      "symbol": "TNSR",
+      "name": "Tensor",
+      "group": "winner",
+      "t0_date": "2025-10-22",
+      "outcome": {
+        "multiplier": 3.9,
+        "loss_pct": null,
+        "peak_mc": 83000000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-22",
+          "price": 0.11525455,
+          "market_cap": 38584025,
+          "volume_24h": 5285584,
+          "avg_volume_7d": 6300739,
+          "price_change_7d_pct": -6.17,
+          "volatility_14d_pct": 3.73,
+          "volume_mc_ratio": 0.137
+        },
+        "T-14": {
+          "date": "2025-10-08",
+          "price": 0.09721364,
+          "market_cap": 32523053,
+          "volume_24h": 9272567,
+          "avg_volume_7d": 7029876,
+          "price_change_7d_pct": 2.12,
+          "volatility_14d_pct": 3.24,
+          "volume_mc_ratio": 0.2851
+        },
+        "T-7": {
+          "date": "2025-10-15",
+          "price": 0.07488487,
+          "market_cap": 25083184,
+          "volume_24h": 13001071,
+          "avg_volume_7d": 11041987,
+          "price_change_7d_pct": -22.97,
+          "volatility_14d_pct": 14.82,
+          "volume_mc_ratio": 0.5183
+        },
+        "T-1": {
+          "date": "2025-10-21",
+          "price": 0.06603958,
+          "market_cap": 22094254,
+          "volume_24h": 5215424,
+          "avg_volume_7d": 7100198,
+          "price_change_7d_pct": -15.79,
+          "volatility_14d_pct": 18.39,
+          "volume_mc_ratio": 0.2361
+        }
+      },
+      "details": {
+        "categories": [
+          "NFT",
+          "Solana Ecosystem",
+          "NFT Marketplace"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "solana"
+        ],
+        "fdv": 49743800,
+        "mc_fdv_ratio": 0.4442,
+        "circulating_supply": 334607238.97717,
+        "total_supply": 1000000000.0,
+        "max_supply": 1000000000.0,
+        "ath_change_pct": -97.76396,
+        "atl_change_pct": 47.1855,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": null,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://www.tensor.foundation",
+        "github_repos": [
+          "https://github.com/tensor-foundation"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.3346
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.13,
+        "mc_fdv_ratio": 0.4442,
+        "supply_ratio": 0.3346
+      }
+    },
+    "vestra-dao": {
+      "symbol": "VSTR",
+      "name": "Vestra DAO",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 3.3,
+        "loss_pct": null,
+        "peak_mc": 21700000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 0.0050218,
+          "market_cap": 8145109,
+          "volume_24h": 9693,
+          "avg_volume_7d": 30572,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.0012
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 0.00448653,
+          "market_cap": 7261446,
+          "volume_24h": 6504,
+          "avg_volume_7d": 13189,
+          "price_change_7d_pct": -7.89,
+          "volatility_14d_pct": 6.99,
+          "volume_mc_ratio": 0.0009
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 0.00513662,
+          "market_cap": 8433715,
+          "volume_24h": 3721,
+          "avg_volume_7d": 25854,
+          "price_change_7d_pct": 14.49,
+          "volatility_14d_pct": 4.77,
+          "volume_mc_ratio": 0.0004
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 0.00407282,
+          "market_cap": 6677572,
+          "volume_24h": 11300,
+          "avg_volume_7d": 12742,
+          "price_change_7d_pct": -21.22,
+          "volatility_14d_pct": 5.05,
+          "volume_mc_ratio": 0.0017
+        }
+      },
+      "details": {
+        "categories": [
+          "Decentralized Finance (DeFi)",
+          "Ethereum Ecosystem"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum"
+        ],
+        "fdv": 337851808,
+        "mc_fdv_ratio": 0.0198,
+        "circulating_supply": 1649823318.1251788,
+        "total_supply": 49999880000.0,
+        "max_supply": 50000000000.0,
+        "ath_change_pct": -59.06277,
+        "atl_change_pct": 441.60518,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 5505,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://vestradao.com/",
+        "github_repos": [
+          "https://github.com/VestraOrganization"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.033
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.42,
+        "mc_fdv_ratio": 0.0198,
+        "supply_ratio": 0.033
+      }
+    },
+    "swarm-network": {
+      "symbol": "TRUTH",
+      "name": "Swarm Network",
+      "group": "winner",
+      "t0_date": "2025-10-31",
+      "outcome": {
+        "multiplier": 3.2,
+        "loss_pct": null,
+        "peak_mc": 88100000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-10-01",
+          "price": 0.01447929,
+          "market_cap": 30193745,
+          "volume_24h": 23189385,
+          "avg_volume_7d": 21219716,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.768
+        },
+        "T-14": {
+          "date": "2025-10-17",
+          "price": 0.01256388,
+          "market_cap": 26263220,
+          "volume_24h": 5442052,
+          "avg_volume_7d": 6430854,
+          "price_change_7d_pct": -5.38,
+          "volatility_14d_pct": 10.69,
+          "volume_mc_ratio": 0.2072
+        },
+        "T-7": {
+          "date": "2025-10-24",
+          "price": 0.01678922,
+          "market_cap": 35010644,
+          "volume_24h": 3787289,
+          "avg_volume_7d": 2979072,
+          "price_change_7d_pct": 33.63,
+          "volatility_14d_pct": 11.35,
+          "volume_mc_ratio": 0.1082
+        },
+        "T-1": {
+          "date": "2025-10-30",
+          "price": 0.01296233,
+          "market_cap": 27034629,
+          "volume_24h": 1755962,
+          "avg_volume_7d": 1941390,
+          "price_change_7d_pct": -21.56,
+          "volatility_14d_pct": 10.26,
+          "volume_mc_ratio": 0.065
+        }
+      },
+      "details": {
+        "categories": [
+          "Artificial Intelligence (AI)",
+          "Zero Knowledge (ZK)",
+          "Sui Ecosystem",
+          "Binance Alpha Spotlight",
+          "AI Framework"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "sui"
+        ],
+        "fdv": 94904843,
+        "mc_fdv_ratio": 0.2849,
+        "circulating_supply": 2085305300.0,
+        "total_supply": 10000000000.0,
+        "max_supply": 10000000000.0,
+        "ath_change_pct": -81.10844,
+        "atl_change_pct": 12.11955,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 857943,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://swarmnetwork.ai/",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 0.2085
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.09,
+        "mc_fdv_ratio": 0.2849,
+        "supply_ratio": 0.2085
+      }
+    },
+    "sapien": {
+      "error": "chart_not_found",
+      "symbol": "SAPIEN",
+      "group": "winner"
+    },
+    "synfutures": {
+      "symbol": "F",
+      "name": "SynFutures",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 3.1,
+        "loss_pct": null,
+        "peak_mc": 64800000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 0.01023454,
+          "market_cap": 25890364,
+          "volume_24h": 161929396,
+          "avg_volume_7d": 241950903,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 6.2544
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 0.0131131,
+          "market_cap": 32933571,
+          "volume_24h": 38081791,
+          "avg_volume_7d": 41849035,
+          "price_change_7d_pct": -18.68,
+          "volatility_14d_pct": 18.76,
+          "volume_mc_ratio": 1.1563
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 0.01229246,
+          "market_cap": 30897150,
+          "volume_24h": 35709590,
+          "avg_volume_7d": 40658635,
+          "price_change_7d_pct": -6.26,
+          "volatility_14d_pct": 12.67,
+          "volume_mc_ratio": 1.1558
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 0.00824763,
+          "market_cap": 22352598,
+          "volume_24h": 36477005,
+          "avg_volume_7d": 28415492,
+          "price_change_7d_pct": -34.25,
+          "volatility_14d_pct": 7.1,
+          "volume_mc_ratio": 1.6319
+        }
+      },
+      "details": {
+        "categories": [
+          "Decentralized Finance (DeFi)",
+          "NFT",
+          "BNB Chain Ecosystem",
+          "Perpetuals",
+          "Ethereum Ecosystem",
+          "NFTFi",
+          "DragonFly Capital Portfolio",
+          "Pantera Capital Portfolio",
+          "Polychain Capital Portfolio",
+          "Base Native"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "binance-smart-chain",
+          "base"
+        ],
+        "fdv": 53029948,
+        "mc_fdv_ratio": 0.4215,
+        "circulating_supply": 3696453905.0,
+        "total_supply": 10000000000.0,
+        "max_supply": 10000000000.0,
+        "ath_change_pct": -97.24245,
+        "atl_change_pct": 10.80852,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 9348,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://www.synfutures.com/",
+        "github_repos": [
+          "https://github.com/SynFutures/"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.3696
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.12,
+        "mc_fdv_ratio": 0.4215,
+        "supply_ratio": 0.3696
+      }
+    },
+    "wazirx": {
+      "symbol": "WRX",
+      "name": "WazirX",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 3.0,
+        "loss_pct": null,
+        "peak_mc": 59300000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 0.05661591,
+          "market_cap": 25878704,
+          "volume_24h": 27034,
+          "avg_volume_7d": 41509,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.001
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 0.04345655,
+          "market_cap": 19838656,
+          "volume_24h": 24612,
+          "avg_volume_7d": 33570,
+          "price_change_7d_pct": -14.02,
+          "volatility_14d_pct": 10.01,
+          "volume_mc_ratio": 0.0012
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 0.04622369,
+          "market_cap": 21101945,
+          "volume_24h": 25672,
+          "avg_volume_7d": 31578,
+          "price_change_7d_pct": 6.37,
+          "volatility_14d_pct": 6.82,
+          "volume_mc_ratio": 0.0012
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 0.04273758,
+          "market_cap": 19515869,
+          "volume_24h": 48346,
+          "avg_volume_7d": 44010,
+          "price_change_7d_pct": -10.85,
+          "volatility_14d_pct": 5.08,
+          "volume_mc_ratio": 0.0025
+        }
+      },
+      "details": {
+        "categories": [
+          "Exchange-based Tokens",
+          "BNB Chain Ecosystem",
+          "Centralized Exchange (CEX) Token",
+          "Polygon Ecosystem",
+          "Binance Launchpad",
+          "Energi Ecosystem"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "binancecoin",
+          "energi",
+          "polygon-pos",
+          "binance-smart-chain"
+        ],
+        "fdv": 26635484,
+        "mc_fdv_ratio": 0.7327,
+        "circulating_supply": 456517027.3318671,
+        "total_supply": 1000000000.0,
+        "max_supply": null,
+        "ath_change_pct": -99.54564,
+        "atl_change_pct": 70.64135,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 116526,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://www.wazirx.com/",
+        "github_repos": [
+          "https://github.com/WazirX/wazirx-api"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.4565
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.06,
+        "mc_fdv_ratio": 0.7327,
+        "supply_ratio": 0.4565
+      }
+    },
+    "pippin": {
+      "symbol": "PIPPIN",
+      "name": "pippin",
+      "group": "winner",
+      "t0_date": "2025-10-12",
+      "outcome": {
+        "multiplier": 2.8,
+        "loss_pct": null,
+        "peak_mc": 38700000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-12",
+          "price": 0.01997971,
+          "market_cap": 19997586,
+          "volume_24h": 9051145,
+          "avg_volume_7d": 8651869,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.4526
+        },
+        "T-14": {
+          "date": "2025-09-28",
+          "price": 0.02005235,
+          "market_cap": 20034065,
+          "volume_24h": 3494364,
+          "avg_volume_7d": 6367484,
+          "price_change_7d_pct": 4.39,
+          "volatility_14d_pct": 2.83,
+          "volume_mc_ratio": 0.1744
+        },
+        "T-7": {
+          "date": "2025-10-05",
+          "price": 0.02162093,
+          "market_cap": 21626597,
+          "volume_24h": 4634452,
+          "avg_volume_7d": 7390574,
+          "price_change_7d_pct": 7.82,
+          "volatility_14d_pct": 4.7,
+          "volume_mc_ratio": 0.2143
+        },
+        "T-1": {
+          "date": "2025-10-11",
+          "price": 0.0102404,
+          "market_cap": 10321734,
+          "volume_24h": 18056543,
+          "avg_volume_7d": 12166524,
+          "price_change_7d_pct": -51.73,
+          "volatility_14d_pct": 4.31,
+          "volume_mc_ratio": 1.7494
+        }
+      },
+      "details": {
+        "categories": [
+          "Artificial Intelligence (AI)",
+          "Infrastructure",
+          "Solana Ecosystem",
+          "Meme",
+          "Solana Meme",
+          "AI Meme",
+          "AI Agents",
+          "Pump.fun Ecosystem",
+          "Binance Alpha Spotlight",
+          "AI Framework"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "solana"
+        ],
+        "fdv": 355716902,
+        "mc_fdv_ratio": 0.029,
+        "circulating_supply": 999937222.922938,
+        "total_supply": 999937222.922938,
+        "max_supply": 1000000000.0,
+        "ath_change_pct": -60.06114,
+        "atl_change_pct": 6361.19193,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 3923,
+        "github_forks": 3,
+        "github_stars": 15,
+        "github_subscribers": 2,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://pippin.love",
+        "github_repos": [
+          "https://github.com/yoheinakajima/pippin_moves"
+        ],
+        "has_github": true,
+        "supply_ratio": 1.0
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.41,
+        "mc_fdv_ratio": 0.029,
+        "supply_ratio": 1.0
+      }
+    },
+    "power-protocol": {
+      "symbol": "POWER",
+      "name": "Power Protocol",
+      "group": "winner",
+      "t0_date": "2026-01-13",
+      "outcome": {
+        "multiplier": 2.8,
+        "loss_pct": null,
+        "peak_mc": 82500000,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-12-14",
+          "price": 0.23715446,
+          "market_cap": 49633969,
+          "volume_24h": 12955136,
+          "avg_volume_7d": 14074267,
+          "price_change_7d_pct": 4.28,
+          "volatility_14d_pct": 28.51,
+          "volume_mc_ratio": 0.261
+        },
+        "T-14": {
+          "date": "2025-12-30",
+          "price": 0.35540719,
+          "market_cap": 74718493,
+          "volume_24h": 11121896,
+          "avg_volume_7d": 14666060,
+          "price_change_7d_pct": 19.34,
+          "volatility_14d_pct": 14.94,
+          "volume_mc_ratio": 0.1489
+        },
+        "T-7": {
+          "date": "2026-01-06",
+          "price": 0.25774223,
+          "market_cap": 54138363,
+          "volume_24h": 8865544,
+          "avg_volume_7d": 8032521,
+          "price_change_7d_pct": -27.48,
+          "volatility_14d_pct": 10.61,
+          "volume_mc_ratio": 0.1638
+        },
+        "T-1": {
+          "date": "2026-01-12",
+          "price": 0.14888827,
+          "market_cap": 31286768,
+          "volume_24h": 23953643,
+          "avg_volume_7d": 15887995,
+          "price_change_7d_pct": -49.12,
+          "volatility_14d_pct": 20.44,
+          "volume_mc_ratio": 0.7656
+        }
+      },
+      "details": {
+        "categories": [
+          "Gaming (GameFi)",
+          "BNB Chain Ecosystem",
+          "Ethereum Ecosystem",
+          "Ronin Ecosystem",
+          "Binance Alpha Spotlight",
+          "Game Studio"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "binance-smart-chain",
+          "ronin"
+        ],
+        "fdv": 122241012,
+        "mc_fdv_ratio": 0.2559,
+        "circulating_supply": 210000000.0,
+        "total_supply": 1000000000.0,
+        "max_supply": 1000000000.0,
+        "ath_change_pct": -95.02209,
+        "atl_change_pct": 48.61076,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": null,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://powerprotocol.xyz/en",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 0.21
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.13,
+        "mc_fdv_ratio": 0.2559,
+        "supply_ratio": 0.21
+      }
+    },
+    "uquid-coin": {
+      "symbol": "UQC",
+      "name": "Uquid Coin",
+      "group": "control",
+      "t0_date": "2025-12-15",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": null,
+        "peak_mc": null,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-11-15",
+          "price": 3.07251671,
+          "market_cap": 30724480,
+          "volume_24h": 16745,
+          "avg_volume_7d": 17120,
+          "price_change_7d_pct": 0.65,
+          "volatility_14d_pct": 3.63,
+          "volume_mc_ratio": 0.0005
+        },
+        "T-14": {
+          "date": "2025-12-01",
+          "price": 3.0583708,
+          "market_cap": 30583708,
+          "volume_24h": 10615,
+          "avg_volume_7d": 14861,
+          "price_change_7d_pct": 2.48,
+          "volatility_14d_pct": 2.24,
+          "volume_mc_ratio": 0.0003
+        },
+        "T-7": {
+          "date": "2025-12-08",
+          "price": 3.00798558,
+          "market_cap": 30079776,
+          "volume_24h": 13033,
+          "avg_volume_7d": 17995,
+          "price_change_7d_pct": -1.65,
+          "volatility_14d_pct": 2.0,
+          "volume_mc_ratio": 0.0004
+        },
+        "T-1": {
+          "date": "2025-12-14",
+          "price": 3.00622812,
+          "market_cap": 30063159,
+          "volume_24h": 21757,
+          "avg_volume_7d": 13201,
+          "price_change_7d_pct": -1.65,
+          "volatility_14d_pct": 1.87,
+          "volume_mc_ratio": 0.0007
+        }
+      },
+      "details": {
+        "categories": [
+          "Ethereum Ecosystem"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum"
+        ],
+        "fdv": 112976610,
+        "mc_fdv_ratio": 0.2661,
+        "circulating_supply": 10000000.0,
+        "total_supply": 40000000.0,
+        "max_supply": null,
+        "ath_change_pct": -93.17428,
+        "atl_change_pct": 10736.22448,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 44304,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": 0,
+        "github_deletions_4_weeks": 0,
+        "homepage": "https://uquidcoin.com/",
+        "github_repos": [
+          "https://github.com/uquid/express"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.25
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.77,
+        "mc_fdv_ratio": 0.2661,
+        "supply_ratio": 0.25
+      }
+    },
+    "qanplatform": {
+      "symbol": "QANX",
+      "name": "QANplatform",
+      "group": "control",
+      "t0_date": "2025-12-15",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": null,
+        "peak_mc": null,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-11-15",
+          "price": 0.02262948,
+          "market_cap": 38522670,
+          "volume_24h": 257780,
+          "avg_volume_7d": 168162,
+          "price_change_7d_pct": -13.93,
+          "volatility_14d_pct": 3.59,
+          "volume_mc_ratio": 0.0067
+        },
+        "T-14": {
+          "date": "2025-12-01",
+          "price": 0.02164337,
+          "market_cap": 36815442,
+          "volume_24h": 215607,
+          "avg_volume_7d": 184234,
+          "price_change_7d_pct": -1.01,
+          "volatility_14d_pct": 2.38,
+          "volume_mc_ratio": 0.0059
+        },
+        "T-7": {
+          "date": "2025-12-08",
+          "price": 0.02051576,
+          "market_cap": 34886161,
+          "volume_24h": 123996,
+          "avg_volume_7d": 171700,
+          "price_change_7d_pct": -5.21,
+          "volatility_14d_pct": 3.16,
+          "volume_mc_ratio": 0.0036
+        },
+        "T-1": {
+          "date": "2025-12-14",
+          "price": 0.01813532,
+          "market_cap": 30830037,
+          "volume_24h": 128402,
+          "avg_volume_7d": 205181,
+          "price_change_7d_pct": -10.22,
+          "volatility_14d_pct": 5.67,
+          "volume_mc_ratio": 0.0042
+        }
+      },
+      "details": {
+        "categories": [
+          "Smart Contract Platform",
+          "BNB Chain Ecosystem",
+          "Layer 1 (L1)",
+          "Ethereum Ecosystem",
+          "Cybersecurity",
+          "Quantum-Resistant"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "binance-smart-chain"
+        ],
+        "fdv": 33271358,
+        "mc_fdv_ratio": 0.9266,
+        "circulating_supply": 1700000000.0,
+        "total_supply": 2099550000.0,
+        "max_supply": 3333333000.0,
+        "ath_change_pct": -92.19397,
+        "atl_change_pct": 13443.98842,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 12475,
+        "github_forks": 6,
+        "github_stars": 25,
+        "github_subscribers": 13,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": 0,
+        "github_deletions_4_weeks": 0,
+        "homepage": "https://www.qanplatform.com/",
+        "github_repos": [
+          "https://github.com/qanplatform/qanx-token"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.8097
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.22,
+        "mc_fdv_ratio": 0.9266,
+        "supply_ratio": 0.8097
+      }
+    },
+    "bit2me": {
+      "symbol": "B2M",
+      "name": "Bit2Me",
+      "group": "control",
+      "t0_date": "2025-12-15",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": null,
+        "peak_mc": null,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-11-15",
+          "price": 0.01289106,
+          "market_cap": 38101538,
+          "volume_24h": 72387,
+          "avg_volume_7d": 65769,
+          "price_change_7d_pct": -5.97,
+          "volatility_14d_pct": 2.91,
+          "volume_mc_ratio": 0.0019
+        },
+        "T-14": {
+          "date": "2025-12-01",
+          "price": 0.01186814,
+          "market_cap": 35068006,
+          "volume_24h": 38441,
+          "avg_volume_7d": 48775,
+          "price_change_7d_pct": 4.76,
+          "volatility_14d_pct": 3.25,
+          "volume_mc_ratio": 0.0011
+        },
+        "T-7": {
+          "date": "2025-12-08",
+          "price": 0.01210941,
+          "market_cap": 35780915,
+          "volume_24h": 33488,
+          "avg_volume_7d": 74127,
+          "price_change_7d_pct": 2.03,
+          "volatility_14d_pct": 2.2,
+          "volume_mc_ratio": 0.0009
+        },
+        "T-1": {
+          "date": "2025-12-14",
+          "price": 0.01252603,
+          "market_cap": 37011926,
+          "volume_24h": 26239,
+          "avg_volume_7d": 73689,
+          "price_change_7d_pct": 2.4,
+          "volatility_14d_pct": 2.47,
+          "volume_mc_ratio": 0.0007
+        }
+      },
+      "details": {
+        "categories": [
+          "Exchange-based Tokens",
+          "BNB Chain Ecosystem",
+          "Centralized Exchange (CEX) Token",
+          "Polygon Ecosystem",
+          "Ethereum Ecosystem"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "polygon-pos",
+          "binance-smart-chain"
+        ],
+        "fdv": 44837234,
+        "mc_fdv_ratio": 0.8255,
+        "circulating_supply": 2952274750.73,
+        "total_supply": 4941007320.67,
+        "max_supply": 5000000000.0,
+        "ath_change_pct": -96.98214,
+        "atl_change_pct": 1.0919531291695997e+35,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 13205,
+        "github_forks": 1,
+        "github_stars": 4,
+        "github_subscribers": 1,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": 0,
+        "github_deletions_4_weeks": 0,
+        "homepage": "https://bit2me.com/",
+        "github_repos": [
+          "https://github.com/bit2me-devs/bit2me-token"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.5975
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.12,
+        "mc_fdv_ratio": 0.8255,
+        "supply_ratio": 0.5975
+      }
+    },
+    "shentu": {
+      "error": "chart_not_found",
+      "symbol": "CTK",
+      "group": "control"
+    },
+    "ozapay": {
+      "symbol": "OZA",
+      "name": "Ozapay",
+      "group": "control",
+      "t0_date": "2025-12-15",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": null,
+        "peak_mc": null,
+        "bottom_mc": null
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-11-15",
+          "price": 0.0307662,
+          "market_cap": 23431452,
+          "volume_24h": 151911,
+          "avg_volume_7d": 137031,
+          "price_change_7d_pct": -20.92,
+          "volatility_14d_pct": 9.85,
+          "volume_mc_ratio": 0.0065
+        },
+        "T-14": {
+          "date": "2025-12-01",
+          "price": 0.0321289,
+          "market_cap": 24216582,
+          "volume_24h": 231,
+          "avg_volume_7d": 21349,
+          "price_change_7d_pct": 4.72,
+          "volatility_14d_pct": 2.76,
+          "volume_mc_ratio": 0.0
+        },
+        "T-7": {
+          "date": "2025-12-08",
+          "price": 0.03140418,
+          "market_cap": 23813830,
+          "volume_24h": 32014,
+          "avg_volume_7d": 36895,
+          "price_change_7d_pct": -2.26,
+          "volatility_14d_pct": 2.74,
+          "volume_mc_ratio": 0.0013
+        },
+        "T-1": {
+          "date": "2025-12-14",
+          "price": 0.033062,
+          "market_cap": 25113562,
+          "volume_24h": 5703,
+          "avg_volume_7d": 4567,
+          "price_change_7d_pct": 10.09,
+          "volatility_14d_pct": 2.59,
+          "volume_mc_ratio": 0.0002
+        }
+      },
+      "details": {
+        "categories": [
+          "Solana Ecosystem",
+          "Payment Solutions"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "solana"
+        ],
+        "fdv": 33990467,
+        "mc_fdv_ratio": 0.7388,
+        "circulating_supply": 759590013.81,
+        "total_supply": 996888539.15,
+        "max_supply": 996889071.62,
+        "ath_change_pct": -25.91468,
+        "atl_change_pct": 122.12886,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 1013,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://www.ozapay.me",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 0.762
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.03,
+        "mc_fdv_ratio": 0.7388,
+        "supply_ratio": 0.762
+      }
+    },
+    "beta-finance": {
+      "symbol": "BETA",
+      "name": "Beta Finance",
+      "group": "loser",
+      "t0_date": "2025-10-13",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": -93.9,
+        "peak_mc": null,
+        "bottom_mc": 700000
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-13",
+          "price": 0.00538,
+          "market_cap": 5111003,
+          "volume_24h": 76,
+          "avg_volume_7d": 133288,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.0
+        },
+        "T-14": {
+          "date": "2025-09-29",
+          "price": 0.01002484,
+          "market_cap": 9524330,
+          "volume_24h": 38,
+          "avg_volume_7d": 1429,
+          "price_change_7d_pct": 8.14,
+          "volatility_14d_pct": 18.54,
+          "volume_mc_ratio": 0.0
+        },
+        "T-7": {
+          "date": "2025-10-06",
+          "price": 0.00835248,
+          "market_cap": 8341350,
+          "volume_24h": 1978,
+          "avg_volume_7d": 3024,
+          "price_change_7d_pct": -16.68,
+          "volatility_14d_pct": 9.18,
+          "volume_mc_ratio": 0.0002
+        },
+        "T-1": {
+          "date": "2025-10-12",
+          "price": 0.00759333,
+          "market_cap": 7593326,
+          "volume_24h": 1424,
+          "avg_volume_7d": 45320,
+          "price_change_7d_pct": -5.84,
+          "volatility_14d_pct": 52.65,
+          "volume_mc_ratio": 0.0002
+        }
+      },
+      "details": {
+        "categories": [
+          "Decentralized Finance (DeFi)",
+          "BNB Chain Ecosystem",
+          "Avalanche Ecosystem",
+          "Ethereum Ecosystem",
+          "Binance Launchpad",
+          "Multicoin Capital Portfolio",
+          "DeFiance Capital Portfolio",
+          "Delphi Ventures Portfolio",
+          "Sequoia Capital Portfolio"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "avalanche",
+          "binance-smart-chain"
+        ],
+        "fdv": 10292616,
+        "mc_fdv_ratio": 0.7377,
+        "circulating_supply": 1000000000.0,
+        "total_supply": 1000000000.0,
+        "max_supply": 1000000000.0,
+        "ath_change_pct": -99.70147,
+        "atl_change_pct": 24013.34522,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 58,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://betafinance.org/",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 1.0
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.34,
+        "mc_fdv_ratio": 0.7377,
+        "supply_ratio": 1.0
+      }
+    },
+    "apraemio": {
+      "symbol": "APRA",
+      "name": "Apraemio",
+      "group": "loser",
+      "t0_date": "2026-01-25",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": -88.0,
+        "peak_mc": null,
+        "bottom_mc": 1400000
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-12-26",
+          "price": 0.09217975,
+          "market_cap": 12708518,
+          "volume_24h": 84910,
+          "avg_volume_7d": 84632,
+          "price_change_7d_pct": -0.79,
+          "volatility_14d_pct": 2.17,
+          "volume_mc_ratio": 0.0067
+        },
+        "T-14": {
+          "date": "2026-01-11",
+          "price": 0.08296409,
+          "market_cap": 11448985,
+          "volume_24h": 86871,
+          "avg_volume_7d": 84791,
+          "price_change_7d_pct": -0.48,
+          "volatility_14d_pct": 3.53,
+          "volume_mc_ratio": 0.0076
+        },
+        "T-7": {
+          "date": "2026-01-18",
+          "price": 0.08758687,
+          "market_cap": 12086987,
+          "volume_24h": 91497,
+          "avg_volume_7d": 84811,
+          "price_change_7d_pct": 5.57,
+          "volatility_14d_pct": 3.45,
+          "volume_mc_ratio": 0.0076
+        },
+        "T-1": {
+          "date": "2026-01-24",
+          "price": 0.08217038,
+          "market_cap": 11338409,
+          "volume_24h": 82274,
+          "avg_volume_7d": 86906,
+          "price_change_7d_pct": -5.21,
+          "volatility_14d_pct": 2.72,
+          "volume_mc_ratio": 0.0073
+        }
+      },
+      "details": {
+        "categories": [
+          "BNB Chain Ecosystem",
+          "Real World Assets (RWA)",
+          "RWA Protocol"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "binance-smart-chain"
+        ],
+        "fdv": 50587146,
+        "mc_fdv_ratio": 0.2241,
+        "circulating_supply": 137999980.0,
+        "total_supply": 1000000000.0,
+        "max_supply": 1000000000.0,
+        "ath_change_pct": -82.59987,
+        "atl_change_pct": 1394.90275,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 13475,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://www.apraemio.com/",
+        "github_repos": [
+          "https://learn.apraemio.com/"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.138
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 1.03,
+        "mc_fdv_ratio": 0.2241,
+        "supply_ratio": 0.138
+      }
+    },
+    "heroes-of-mavia": {
+      "symbol": "MAVIA",
+      "name": "Heroes of Mavia",
+      "group": "loser",
+      "t0_date": "2025-10-28",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": -75.9,
+        "peak_mc": null,
+        "bottom_mc": 3100000
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-28",
+          "price": 0.12199136,
+          "market_cap": 6296571,
+          "volume_24h": 2949151,
+          "avg_volume_7d": 3631977,
+          "price_change_7d_pct": -22.79,
+          "volatility_14d_pct": 10.34,
+          "volume_mc_ratio": 0.4684
+        },
+        "T-14": {
+          "date": "2025-10-14",
+          "price": 0.09577403,
+          "market_cap": 4944708,
+          "volume_24h": 4006350,
+          "avg_volume_7d": 5124103,
+          "price_change_7d_pct": -26.81,
+          "volatility_14d_pct": 15.94,
+          "volume_mc_ratio": 0.8102
+        },
+        "T-7": {
+          "date": "2025-10-21",
+          "price": 0.07716362,
+          "market_cap": 3983203,
+          "volume_24h": 2853339,
+          "avg_volume_7d": 2784712,
+          "price_change_7d_pct": -19.43,
+          "volatility_14d_pct": 21.07,
+          "volume_mc_ratio": 0.7163
+        },
+        "T-1": {
+          "date": "2025-10-27",
+          "price": 0.17353188,
+          "market_cap": 8925325,
+          "volume_24h": 100336524,
+          "avg_volume_7d": 56363627,
+          "price_change_7d_pct": 121.11,
+          "volatility_14d_pct": 8.57,
+          "volume_mc_ratio": 11.2418
+        }
+      },
+      "details": {
+        "categories": [
+          "Gaming (GameFi)",
+          "NFT",
+          "BNB Chain Ecosystem",
+          "Ethereum Ecosystem",
+          "Animoca Brands Portfolio",
+          "Base Ecosystem",
+          "Gaming Governance Token",
+          "Strategy Games",
+          "Alameda Research Portfolio",
+          "YZi Labs (Prev. Binance Labs) Portfolio",
+          "Delphi Ventures Portfolio",
+          "Action Games",
+          "Base Native"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "base",
+          "binance-smart-chain"
+        ],
+        "fdv": 8507825,
+        "mc_fdv_ratio": 1.0491,
+        "circulating_supply": 244634179.0,
+        "total_supply": 250000000.0,
+        "max_supply": 250000000.0,
+        "ath_change_pct": -99.67889,
+        "atl_change_pct": 20.40668,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 8295,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://mavia.com",
+        "github_repos": [],
+        "has_github": false,
+        "supply_ratio": 0.9785
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 15.52,
+        "mc_fdv_ratio": 1.0491,
+        "supply_ratio": 0.9785
+      }
+    },
+    "velas": {
+      "symbol": "VLX",
+      "name": "Velas",
+      "group": "loser",
+      "t0_date": "2025-10-13",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": -75.4,
+        "peak_mc": null,
+        "bottom_mc": 3000000
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2025-09-13",
+          "price": 0.00443226,
+          "market_cap": 12197629,
+          "volume_24h": 81,
+          "avg_volume_7d": 2936,
+          "price_change_7d_pct": null,
+          "volatility_14d_pct": null,
+          "volume_mc_ratio": 0.0
+        },
+        "T-14": {
+          "date": "2025-09-29",
+          "price": 0.00442933,
+          "market_cap": 12210293,
+          "volume_24h": 80,
+          "avg_volume_7d": 1152,
+          "price_change_7d_pct": 0.57,
+          "volatility_14d_pct": 43.24,
+          "volume_mc_ratio": 0.0
+        },
+        "T-7": {
+          "date": "2025-10-06",
+          "price": 0.00442818,
+          "market_cap": 12217614,
+          "volume_24h": 80,
+          "avg_volume_7d": 1562,
+          "price_change_7d_pct": -0.03,
+          "volatility_14d_pct": 38.52,
+          "volume_mc_ratio": 0.0
+        },
+        "T-1": {
+          "date": "2025-10-12",
+          "price": 0.0012824,
+          "market_cap": 3540460,
+          "volume_24h": 7721,
+          "avg_volume_7d": 24041,
+          "price_change_7d_pct": -70.89,
+          "volatility_14d_pct": 36.94,
+          "volume_mc_ratio": 0.0022
+        }
+      },
+      "details": {
+        "categories": [
+          "Smart Contract Platform",
+          "BNB Chain Ecosystem",
+          "Ethereum Ecosystem"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "binance-smart-chain"
+        ],
+        "fdv": 11607805,
+        "mc_fdv_ratio": 0.305,
+        "circulating_supply": 2805123377.253286,
+        "total_supply": 2805123376.814813,
+        "max_supply": null,
+        "ath_change_pct": -99.27269,
+        "atl_change_pct": 41377978.26636,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": 14303,
+        "github_forks": 0,
+        "github_stars": 0,
+        "github_subscribers": 0,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 0,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": null,
+        "github_deletions_4_weeks": null,
+        "homepage": "https://velas.com/",
+        "github_repos": [
+          "https://github.com/velas"
+        ],
+        "has_github": true,
+        "supply_ratio": 1.0
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 8.19,
+        "mc_fdv_ratio": 0.305,
+        "supply_ratio": 1.0
+      }
+    },
+    "balancer": {
+      "symbol": "BAL",
+      "name": "Balancer",
+      "group": "loser",
+      "t0_date": "2026-01-31",
+      "outcome": {
+        "multiplier": null,
+        "loss_pct": -71.7,
+        "peak_mc": null,
+        "bottom_mc": 8300000
+      },
+      "timeframes": {
+        "T-30": {
+          "date": "2026-01-01",
+          "price": 0.60136018,
+          "market_cap": 38837169,
+          "volume_24h": 1822456,
+          "avg_volume_7d": 1842678,
+          "price_change_7d_pct": -3.04,
+          "volatility_14d_pct": 1.89,
+          "volume_mc_ratio": 0.0469
+        },
+        "T-14": {
+          "date": "2026-01-17",
+          "price": 0.54904461,
+          "market_cap": 35583915,
+          "volume_24h": 1658445,
+          "avg_volume_7d": 1915431,
+          "price_change_7d_pct": 0.65,
+          "volatility_14d_pct": 3.45,
+          "volume_mc_ratio": 0.0466
+        },
+        "T-7": {
+          "date": "2026-01-24",
+          "price": 0.49961344,
+          "market_cap": 32271038,
+          "volume_24h": 1573783,
+          "avg_volume_7d": 1665109,
+          "price_change_7d_pct": -9.0,
+          "volatility_14d_pct": 3.85,
+          "volume_mc_ratio": 0.0488
+        },
+        "T-1": {
+          "date": "2026-01-30",
+          "price": 0.47157998,
+          "market_cap": 30452495,
+          "volume_24h": 1491884,
+          "avg_volume_7d": 1405265,
+          "price_change_7d_pct": -5.41,
+          "volatility_14d_pct": 4.85,
+          "volume_mc_ratio": 0.049
+        }
+      },
+      "details": {
+        "categories": [
+          "Base Native",
+          "Automated Market Maker (AMM)",
+          "Huobi ECO Chain Ecosystem",
+          "Avalanche Ecosystem",
+          "Exchange-based Tokens",
+          "Pantera Capital Portfolio",
+          "Alameda Research Portfolio",
+          "DeFiance Capital Portfolio",
+          "Index Coop Defi Index",
+          "Polygon zkEVM Ecosystem",
+          "Yield Farming",
+          "Optimism Ecosystem",
+          "Polygon Ecosystem",
+          "Blockchain Capital Portfolio",
+          "Near Protocol Ecosystem",
+          "Base Ecosystem",
+          "Gnosis Chain Ecosystem",
+          "Decentralized Exchange (DEX)",
+          "Arbitrum Ecosystem",
+          "Ethereum Ecosystem",
+          "Decentralized Finance (DeFi)",
+          "Harmony Ecosystem",
+          "Energi Ecosystem",
+          "Governance"
+        ],
+        "genesis_date": null,
+        "platforms": [
+          "ethereum",
+          "harmony-shard-0",
+          "xdai",
+          "polygon-zkevm",
+          "huobi-token",
+          "near-protocol",
+          "base",
+          "energi",
+          "avalanche",
+          "polygon-pos",
+          "arbitrum-one",
+          "optimistic-ethereum"
+        ],
+        "fdv": 10490836,
+        "mc_fdv_ratio": 2.9028,
+        "circulating_supply": 64580537.0262452,
+        "total_supply": 71852445.27324706,
+        "max_supply": 96150704.0,
+        "ath_change_pct": -99.80397,
+        "atl_change_pct": 15.8343,
+        "twitter_followers": null,
+        "reddit_subscribers": 0,
+        "reddit_avg_posts_48h": 0.0,
+        "reddit_avg_comments_48h": 0.0,
+        "telegram_channel_user_count": null,
+        "github_forks": 165,
+        "github_stars": 338,
+        "github_subscribers": 30,
+        "github_total_issues": 0,
+        "github_closed_issues": 0,
+        "github_pull_requests_merged": 63,
+        "github_commit_count_4_weeks": 0,
+        "github_additions_4_weeks": 0,
+        "github_deletions_4_weeks": 0,
+        "homepage": "https://balancer.finance/",
+        "github_repos": [
+          "https://github.com/balancer-labs/balancer-core",
+          "https://github.com/balancer-labs/balancer-exchange",
+          "https://github.com/balancer-labs/pool-management",
+          "https://github.com/balancer-labs/balancer-sor"
+        ],
+        "has_github": true,
+        "supply_ratio": 0.8988
+      },
+      "derived": {
+        "volume_trend_t30_to_t1": 0.76,
+        "mc_fdv_ratio": 2.9028,
+        "supply_ratio": 0.8988
+      }
+    }
+  }
+}

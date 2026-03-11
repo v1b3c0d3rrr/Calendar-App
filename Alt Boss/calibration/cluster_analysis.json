@@ -1,0 +1,244 @@
+{
+  "generated": "2026-03-11T04:31:31.590449",
+  "attribution": "Data provided by CoinGecko (https://www.coingecko.com/en/api/)",
+  "clusters": {
+    "A_deep_recovery": {
+      "count": 35,
+      "multiplier_median": 2.2,
+      "profile": {
+        "ath_drawdown_median": -78.4,
+        "accumulation_days_median": 2,
+        "pre_trend_30d_median": -40.6,
+        "pump_days_median": 29.0
+      },
+      "thresholds_T7": {
+        "vol_mc_median": 0.0386,
+        "vol_mc_p25": 0.0122,
+        "price_chg_7d_median": -12.26,
+        "volatility_median": 10.34
+      },
+      "thresholds_fundamentals": {
+        "mc_fdv_median": 0.5049,
+        "supply_ratio_median": 0.9565,
+        "vol_trend_median": 0.76
+      }
+    },
+    "B_gradual_accumulation": {
+      "count": 17,
+      "multiplier_median": 2.1,
+      "profile": {
+        "ath_drawdown_median": -53.1,
+        "accumulation_days_median": 28,
+        "pre_trend_30d_median": -15.9,
+        "pump_days_median": 30.0
+      },
+      "thresholds_T7": {
+        "vol_mc_median": 0.0307,
+        "vol_mc_p25": 0.0087,
+        "price_chg_7d_median": -0.12,
+        "volatility_median": 4.61
+      },
+      "thresholds_fundamentals": {
+        "mc_fdv_median": 0.3361,
+        "supply_ratio_median": 0.5828,
+        "vol_trend_median": 0.88
+      }
+    },
+    "C_breakout_sideways": {
+      "count": 25,
+      "multiplier_median": 2.1,
+      "profile": {
+        "ath_drawdown_median": -37.3,
+        "accumulation_days_median": 6,
+        "pre_trend_30d_median": -23.1,
+        "pump_days_median": 21.0
+      },
+      "thresholds_T7": {
+        "vol_mc_median": 0.0108,
+        "vol_mc_p25": 0.0023,
+        "price_chg_7d_median": -0.435,
+        "volatility_median": 5.43
+      },
+      "thresholds_fundamentals": {
+        "mc_fdv_median": 0.3216,
+        "supply_ratio_median": 0.6459,
+        "vol_trend_median": 0.9
+      }
+    },
+    "D_momentum_continuation": {
+      "count": 7,
+      "multiplier_median": 2.4,
+      "profile": {
+        "ath_drawdown_median": -16.2,
+        "accumulation_days_median": 18,
+        "pre_trend_30d_median": -5.0,
+        "pump_days_median": 29.0
+      },
+      "thresholds_T7": {
+        "vol_mc_median": 0.0312,
+        "vol_mc_p25": 0.028,
+        "price_chg_7d_median": -4.55,
+        "volatility_median": 8.6
+      },
+      "thresholds_fundamentals": {
+        "mc_fdv_median": 0.3563,
+        "supply_ratio_median": 0.8574,
+        "vol_trend_median": 1.62
+      }
+    },
+    "E_v_reversal": {
+      "count": 37,
+      "multiplier_median": 2.1,
+      "profile": {
+        "ath_drawdown_median": -60.0,
+        "accumulation_days_median": 2,
+        "pre_trend_30d_median": -43.6,
+        "pump_days_median": 26.0
+      },
+      "thresholds_T7": {
+        "vol_mc_median": 0.1638,
+        "vol_mc_p25": 0.0044,
+        "price_chg_7d_median": -5.22,
+        "volatility_median": 11.94
+      },
+      "thresholds_fundamentals": {
+        "mc_fdv_median": 0.3161,
+        "supply_ratio_median": 0.66,
+        "vol_trend_median": 0.94
+      }
+    }
+  },
+  "tokens_per_cluster": {
+    "E_v_reversal": [
+      "ANDY70B",
+      "9BIT",
+      "XPIN",
+      "CLANKER",
+      "KNTQ",
+      "TNSR",
+      "SAPIEN",
+      "F",
+      "PIPPIN",
+      "POWER",
+      "SKYAI",
+      "TAG",
+      "ARC",
+      "DIEM",
+      "Q",
+      "BANANAS31",
+      "RESOLV",
+      "NILA",
+      "ISLM",
+      "BNKR",
+      "SSV",
+      "SINGULARRY",
+      "COLLECT",
+      "USUAL",
+      "PARTI",
+      "MERC",
+      "METFI",
+      "XION",
+      "BCHEM",
+      "WECAN",
+      "QUP",
+      "LAVA",
+      "PYR",
+      "JOBCOIN",
+      "OL",
+      "SAVE",
+      "SGC"
+    ],
+    "D_momentum_continuation": [
+      "ORE",
+      "TRUTH",
+      "SN29",
+      "IDIA",
+      "MWXT",
+      "ACT",
+      "FAR"
+    ],
+    "C_breakout_sideways": [
+      "QAI",
+      "SEDA",
+      "MEED",
+      "COINDEPO",
+      "PND",
+      "VSTR",
+      "WRX",
+      "RYZE",
+      "BURN",
+      "SN6",
+      "MNGO",
+      "ANT",
+      "SN44",
+      "FTRB",
+      "SN39",
+      "CONX",
+      "ACT",
+      "BCD",
+      "VELVET",
+      "AO",
+      "CATI",
+      "ALCX",
+      "SN81",
+      "VOW",
+      "SN2"
+    ],
+    "B_gradual_accumulation": [
+      "MEY",
+      "SKR",
+      "VR",
+      "MKL",
+      "SOSANA",
+      "GXC",
+      "RIZE",
+      "DUSK",
+      "QUAI",
+      "GPS",
+      "GUN",
+      "BXN",
+      "SIGMA",
+      "PACK",
+      "EGL1",
+      "WFCA",
+      "SOIL"
+    ],
+    "A_deep_recovery": [
+      "MOLT",
+      "FIH",
+      "MEMECOIN",
+      "CHEX",
+      "FAI",
+      "BEAT",
+      "ENSO",
+      "VULT",
+      "CESS",
+      "RIVER PTS",
+      "PNDC",
+      "PTGC",
+      "AFR",
+      "PLLD",
+      "DOVU",
+      "EDGE",
+      "POKT",
+      "B2",
+      "GAL",
+      "AT",
+      "SN62",
+      "CLASH",
+      "DENT",
+      "REZ",
+      "ZBT",
+      "INIT",
+      "DOGE-1",
+      "SMT",
+      "AUKI",
+      "PHA",
+      "XRD",
+      "AGLD",
+      "APTM",
+      "SAFE",
+      "PONKE"
+    ]
+  }
+}

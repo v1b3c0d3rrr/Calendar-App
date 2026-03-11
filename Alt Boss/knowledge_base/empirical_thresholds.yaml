@@ -1,0 +1,235 @@
+# Эмпирические пороги из калибровочного исследования
+# Дата: 2026-03-11
+# Выборка: 17 winners, 4 control, 5 losers (MC <$30M)
+# Data provided by CoinGecko (https://www.coingecko.com/en/api/)
+#
+# ВАЖНО: Выборка мала для статистической значимости.
+# Пороги — ориентиры, не жёсткие правила. Не overfit.
+
+# ===== DISCRIMINATING METRICS (по predictive power) =====
+
+vol_mc_ratio:
+  description: "Volume 24h / Market Cap — strongest leading indicator"
+  timeframe: "T-7"
+  winners_median: 0.054
+  control_median: 0.0011
+  losers_median: 0.0076
+  discrimination_ratio: 7.2  # winners / losers
+  thresholds:
+    strong_buy: 0.10  # very strong accumulation
+    buy: 0.03         # strong signal
+    neutral: 0.005    # minimal activity
+    avoid: 0.001      # dead token
+
+mc_fdv_ratio:
+  description: "Market Cap / FDV — scarcity indicator (LOWER = BETTER for micro)"
+  winners_median: 0.156
+  control_median: 0.782
+  losers_median: 0.738
+  discrimination_ratio: 4.7  # inverted: losers / winners
+  thresholds:
+    strong_buy: 0.10  # extreme scarcity
+    buy: 0.30         # good scarcity
+    neutral: 0.70     # most supply unlocked
+    avoid: 0.90       # fully unlocked, no growth potential
+  note: "REVERSED from traditional view. Low MC/FDV = BULLISH for micro-cap (scarcity premium), NOT red flag"
+
+supply_ratio:
+  description: "Circulating Supply / Total Supply"
+  winners_median: 0.370
+  control_median: 0.680
+  losers_median: 0.978
+  thresholds:
+    buy: 0.40         # <40% circulating = scarcity
+    neutral: 0.80
+    avoid: 0.90       # almost fully circulating
+
+price_change_7d:
+  description: "Price change over 7 days at T-7 — early momentum"
+  timeframe: "T-7"
+  winners_median: 6.37   # %
+  control_median: -1.96  # %
+  losers_median: -9.00   # %
+  thresholds:
+    buy: 0.0      # positive momentum
+    neutral: -10.0
+    avoid: -15.0   # strong downtrend
+
+volume_absolute:
+  description: "Average 7-day volume in USD"
+  timeframe: "T-7"
+  winners_median: 702000    # $702K
+  control_median: 56000     # $56K
+  losers_median: 85000      # $85K
+  thresholds:
+    strong_buy: 2000000  # >$2M
+    buy: 500000          # >$500K
+    neutral: 100000      # >$100K
+    avoid: 50000         # <$50K = illiquid
+
+# ===== NON-DISCRIMINATING (do not rely on alone) =====
+
+github_presence:
+  description: "Has GitHub repos"
+  winners_pct: 59
+  losers_pct: 60
+  note: "Does NOT discriminate. Equal between winners and losers."
+
+telegram_users:
+  description: "Telegram channel user count"
+  winners_median: 7426
+  losers_median: 10885
+  note: "INVERSE signal — losers have MORE telegram users. Do not use as positive signal."
+
+# ===== NARRATIVE CONTEXT =====
+
+winning_narratives:
+  - "AI / AI Agents"
+  - "Solana Ecosystem"
+  - "DeFi"
+  - "Base Native"
+  - "Pump.fun Ecosystem"
+
+losing_narratives:
+  - "Legacy VC portfolios (Alameda, Delphi)"
+  - "Isolated chains"
+  - "Binance Launchpad (old)"
+
+# ===== CLUSTER-SPECIFIC THRESHOLDS (121 winners, excl DEX/stables/tokenized) =====
+
+cluster_A_deep_recovery:
+  count: 35
+  description: "Fell >70% from ATH, quick reversal from bottom"
+  identification: "ath_drawdown < -70%"
+  key_signal: "Volume при падающей цене = smart money on the bottom"
+  thresholds:
+    vol_mc_entry: 0.015   # > 1.5%
+    price_direction: "negative (still falling at T-7: -12% median)"
+    volatility: "high (10.3% median)"
+    mc_fdv: 0.50  # higher than other clusters (already unlocked)
+    supply_ratio: 0.96  # high — NOT a disqualifier for this type
+    stop_loss: "-20% to -30%"
+
+cluster_B_gradual_accumulation:
+  count: 17
+  description: "Moderate -30-70% drawdown, long sideways (28d), then pump"
+  identification: "ath_drawdown between -30% and -70% AND accumulation_days > 14"
+  key_signal: "Тишина перед штормом: low volatility + scarcity + stable price"
+  thresholds:
+    volatility_max: 5.0  # < 5% — quietest cluster
+    price_7d: "stable ±5%"
+    mc_fdv: 0.25  # lowest — best scarcity
+    supply_ratio: 0.46  # low — scarce
+    vol_mc_entry: 0.008  # lower requirement (volume not the signal here)
+    stop_loss: "-15% to -20%"
+
+cluster_C_breakout_sideways:
+  count: 32
+  description: "Trading in range near ATH, breaks out"
+  identification: "ath_drawdown > -40% AND accumulation_days < 14"
+  key_signal: "Close to ATH + low MC/FDV. Volume signal WEAKEST here (1.1%)"
+  thresholds:
+    ath_drawdown_max: -40  # not too far from ATH
+    mc_fdv: 0.32
+    volatility: "5-8% (moderate)"
+    vol_mc_entry: 0.005  # very low requirement — volume not the signal
+    catalyst_required: true  # need a trigger for breakout
+    stop_loss: "-10% to -15%"
+
+cluster_D_momentum_continuation:
+  count: 7
+  description: "Already rising, growth continues. Rarest pattern."
+  identification: "ath_drawdown > -30% AND (pre_trend_30d > 10% OR pre_trend_7d > 5%)"
+  key_signal: "ONLY cluster with RISING volume trend (1.62x). Momentum builds."
+  thresholds:
+    vol_trend_min: 1.3  # volume INCREASING toward T-0
+    vol_mc_entry: 0.02
+    ath_drawdown_max: -30
+    stop_loss: "-10% to -15% (trailing)"
+  note: "Includes ORE (49x) — rare but highest potential"
+
+cluster_E_v_reversal:
+  count: 37
+  description: "Sharp drop → sharp bounce. Capitulation + instant recovery."
+  identification: "ath_drawdown -40% to -70% AND accumulation_days < 5 AND volatility > 10%"
+  key_signal: "EXTREME Vol/MC 16.4% (15x higher than C_breakout). Capitulation volume."
+  thresholds:
+    vol_mc_entry: 0.05   # > 5% — high bar but characteristic
+    volatility_min: 10.0  # must be volatile
+    pre_trend_30d: -30  # fast drop preceding the bounce
+    stop_loss: "-25% to -35% (very wide — high volatility)"
+  note: "Biggest winners: ANDY70B 165x, 9BIT 11x, XPIN 11x. Highest risk/reward."
+
+# ===== COMBO RULES =====
+
+buy_combo:
+  description: "All 3 factors together = 0 losers get BUY at any reasonable threshold"
+  rules:
+    - "vol_mc > 0.03"
+    - "mc_fdv < 0.30"
+    - "price_7d > 0%"
+  min_rules: 2  # at least 2 of 3
+  backtest_result:
+    threshold_50: { hit_rate: 65, fp_rate: 0, catastrophic_fp: 0 }
+    threshold_45: { hit_rate: 71, fp_rate: 20, catastrophic_fp: 1 }
+
+# ===== SOCIAL METRICS (CoinGecko — NON-DISCRIMINATING) =====
+
+watchlist_portfolio_users:
+  description: "CoinGecko watchlist user count — NOT a predictor"
+  tested_on: 121  # winners
+  discrimination_ratio: 1.0  # no correlation with multiplier
+  by_cluster:
+    A_deep_recovery: 2404
+    B_gradual_accumulation: 3024
+    C_breakout_sideways: 1501
+    D_momentum_continuation: 3855
+    E_v_reversal: 2330
+  note: "Zero correlation with multiplier. All quartiles show ~2.1x median. Do NOT use in scoring."
+
+coingecko_sentiment:
+  description: "CoinGecko sentiment votes up %"
+  tested_on: 62  # tokens with data
+  note: "Median 100% for ALL clusters. Useless as discriminator. Low sentiment slightly correlates with higher multiplier (contrarian?) but sample too small."
+
+telegram_presence:
+  description: "Has Telegram channel (boolean)"
+  by_cluster:
+    A_deep_recovery_pct: 54
+    B_gradual_accumulation_pct: 94
+    C_breakout_sideways_pct: 56
+    D_momentum_continuation_pct: 71
+    E_v_reversal_pct: 62
+  note: "B_gradual_accumulation stands out (94%). Minor supplementary signal for cluster B identification."
+
+# ===== TWITTER FOLLOWERS (Playwright scraping, 89/114 winners) =====
+
+twitter_followers_absolute:
+  description: "Twitter/X follower count — NOT a predictor of multiplier"
+  tested_on: 89  # winners with successful scrape (78% of 114)
+  spearman_vs_multiplier: -0.110
+  spearman_followers_mc_vs_multiplier: 0.055
+  overall_median: 48100
+  overall_range: [4, 2600000]
+  by_cluster:
+    A_deep_recovery: { median: 72350, mean: 152507, n: 26 }
+    B_gradual_accumulation: { median: 89600, mean: 113626, n: 14 }
+    C_breakout_sideways: { median: 35600, mean: 194991, n: 16 }
+    D_momentum_continuation: { median: 114700, mean: 122266, n: 5 }
+    E_v_reversal: { median: 36100, mean: 148075, n: 28 }
+  by_tier:
+    under_10k: { count: 19, median_mult: 2.1, mean_mult: 11.0, max_mult: 165.5 }
+    10k_to_100k: { count: 42, median_mult: 2.2, mean_mult: 3.9, max_mult: 49.0 }
+    over_100k: { count: 28, median_mult: 2.1, mean_mult: 2.7, max_mult: 11.0 }
+  note: >
+    Zero correlation with multiplier. Small accounts (<10K) show higher mean mult
+    but SAME median — this is an artifact of MC correlation (small MC = fewer followers
+    AND higher growth potential), NOT causal. Do NOT use in scoring.
+    GROWTH RATE of followers could be leading indicator but is unavailable for free.
+
+# ===== SOCIAL DATA GAPS =====
+# Twitter follower GROWTH RATE: UNAVAILABLE (needs Twitter API or paid LunarCrush)
+# Twitter engagement rate: UNAVAILABLE (needs Twitter API)
+# KOL mentions / calls: UNAVAILABLE (needs Twitter API)
+# Social volume spikes: UNAVAILABLE (needs LunarCrush Individual $19+/mo)
+# Galaxy Score / AltRank: UNAVAILABLE (needs LunarCrush Individual $19+/mo)

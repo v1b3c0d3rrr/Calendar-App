@@ -1,0 +1,1115 @@
+{
+  "Andy70bsol_": {
+    "handle": "Andy70bsol_",
+    "followers": 1922,
+    "following": 3,
+    "followers_raw": "1,922",
+    "following_raw": "3",
+    "coin_id": "andy70b",
+    "symbol": "ANDY70B",
+    "cluster": "E_v_reversal"
+  },
+  "OREsupply": {
+    "handle": "OREsupply",
+    "followers": 43900,
+    "following": 1,
+    "followers_raw": "43.9K",
+    "following_raw": "1",
+    "coin_id": "ore",
+    "symbol": "ORE",
+    "cluster": "D_momentum_continuation"
+  },
+  "official_9bit": {
+    "handle": "official_9bit",
+    "followers": 25200,
+    "following": 138,
+    "followers_raw": "25.2K",
+    "following_raw": "138",
+    "coin_id": "the9bit",
+    "symbol": "9BIT",
+    "cluster": "E_v_reversal"
+  },
+  "XPINNetwork": {
+    "handle": "XPINNetwork",
+    "followers": 147700,
+    "following": 73,
+    "followers_raw": "147.7K",
+    "following_raw": "73",
+    "coin_id": "xpin-network",
+    "symbol": "XPIN",
+    "cluster": "E_v_reversal"
+  },
+  "QuantixCapital": {
+    "handle": "QuantixCapital",
+    "followers": 4,
+    "following": 130,
+    "followers_raw": "4",
+    "following_raw": "130",
+    "coin_id": "quantixai",
+    "symbol": "QAI",
+    "cluster": "C_breakout_sideways"
+  },
+  "Mey_Network": {
+    "handle": "Mey_Network",
+    "followers": 85300,
+    "following": 110,
+    "followers_raw": "85.3K",
+    "following_raw": "110",
+    "coin_id": "mey-network",
+    "symbol": "MEY",
+    "cluster": "B_gradual_accumulation"
+  },
+  "moltbook": {
+    "handle": "moltbook",
+    "followers": 245800,
+    "following": 3,
+    "followers_raw": "245.8K",
+    "following_raw": "3",
+    "coin_id": "moltbook",
+    "symbol": "MOLT",
+    "cluster": "A_deep_recovery"
+  },
+  "sedaprotocol": {
+    "handle": "sedaprotocol",
+    "followers": 44600,
+    "following": 138,
+    "followers_raw": "44.6K",
+    "following_raw": "138",
+    "coin_id": "seda-2",
+    "symbol": "SEDA",
+    "cluster": "C_breakout_sideways"
+  },
+  "DepoCoin": {
+    "handle": "DepoCoin",
+    "followers": 11300,
+    "following": 714,
+    "followers_raw": "11.3K",
+    "following_raw": "714",
+    "coin_id": "coindepo",
+    "symbol": "COINDEPO",
+    "cluster": "C_breakout_sideways"
+  },
+  "kinetiq_xyz": {
+    "handle": "kinetiq_xyz",
+    "followers": 23400,
+    "following": 56,
+    "followers_raw": "23.4K",
+    "following_raw": "56",
+    "coin_id": "kinetiq",
+    "symbol": "KNTQ",
+    "cluster": "E_v_reversal"
+  },
+  "tensorfdn": {
+    "handle": "tensorfdn",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "tensor",
+    "symbol": "TNSR",
+    "cluster": "E_v_reversal"
+  },
+  "pandacoinpnd": {
+    "handle": "pandacoinpnd",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "pandacoin",
+    "symbol": "PND",
+    "cluster": "C_breakout_sideways"
+  },
+  "Vestra_DAO": {
+    "handle": "Vestra_DAO",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "vestra-dao",
+    "symbol": "VSTR",
+    "cluster": "C_breakout_sideways"
+  },
+  "GetSwarmed": {
+    "handle": "GetSwarmed",
+    "followers": 276700,
+    "following": 399,
+    "followers_raw": "276.7K",
+    "following_raw": "399",
+    "coin_id": "swarm-network",
+    "symbol": "TRUTH",
+    "cluster": "D_momentum_continuation"
+  },
+  "joinsapien": {
+    "handle": "joinsapien",
+    "error": "not_found_or_suspended",
+    "coin_id": "sapien-2",
+    "symbol": "SAPIEN",
+    "cluster": "E_v_reversal"
+  },
+  "saakuru_labs": {
+    "handle": "saakuru_labs",
+    "followers": 154000,
+    "following": 604,
+    "followers_raw": "154K",
+    "following_raw": "604",
+    "coin_id": "saakuru-labs",
+    "symbol": "SKR",
+    "cluster": "B_gradual_accumulation"
+  },
+  "SynFuturesDefi": {
+    "handle": "SynFuturesDefi",
+    "followers": 335800,
+    "following": 342,
+    "followers_raw": "335.8K",
+    "following_raw": "342",
+    "coin_id": "synfutures",
+    "symbol": "F",
+    "cluster": "E_v_reversal"
+  },
+  "wazirxindia": {
+    "handle": "wazirxindia",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "wazirx",
+    "symbol": "WRX",
+    "cluster": "C_breakout_sideways"
+  },
+  "pippinlovesyou": {
+    "handle": "pippinlovesyou",
+    "followers": 28900,
+    "following": 1,
+    "followers_raw": "28.9K",
+    "following_raw": "1",
+    "coin_id": "pippin",
+    "symbol": "PIPPIN",
+    "cluster": "E_v_reversal"
+  },
+  "ARYZEofficial": {
+    "handle": "ARYZEofficial",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "ryze",
+    "symbol": "RYZE",
+    "cluster": "C_breakout_sideways"
+  },
+  "PowerPrtcl": {
+    "handle": "PowerPrtcl",
+    "followers": 31600,
+    "following": 22,
+    "followers_raw": "31.6K",
+    "following_raw": "22",
+    "coin_id": "power-protocol",
+    "symbol": "POWER",
+    "cluster": "E_v_reversal"
+  },
+  "burnArmy": {
+    "handle": "burnArmy",
+    "followers": 10500,
+    "following": 16,
+    "followers_raw": "10.5K",
+    "following_raw": "16",
+    "coin_id": "burnedfi",
+    "symbol": "BURN",
+    "cluster": "C_breakout_sideways"
+  },
+  "SKYAIpro": {
+    "handle": "SKYAIpro",
+    "followers": 22000,
+    "following": 20,
+    "followers_raw": "22K",
+    "following_raw": "20",
+    "coin_id": "skyai",
+    "symbol": "SKYAI",
+    "cluster": "E_v_reversal"
+  },
+  "fih_usd1": {
+    "handle": "fih_usd1",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "fih",
+    "symbol": "FIH",
+    "cluster": "A_deep_recovery"
+  },
+  "taggerai": {
+    "handle": "taggerai",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "tagger",
+    "symbol": "TAG",
+    "cluster": "E_v_reversal"
+  },
+  "arcdotfun": {
+    "handle": "arcdotfun",
+    "followers": 49800,
+    "following": 9,
+    "followers_raw": "49.8K",
+    "following_raw": "9",
+    "coin_id": "ai-rig-complex",
+    "symbol": "ARC",
+    "cluster": "E_v_reversal"
+  },
+  "VictoriaVR": {
+    "handle": "VictoriaVR",
+    "followers": 92300,
+    "following": 430,
+    "followers_raw": "92.3K",
+    "following_raw": "430",
+    "coin_id": "victoria-vr",
+    "symbol": "VR",
+    "cluster": "B_gradual_accumulation"
+  },
+  "ChintaiNexus": {
+    "handle": "ChintaiNexus",
+    "followers": 42700,
+    "following": 157,
+    "followers_raw": "42.7K",
+    "following_raw": "157",
+    "coin_id": "chex-token",
+    "symbol": "CHEX",
+    "cluster": "A_deep_recovery"
+  },
+  "freysa_ai": {
+    "handle": "freysa_ai",
+    "followers": 27100,
+    "following": 186,
+    "followers_raw": "27.1K",
+    "following_raw": "186",
+    "coin_id": "freysa-ai",
+    "symbol": "FAI",
+    "cluster": "A_deep_recovery"
+  },
+  "Audiera_web3": {
+    "handle": "Audiera_web3",
+    "followers": 76400,
+    "following": 117,
+    "followers_raw": "76.4K",
+    "following_raw": "117",
+    "coin_id": "audiera",
+    "symbol": "BEAT",
+    "cluster": "A_deep_recovery"
+  },
+  "AskVenice": {
+    "handle": "AskVenice",
+    "followers": 58500,
+    "following": 1,
+    "followers_raw": "58.5K",
+    "following_raw": "1",
+    "coin_id": "diem",
+    "symbol": "DIEM",
+    "cluster": "E_v_reversal"
+  },
+  "EnsoBuild": {
+    "handle": "EnsoBuild",
+    "followers": 202400,
+    "following": 4,
+    "followers_raw": "202.4K",
+    "following_raw": "4",
+    "coin_id": "enso",
+    "symbol": "ENSO",
+    "cluster": "A_deep_recovery"
+  },
+  "vultisig": {
+    "handle": "vultisig",
+    "followers": 32299,
+    "following": 293,
+    "followers_raw": "32.3K",
+    "following_raw": "293",
+    "coin_id": "vultisig",
+    "symbol": "VULT",
+    "cluster": "A_deep_recovery"
+  },
+  "CESS_Storage": {
+    "handle": "CESS_Storage",
+    "followers": 339700,
+    "following": 896,
+    "followers_raw": "339.7K",
+    "following_raw": "896",
+    "coin_id": "cumulus-encrypted-storage-system",
+    "symbol": "CESS",
+    "cluster": "A_deep_recovery"
+  },
+  "impossiblefi": {
+    "handle": "impossiblefi",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "idia",
+    "symbol": "IDIA",
+    "cluster": "D_momentum_continuation"
+  },
+  "RiverdotInc": {
+    "handle": "RiverdotInc",
+    "followers": 202800,
+    "following": 31,
+    "followers_raw": "202.8K",
+    "following_raw": "31",
+    "coin_id": "river-pts",
+    "symbol": "RIVER PTS",
+    "cluster": "A_deep_recovery"
+  },
+  "pond0x": {
+    "handle": "pond0x",
+    "error": "not_found_or_suspended",
+    "coin_id": "pond-coin",
+    "symbol": "PNDC",
+    "cluster": "A_deep_recovery"
+  },
+  "Merkle_Trade": {
+    "handle": "Merkle_Trade",
+    "followers": 35500,
+    "following": 23,
+    "followers_raw": "35.5K",
+    "following_raw": "23",
+    "coin_id": "merkle-trade",
+    "symbol": "MKL",
+    "cluster": "B_gradual_accumulation"
+  },
+  "QuackAI_AI": {
+    "handle": "QuackAI_AI",
+    "followers": 183600,
+    "following": 185,
+    "followers_raw": "183.6K",
+    "following_raw": "185",
+    "coin_id": "quack-ai",
+    "symbol": "Q",
+    "cluster": "E_v_reversal"
+  },
+  "TheGray369": {
+    "handle": "TheGray369",
+    "followers": 6099,
+    "following": 416,
+    "followers_raw": "6,099",
+    "following_raw": "416",
+    "coin_id": "the-grays-currency",
+    "symbol": "PTGC",
+    "cluster": "A_deep_recovery"
+  },
+  "SosanaToken": {
+    "handle": "SosanaToken",
+    "followers": 741,
+    "following": 128,
+    "followers_raw": "741",
+    "following_raw": "128",
+    "coin_id": "sosana",
+    "symbol": "SOSANA",
+    "cluster": "B_gradual_accumulation"
+  },
+  "Playinfgames": {
+    "handle": "Playinfgames",
+    "followers": 3558,
+    "following": 155,
+    "followers_raw": "3,558",
+    "following_raw": "155",
+    "coin_id": "infinite-games",
+    "symbol": "SN6",
+    "cluster": "C_breakout_sideways"
+  },
+  "Afreum1": {
+    "handle": "Afreum1",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "afreum",
+    "symbol": "AFR",
+    "cluster": "A_deep_recovery"
+  },
+  "BananaS31_bsc": {
+    "handle": "BananaS31_bsc",
+    "followers": 62200,
+    "following": 34,
+    "followers_raw": "62.2K",
+    "following_raw": "34",
+    "coin_id": "banana-for-scale-2",
+    "symbol": "BANANAS31",
+    "cluster": "E_v_reversal"
+  },
+  "DDTechGroup": {
+    "handle": "DDTechGroup",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "palladium-network",
+    "symbol": "PLLD",
+    "cluster": "A_deep_recovery"
+  },
+  "ResolvLabs": {
+    "handle": "ResolvLabs",
+    "followers": 40600,
+    "following": 38,
+    "followers_raw": "40.6K",
+    "following_raw": "38",
+    "coin_id": "resolv",
+    "symbol": "RESOLV",
+    "cluster": "E_v_reversal"
+  },
+  "mangomarkets": {
+    "handle": "mangomarkets",
+    "followers": 68900,
+    "following": 1069,
+    "followers_raw": "68.9K",
+    "following_raw": "1,069",
+    "coin_id": "mango-markets",
+    "symbol": "MNGO",
+    "cluster": "C_breakout_sideways"
+  },
+  "DefinitiveFi": {
+    "handle": "DefinitiveFi",
+    "followers": 27100,
+    "following": 15,
+    "followers_raw": "27.1K",
+    "following_raw": "15",
+    "coin_id": "definitive",
+    "symbol": "EDGE",
+    "cluster": "A_deep_recovery"
+  },
+  "POKTnetwork": {
+    "handle": "POKTnetwork",
+    "followers": 44900,
+    "following": 1081,
+    "followers_raw": "44.9K",
+    "following_raw": "1,081",
+    "coin_id": "pocket-network",
+    "symbol": "POKT",
+    "cluster": "A_deep_recovery"
+  },
+  "BsquaredNetwork": {
+    "handle": "BsquaredNetwork",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "bsquared-network",
+    "symbol": "B2",
+    "cluster": "A_deep_recovery"
+  },
+  "GXChainGlobal": {
+    "handle": "GXChainGlobal",
+    "followers": 125900,
+    "following": 619,
+    "followers_raw": "125.9K",
+    "following_raw": "619",
+    "coin_id": "gxchain",
+    "symbol": "GXC",
+    "cluster": "B_gradual_accumulation"
+  },
+  "trize_io": {
+    "handle": "trize_io",
+    "followers": 32100,
+    "following": 720,
+    "followers_raw": "32.1K",
+    "following_raw": "720",
+    "coin_id": "rize",
+    "symbol": "RIZE",
+    "cluster": "B_gradual_accumulation"
+  },
+  "nilatoken": {
+    "handle": "nilatoken",
+    "followers": 7594,
+    "following": 247,
+    "followers_raw": "7,594",
+    "following_raw": "247",
+    "coin_id": "mindwavedao",
+    "symbol": "NILA",
+    "cluster": "E_v_reversal"
+  },
+  "Islamic_Coin": {
+    "handle": "Islamic_Coin",
+    "followers": 1200000,
+    "following": 93,
+    "followers_raw": "1.2M",
+    "following_raw": "93",
+    "coin_id": "islamic-coin",
+    "symbol": "ISLM",
+    "cluster": "E_v_reversal"
+  },
+  "bankrbot": {
+    "handle": "bankrbot",
+    "followers": 98000,
+    "following": 23,
+    "followers_raw": "98K",
+    "following_raw": "23",
+    "coin_id": "bankercoin-2",
+    "symbol": "BNKR",
+    "cluster": "E_v_reversal"
+  },
+  "DuskFoundation": {
+    "handle": "DuskFoundation",
+    "followers": 93300,
+    "following": 307,
+    "followers_raw": "93.3K",
+    "following_raw": "307",
+    "coin_id": "dusk-network",
+    "symbol": "DUSK",
+    "cluster": "B_gradual_accumulation"
+  },
+  "QuaiNetwork": {
+    "handle": "QuaiNetwork",
+    "followers": 295400,
+    "following": 1108,
+    "followers_raw": "295.4K",
+    "following_raw": "1,108",
+    "coin_id": "quai-network",
+    "symbol": "QUAI",
+    "cluster": "B_gradual_accumulation"
+  },
+  "ssv_network": {
+    "handle": "ssv_network",
+    "followers": 87700,
+    "following": 288,
+    "followers_raw": "87.7K",
+    "following_raw": "288",
+    "coin_id": "ssv-network",
+    "symbol": "SSV",
+    "cluster": "E_v_reversal"
+  },
+  "GoPlusSecurity": {
+    "handle": "GoPlusSecurity",
+    "followers": 456400,
+    "following": 1096,
+    "followers_raw": "456.4K",
+    "following_raw": "1,096",
+    "coin_id": "goplus-security",
+    "symbol": "GPS",
+    "cluster": "B_gradual_accumulation"
+  },
+  "singularryai": {
+    "handle": "singularryai",
+    "followers": 7556,
+    "following": 172,
+    "followers_raw": "7,556",
+    "following_raw": "172",
+    "coin_id": "singularry",
+    "symbol": "SINGULARRY",
+    "cluster": "E_v_reversal"
+  },
+  "Galxe": {
+    "handle": "Galxe",
+    "followers": 1500000,
+    "following": 58,
+    "followers_raw": "1.5M",
+    "following_raw": "58",
+    "coin_id": "project-galaxy",
+    "symbol": "GAL",
+    "cluster": "A_deep_recovery"
+  },
+  "APRO_Oracle": {
+    "handle": "APRO_Oracle",
+    "followers": 175600,
+    "following": 238,
+    "followers_raw": "175.6K",
+    "following_raw": "238",
+    "coin_id": "apro",
+    "symbol": "AT",
+    "cluster": "A_deep_recovery"
+  },
+  "GeorgePlayClash": {
+    "handle": "GeorgePlayClash",
+    "followers": 13400,
+    "following": 7,
+    "followers_raw": "13.4K",
+    "following_raw": "7",
+    "coin_id": "georgeplaysclashroyale",
+    "symbol": "CLASH",
+    "cluster": "A_deep_recovery"
+  },
+  "GUNbyGUNZ": {
+    "handle": "GUNbyGUNZ",
+    "followers": 121100,
+    "following": 42,
+    "followers_raw": "121.1K",
+    "following_raw": "42",
+    "coin_id": "gunz",
+    "symbol": "GUN",
+    "cluster": "B_gradual_accumulation"
+  },
+  "WithAutonomi": {
+    "handle": "WithAutonomi",
+    "followers": 47200,
+    "following": 284,
+    "followers_raw": "47.2K",
+    "following_raw": "284",
+    "coin_id": "autonomi",
+    "symbol": "ANT",
+    "cluster": "C_breakout_sideways"
+  },
+  "CollectFDN": {
+    "handle": "CollectFDN",
+    "followers": 2474,
+    "following": 4,
+    "followers_raw": "2,474",
+    "following_raw": "4",
+    "coin_id": "collect-on-fanable",
+    "symbol": "COLLECT",
+    "cluster": "E_v_reversal"
+  },
+  "webuildscore": {
+    "handle": "webuildscore",
+    "followers": 7755,
+    "following": 665,
+    "followers_raw": "7,755",
+    "following_raw": "665",
+    "coin_id": "score",
+    "symbol": "SN44",
+    "cluster": "C_breakout_sideways"
+  },
+  "dentcoin": {
+    "handle": "dentcoin",
+    "followers": 117000,
+    "following": 2932,
+    "followers_raw": "117K",
+    "following_raw": "2,932",
+    "coin_id": "dent",
+    "symbol": "DENT",
+    "cluster": "A_deep_recovery"
+  },
+  "RenzoProtocol": {
+    "handle": "RenzoProtocol",
+    "followers": 108500,
+    "following": 32,
+    "followers_raw": "108.5K",
+    "following_raw": "32",
+    "coin_id": "renzo",
+    "symbol": "REZ",
+    "cluster": "A_deep_recovery"
+  },
+  "realfaithtribe": {
+    "handle": "realfaithtribe",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "faith-tribe",
+    "symbol": "FTRB",
+    "cluster": "C_breakout_sideways"
+  },
+  "ParticleNtwrk": {
+    "handle": "ParticleNtwrk",
+    "followers": 776400,
+    "following": 116,
+    "followers_raw": "776.4K",
+    "following_raw": "116",
+    "coin_id": "particle-network",
+    "symbol": "PARTI",
+    "cluster": "E_v_reversal"
+  },
+  "blackfortbxn": {
+    "handle": "blackfortbxn",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "bxn",
+    "symbol": "BXN",
+    "cluster": "B_gradual_accumulation"
+  },
+  "zerobasezk": {
+    "handle": "zerobasezk",
+    "followers": 68300,
+    "following": 85,
+    "followers_raw": "68.3K",
+    "following_raw": "85",
+    "coin_id": "zerobase",
+    "symbol": "ZBT",
+    "cluster": "A_deep_recovery"
+  },
+  "mwx_ai": {
+    "handle": "mwx_ai",
+    "followers": 114700,
+    "following": 117,
+    "followers_raw": "114.7K",
+    "following_raw": "117",
+    "coin_id": "mwx-token",
+    "symbol": "MWXT",
+    "cluster": "D_momentum_continuation"
+  },
+  "basilic_ai": {
+    "handle": "basilic_ai",
+    "followers": 1089,
+    "following": 7,
+    "followers_raw": "1,089",
+    "following_raw": "7",
+    "coin_id": "w-ai-parked",
+    "symbol": "SN39",
+    "cluster": "C_breakout_sideways"
+  },
+  "initiaFDN": {
+    "handle": "initiaFDN",
+    "followers": 11100,
+    "following": 1,
+    "followers_raw": "11.1K",
+    "following_raw": "1",
+    "coin_id": "initia",
+    "symbol": "INIT",
+    "cluster": "A_deep_recovery"
+  },
+  "PowerProDigital": {
+    "handle": "PowerProDigital",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "liquid-mercury",
+    "symbol": "MERC",
+    "cluster": "E_v_reversal"
+  },
+  "Official_CONX": {
+    "handle": "Official_CONX",
+    "followers": 155300,
+    "following": 196,
+    "followers_raw": "155.3K",
+    "following_raw": "196",
+    "coin_id": "xpla",
+    "symbol": "CONX",
+    "cluster": "C_breakout_sideways"
+  },
+  "ACTICOMMUNITY": {
+    "handle": "ACTICOMMUNITY",
+    "followers": 49800,
+    "following": 37,
+    "followers_raw": "49.8K",
+    "following_raw": "37",
+    "coin_id": "act-i-the-ai-prophecy",
+    "symbol": "ACT",
+    "cluster": "C_breakout_sideways"
+  },
+  "sigmadotmoney": {
+    "handle": "sigmadotmoney",
+    "followers": 4389,
+    "following": 69,
+    "followers_raw": "4,389",
+    "following_raw": "69",
+    "coin_id": "sigmadotmoney",
+    "symbol": "SIGMA",
+    "cluster": "B_gradual_accumulation"
+  },
+  "BitcoinDiamond_": {
+    "handle": "BitcoinDiamond_",
+    "followers": 31800,
+    "following": 519,
+    "followers_raw": "31.8K",
+    "following_raw": "519",
+    "coin_id": "bitcoin-diamond",
+    "symbol": "BCD",
+    "cluster": "C_breakout_sideways"
+  },
+  "AchainOfficial": {
+    "handle": "AchainOfficial",
+    "followers": 28,
+    "following": 1,
+    "followers_raw": "28",
+    "following_raw": "1",
+    "coin_id": "achain",
+    "symbol": "ACT",
+    "cluster": "D_momentum_continuation"
+  },
+  "MetFi_DAO": {
+    "handle": "MetFi_DAO",
+    "followers": 9768,
+    "following": 25,
+    "followers_raw": "9,768",
+    "following_raw": "25",
+    "coin_id": "metfi-2",
+    "symbol": "METFI",
+    "cluster": "E_v_reversal"
+  },
+  "burnt_xion": {
+    "handle": "burnt_xion",
+    "followers": 651800,
+    "following": 110,
+    "followers_raw": "651.8K",
+    "following_raw": "110",
+    "coin_id": "xion-2",
+    "symbol": "XION",
+    "cluster": "E_v_reversal"
+  },
+  "Bitchemical": {
+    "handle": "Bitchemical",
+    "followers": 14600,
+    "following": 45,
+    "followers_raw": "14.6K",
+    "following_raw": "45",
+    "coin_id": "bitchemical-token",
+    "symbol": "BCHEM",
+    "cluster": "E_v_reversal"
+  },
+  "WecanGroupSwiss": {
+    "handle": "WecanGroupSwiss",
+    "followers": 3364,
+    "following": 23,
+    "followers_raw": "3,364",
+    "following_raw": "23",
+    "coin_id": "wecan",
+    "symbol": "WECAN",
+    "cluster": "E_v_reversal"
+  },
+  "doge1meme": {
+    "handle": "doge1meme",
+    "followers": 5581,
+    "following": 20,
+    "followers_raw": "5,581",
+    "following_raw": "20",
+    "coin_id": "doge-1-satellite",
+    "symbol": "DOGE-1",
+    "cluster": "A_deep_recovery"
+  },
+  "FARLabsAI": {
+    "handle": "FARLabsAI",
+    "followers": 176000,
+    "following": 232,
+    "followers_raw": "176K",
+    "following_raw": "232",
+    "coin_id": "farcana",
+    "symbol": "FAR",
+    "cluster": "D_momentum_continuation"
+  },
+  "qupcorp": {
+    "handle": "qupcorp",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "qup-coin",
+    "symbol": "QUP",
+    "cluster": "E_v_reversal"
+  },
+  "SwarmMarkets": {
+    "handle": "SwarmMarkets",
+    "followers": 26400,
+    "following": 450,
+    "followers_raw": "26.4K",
+    "following_raw": "450",
+    "coin_id": "swarm-markets",
+    "symbol": "SMT",
+    "cluster": "A_deep_recovery"
+  },
+  "HashPackApp": {
+    "handle": "HashPackApp",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "hashpack",
+    "symbol": "PACK",
+    "cluster": "B_gradual_accumulation"
+  },
+  "Auki": {
+    "handle": "Auki",
+    "followers": 27800,
+    "following": 437,
+    "followers_raw": "27.8K",
+    "following_raw": "437",
+    "coin_id": "auki-labs",
+    "symbol": "AUKI",
+    "cluster": "A_deep_recovery"
+  },
+  "egll_american": {
+    "handle": "egll_american",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "egl1",
+    "symbol": "EGL1",
+    "cluster": "B_gradual_accumulation"
+  },
+  "velvet_capital": {
+    "handle": "velvet_capital",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "velvet",
+    "symbol": "VELVET",
+    "cluster": "C_breakout_sideways"
+  },
+  "PhalaNetwork": {
+    "handle": "PhalaNetwork",
+    "followers": 143100,
+    "following": 840,
+    "followers_raw": "143.1K",
+    "following_raw": "840",
+    "coin_id": "pha",
+    "symbol": "PHA",
+    "cluster": "A_deep_recovery"
+  },
+  "aoTheComputer": {
+    "handle": "aoTheComputer",
+    "followers": 48100,
+    "following": 160,
+    "followers_raw": "48.1K",
+    "following_raw": "160",
+    "coin_id": "ao-computer",
+    "symbol": "AO",
+    "cluster": "C_breakout_sideways"
+  },
+  "radixdlt": {
+    "handle": "radixdlt",
+    "followers": 226100,
+    "following": 216,
+    "followers_raw": "226.1K",
+    "following_raw": "216",
+    "coin_id": "radix",
+    "symbol": "XRD",
+    "cluster": "A_deep_recovery"
+  },
+  "lootproject": {
+    "handle": "lootproject",
+    "followers": 63200,
+    "following": 146,
+    "followers_raw": "63.2K",
+    "following_raw": "146",
+    "coin_id": "adventure-gold",
+    "symbol": "AGLD",
+    "cluster": "A_deep_recovery"
+  },
+  "apertum_io": {
+    "handle": "apertum_io",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "apertum",
+    "symbol": "APTM",
+    "cluster": "A_deep_recovery",
+    "followers": 28500,
+    "following": null
+  },
+  "safebitcom": {
+    "handle": "safebitcom",
+    "followers": 87000,
+    "following": 9,
+    "followers_raw": "87K",
+    "following_raw": "9",
+    "coin_id": "safecoin",
+    "symbol": "SAFE",
+    "cluster": "A_deep_recovery"
+  },
+  "lavanetxyz": {
+    "handle": "lavanetxyz",
+    "followers": 92100,
+    "following": 29,
+    "followers_raw": "92.1K",
+    "following_raw": "29",
+    "coin_id": "lava-network",
+    "symbol": "LAVA",
+    "cluster": "E_v_reversal"
+  },
+  "CatizenAI": {
+    "handle": "CatizenAI",
+    "followers": 2600000,
+    "following": 84,
+    "followers_raw": "2.6M",
+    "following_raw": "84",
+    "coin_id": "catizen",
+    "symbol": "CATI",
+    "cluster": "C_breakout_sideways"
+  },
+  "ponkehq": {
+    "handle": "ponkehq",
+    "followers": 144800,
+    "following": 337,
+    "followers_raw": "144.8K",
+    "following_raw": "337",
+    "coin_id": "ponke",
+    "symbol": "PONKE",
+    "cluster": "A_deep_recovery"
+  },
+  "VulcanForged": {
+    "handle": "VulcanForged",
+    "followers": 180700,
+    "following": 1127,
+    "followers_raw": "180.7K",
+    "following_raw": "1,127",
+    "coin_id": "vulcan-forged",
+    "symbol": "PYR",
+    "cluster": "E_v_reversal"
+  },
+  "alchemixfi": {
+    "handle": "alchemixfi",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "alchemix",
+    "symbol": "ALCX",
+    "cluster": "C_breakout_sideways",
+    "followers": 71600,
+    "following": null
+  },
+  "grail_ai": {
+    "handle": "grail_ai",
+    "followers": 549,
+    "following": 4,
+    "followers_raw": "549",
+    "following_raw": "4",
+    "coin_id": "patrol-tao-com",
+    "symbol": "SN81",
+    "cluster": "C_breakout_sideways"
+  },
+  "wfca_global": {
+    "handle": "wfca_global",
+    "followers": 7437,
+    "following": 431,
+    "followers_raw": "7,437",
+    "following_raw": "431",
+    "coin_id": "wfca",
+    "symbol": "WFCA",
+    "cluster": "B_gradual_accumulation"
+  },
+  "JobCoinSOL": {
+    "handle": "JobCoinSOL",
+    "followers": 2105,
+    "following": 57,
+    "followers_raw": "2,105",
+    "following_raw": "57",
+    "coin_id": "jobcoin-2",
+    "symbol": "JOBCOIN",
+    "cluster": "E_v_reversal"
+  },
+  "openloot": {
+    "handle": "openloot",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "open-loot",
+    "symbol": "OL",
+    "cluster": "E_v_reversal"
+  },
+  "vowcurrency": {
+    "handle": "vowcurrency",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "vow",
+    "symbol": "VOW",
+    "cluster": "C_breakout_sideways"
+  },
+  "solendprotocol": {
+    "handle": "solendprotocol",
+    "followers": 723,
+    "following": 1,
+    "followers_raw": "723",
+    "following_raw": "1",
+    "coin_id": "save",
+    "symbol": "SAVE",
+    "cluster": "E_v_reversal"
+  },
+  "inference_labs": {
+    "handle": "inference_labs",
+    "followers": 39400,
+    "following": 38,
+    "followers_raw": "39.4K",
+    "following_raw": "38",
+    "coin_id": "omron",
+    "symbol": "SN2",
+    "cluster": "C_breakout_sideways"
+  },
+  "b3k_games": {
+    "handle": "b3k_games",
+    "error": "parse_failed",
+    "followers_text": ".",
+    "following_text": null,
+    "coin_id": "battle-of-three-kingdoms",
+    "symbol": "SGC",
+    "cluster": "E_v_reversal"
+  },
+  "soil_farm": {
+    "handle": "soil_farm",
+    "followers": 86900,
+    "following": 209,
+    "followers_raw": "86.9K",
+    "following_raw": "209",
+    "coin_id": "soil",
+    "symbol": "SOIL",
+    "cluster": "B_gradual_accumulation"
+  }
+}
