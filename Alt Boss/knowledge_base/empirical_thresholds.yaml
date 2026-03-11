@@ -227,6 +227,115 @@ twitter_followers_absolute:
     AND higher growth potential), NOT causal. Do NOT use in scoring.
     GROWTH RATE of followers could be leading indicator but is unavailable for free.
 
+# ===== BINANCE DERIVATIVES METRICS (калибровка 2026-03-11) =====
+# Выборка: 137 winners (2x+) vs 67 losers (-50%+), Binance спот+фьючерсы
+# Data source: Binance spot/futures klines, funding rate, mark/index price
+
+basis_30d_avg:
+  description: "Futures-Spot price spread, 30d average (%). Negative = futures discount"
+  winners_median: -0.078
+  losers_median: -0.059
+  discrimination_ratio: 1.32
+  p_value: 0.005
+  thresholds:
+    buy: -0.08       # strong futures discount = squeeze potential
+    neutral: -0.03   # mild discount
+    avoid: 0.0       # premium = crowded longs
+  note: >
+    STRONGEST new signal. Winners trade at DEEPER discount on futures before pump.
+    Interpretation: short sellers push futures below spot → accumulation of short OI → squeeze fuel.
+    Contrarian: pessimistic futures = bullish for spot.
+
+basis_7d_avg:
+  description: "Futures-Spot spread, 7d average (%)"
+  winners_median: -0.084
+  losers_median: -0.061
+  p_value: 0.019
+  thresholds:
+    buy: -0.10
+    neutral: -0.03
+    avoid: 0.0
+
+basis_persistence_30d:
+  description: "Fraction of days with positive basis (premium) in 30d. LOWER = better"
+  winners_median: 0.067
+  losers_median: 0.100
+  p_value: 0.048
+  thresholds:
+    buy: 0.10        # < 10% days with premium = persistent discount
+    neutral: 0.20
+    avoid: 0.30      # > 30% = frequent premium = crowded longs
+
+futures_spot_vol_ratio_t30:
+  description: "Futures volume / Spot volume ratio at T-30. LOWER = spot-driven accumulation"
+  winners_median: 3.48
+  losers_median: 4.15
+  discrimination_ratio: 0.84
+  p_value: 0.033
+  thresholds:
+    buy: 3.0         # spot-driven accumulation
+    neutral: 5.0     # balanced
+    avoid: 8.0       # extreme leverage = casino
+  note: >
+    Winners have LOWER F/S ratio one month before pump = spot accumulation.
+    At T-7 the difference disappears (3.64 vs 3.30) = leverage joins AFTER move starts.
+    3x+ multiplier winners have lowest F/S (3.23) = strongest pumps are spot-driven.
+
+funding_vol_interaction:
+  description: "Funding persistence × Volume growth. LOWER = better (high funding + declining volume)"
+  winners_median: 0.651
+  losers_median: 0.742
+  p_value: 0.044
+  thresholds:
+    buy: 0.65
+    neutral: 0.80
+    avoid: 1.0
+  note: "Combo signal: high funding + declining volume = quiet accumulation under short pressure"
+
+market_cap_binance:
+  description: "Market cap at event start (Binance-listed tokens)"
+  winners_median: 67000000   # $67M
+  losers_median: 150000000   # $150M
+  p_value: 0.000003
+  thresholds:
+    buy: 100000000    # < $100M
+    neutral: 300000000
+    avoid: 500000000  # > $500M rarely 2x
+
+# ===== NON-DISCRIMINATING DERIVATIVES METRICS =====
+
+funding_persistence_30d:
+  description: "Fraction of 8h intervals with positive funding"
+  winners_median: 0.794
+  losers_median: 0.833
+  p_value: 0.277
+  note: "NOT a discriminator. Both winners and losers have ~80% positive funding. General market backdrop."
+
+funding_avg_30d:
+  description: "Average funding rate over 30d"
+  winners_median: 0.00002
+  losers_median: 0.000036
+  p_value: 0.837
+  note: "NOT a discriminator. Do not use in scoring."
+
+taker_buy_ratio:
+  description: "Taker buy volume / total volume on spot"
+  winners_median: 0.488
+  losers_median: 0.493
+  p_value: 0.027
+  note: "Statistically significant but NOT actionable. Difference is 0.5% — too small for practical use."
+
+absolute_volumes:
+  description: "Spot and futures volume in USD"
+  note: "NOT discriminating. Spot vol p=0.17, futures vol p=0.16. Structure matters, not size."
+
+futures_spot_ratio_t7:
+  description: "F/S ratio at T-7 (close to event)"
+  winners_median: 3.64
+  losers_median: 3.30
+  p_value: 0.972
+  note: "NOT discriminating at T-7. Only T-30 shows difference. Leverage equalizes close to event."
+
 # ===== SOCIAL DATA GAPS =====
 # Twitter follower GROWTH RATE: UNAVAILABLE (needs Twitter API or paid LunarCrush)
 # Twitter engagement rate: UNAVAILABLE (needs Twitter API)

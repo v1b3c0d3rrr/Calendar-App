@@ -71,6 +71,8 @@
 | 8 | VC unlock cliff в ближайшие 90 дней | MEDIUM |
 | 9 | Wash trading признаки (>80% volume на 1 бирже) | HIGH |
 | 10 | Regulatory risk (SEC mention, delisting threats) | HIGH |
+| 11 | F/S volume ratio > 5.0 (leverage-driven pricing) | MEDIUM — калибровано 2026-03-11: Winners F/S=3.48 vs Losers 4.15 (p=0.033). Extreme leverage (>8) = casino. Spot-driven (F/S < 3.0) = organic accumulation |
+| 12 | Futures trading at premium (basis > 0, persistent) | MEDIUM — калибровано: Winners basis -0.078% vs Losers -0.059% (p=0.005). Persistent premium (>30% дней) = crowded long risk |
 
 ### 6. 10-секционный отчёт
 

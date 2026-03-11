@@ -113,6 +113,17 @@ Position_size = min(NAV × 1% / (Entry - Stop), ADV × 1%, NAV × 5%)
 - Social: narrative_spike >1.0 = +3, >0.5 = +2
 - Valuation: MC/TVL <1.0 = +3, <3.0 = +2
 - Price momentum: 7d_change >5% = +2, >0% = +1, <-10% = -1 (winners +6.4%, losers -9.0%)
+- **Derivatives (калибровка Binance 2026-03-11):**
+  - Basis 30d < -0.08%: +2 (futures discount = squeeze potential, p=0.005)
+  - Basis 30d < -0.06%: +1
+  - Basis persistence < 10%: +1 (persistent discount)
+  - Basis persistence > 30%: -1 (frequent premium = crowded longs)
+  - F/S vol ratio < 3.0 (T-30): +1 (spot accumulation)
+  - F/S vol ratio > 5.0: -1 (leverage-heavy)
+  - F/S vol ratio > 8.0: -2 + gate check WARNING
+  - **НЕ использовать**: funding rate (persistence/avg/max) — p=0.28-0.84, не дискриминирует
+  - **НЕ использовать**: taker buy ratio — разница 0.5%, не actionable
+  - **НЕ использовать**: абсолютные объёмы spot/futures — p>0.15
 
 ### Social Data Note (калибровка 2026-03-11, обновлено Twitter data)
 

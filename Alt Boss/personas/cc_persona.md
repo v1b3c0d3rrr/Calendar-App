@@ -63,6 +63,15 @@
 
 **G: Parabolic Warning** — Рост >500% за 30 дней → максимум 55 скора + "не гнаться".
 
+**H: Futures Discount** (калибровка Binance 2026-03-11, p=0.005):
+- Basis 30d < -0.08% (фьючерсы дешевле спота) = +5 к скору. Шортисты давят фьючерсную цену → squeeze potential.
+- F/S volume ratio < 3.0 на T-30 = +3. Спотовое накопление (не leverage) предшествует реальным пампам.
+- Combo: Futures discount + declining spot volume (vol_growth < 0.85) = "тишина + пессимизм" = сильнейший setup.
+- **Red zone**: F/S ratio > 8.0 = extreme leverage = casino, не входить.
+- **Факт**: 3x+ winners имеют НИЖЕ F/S ratio (3.23 vs 3.60) = самые сильные пампы spot-driven.
+
+**НЕ использовать**: Funding rate (persistence, avg, max) — НЕ дискриминирует (p=0.28). Общий фон рынка, не специфический сигнал.
+
 ### 3. Кластерно-взвешенный скоринг (0-100)
 
 **Micro Cap (<$50M):**

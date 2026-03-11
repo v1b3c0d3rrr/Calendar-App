@@ -184,3 +184,47 @@
 **Вывод для скоринга**: Абсолютное число Twitter followers = **0 баллов** в скоринге. Отражает "размер проекта" (proxy для MC), а не потенциал роста. Единственный потенциально полезный social metric — **ТЕМПЫ РОСТА** followers/mentions, но данные недоступны бесплатно. Social scoring dimension в текущей модели должен опираться на: narrative phase + catalyst proximity, НЕ на follower counts.
 
 *Полный отчёт: `calibration/twitter_report.md`*
+
+---
+
+## Lesson #6: Binance деривативные метрики — basis > funding > volume (2026-03-11)
+
+**Контекст**: Калибровочное исследование 137 winners (2x+) vs 67 losers (-50%+), все на Binance спот+фьючерсы. Собраны: spot klines, futures klines, funding rate, mark/index price за T-60 to T+5.
+
+**Ключевые находки**:
+
+### Futures-Spot Basis — СИЛЬНЕЙШИЙ деривативный сигнал (p=0.005)
+- Winners basis 30d: **-0.078%** (фьючерсы ДЕШЕВЛЕ спота)
+- Losers basis 30d: **-0.059%**
+- Winners basis persistence (доля дней с премией): **6.7%** vs Losers **10%**
+- **Интерпретация**: Перед пампом фьючерсный рынок ПЕССИМИСТИЧЕН → шорты давят → squeeze fuel
+- **Правило**: Persistent futures discount + declining spot volume = strongest pre-pump setup
+
+### Futures/Spot Volume Ratio — значим на T-30 (p=0.033), НЕ на T-7
+- Winners F/S ratio T-30: **3.48** vs Losers **4.15**
+- На T-7: 3.64 vs 3.30, p=0.97 — разница ИСЧЕЗАЕТ
+- **Интерпретация**: Спотовое накопление (lower leverage) предшествует пампам. К T-7 leverage подключается.
+- Самые сильные пампы (3x+) = lowest F/S ratio (3.23)
+
+### Funding Rate — ГИПОТЕЗА ОПРОВЕРГНУТА
+- Persistence: Winners 0.794 vs Losers 0.833, p=0.28
+- Avg, max, annualized — все незначимые (p > 0.21)
+- **Вывод**: Положительный фандинг = общий фон рынка, не токен-специфический сигнал
+- **Исключение**: funding × vol_growth interaction значим (p=0.044) — высокий фандинг + снижающийся объём = тихое накопление под давлением шортов
+
+### Market Cap — подтверждён из новой выборки (p=0.000003)
+- Winners: median **$67M**, Losers: median **$150M**
+- Sweet spot для 2x на Binance = small-cap ($50-100M)
+
+### Что НЕ работает
+- **Taker Buy Ratio**: 0.488 vs 0.493, difference 0.5% — не actionable
+- **Абсолютные объёмы**: spot и futures volume не дискриминируют (p > 0.15)
+- **F/S ratio на T-7**: разница исчезает к моменту движения
+
+**Для скоринга**: Добавлено 3 новых метрики:
+1. Basis 30d avg (вес в Derivatives dimension: +2 при < -0.08%)
+2. Basis persistence (< 10% = +1)
+3. F/S vol ratio T-30 (< 3.0 = +1, > 5.0 = -1, > 8.0 = gate warning)
+Убраны из рассмотрения: funding rate metrics, taker buy ratio, absolute volumes.
+
+*Полный отчёт: `calibration/binance_calibration_report.md`*
