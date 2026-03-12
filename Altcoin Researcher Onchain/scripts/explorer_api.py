@@ -14,15 +14,33 @@ Key endpoints for onchain analysis:
 
 import os
 import time
+import socket
+import urllib3
 import requests
 from typing import Optional
 from dotenv import load_dotenv
 from ratelimit import limits, sleep_and_retry
 
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 load_dotenv()
 
 API_KEY = os.getenv("ETHERSCAN_API_KEY")
+API_KEY_2 = os.getenv("ETHERSCAN_API_KEY_2")
+
+# Etherscan v2 URL — with DNS fallback to resolved IP
 ETHERSCAN_V2_URL = "https://api.etherscan.io/v2/api"
+_ETHERSCAN_IP_URL = "https://23.92.68.154/v2/api"
+_ETHERSCAN_HOST_HEADER = {"Host": "api.etherscan.io"}
+
+def _can_resolve_etherscan() -> bool:
+    """Check if api.etherscan.io resolves via local DNS."""
+    try:
+        socket.getaddrinfo("api.etherscan.io", 443)
+        return True
+    except socket.gaierror:
+        return False
+
+_USE_IP_FALLBACK = not _can_resolve_etherscan()
 
 # Chain IDs (CoinGecko platform name -> chain_id)
 CHAINS = {
@@ -42,8 +60,8 @@ CHAINS = {
     "mantle": 5000,
 }
 
-# Free-plan chains (tested 2026-03-11)
-FREE_CHAINS = {1, 137, 42161, 59144, 534352}
+# Available chains (ETH free, BSC paid plan active since 2026-03-12)
+FREE_CHAINS = {1, 56, 137, 42161, 59144, 534352}
 
 CG_TO_CHAIN_ID = CHAINS.copy()
 
@@ -55,16 +73,20 @@ class ChainNotSupportedError(Exception):
 
 @sleep_and_retry
 @limits(calls=5, period=1)
-def _request(chain_id: int, module: str, action: str, **params) -> dict:
+def _request(chain_id: int, module: str, action: str, api_key: str = None, **params) -> dict:
     """Rate-limited Etherscan v2 API request."""
     params.update({
         "chainid": chain_id,
         "module": module,
         "action": action,
-        "apikey": API_KEY,
+        "apikey": api_key or API_KEY,
     })
 
-    resp = requests.get(ETHERSCAN_V2_URL, params=params, timeout=20)
+    if _USE_IP_FALLBACK:
+        resp = requests.get(_ETHERSCAN_IP_URL, params=params,
+                            headers=_ETHERSCAN_HOST_HEADER, timeout=30, verify=False)
+    else:
+        resp = requests.get(ETHERSCAN_V2_URL, params=params, timeout=30)
     resp.raise_for_status()
     data = resp.json()
 
@@ -72,7 +94,7 @@ def _request(chain_id: int, module: str, action: str, **params) -> dict:
         result_str = str(data.get("result", ""))
         if "rate limit" in result_str.lower():
             time.sleep(2)
-            return _request(chain_id, module, action, **params)
+            return _request(chain_id, module, action, api_key=api_key, **params)
         if "not supported" in result_str.lower() or "upgrade" in result_str.lower():
             raise ChainNotSupportedError(
                 f"Chain {chain_id} requires paid plan: {result_str[:100]}"

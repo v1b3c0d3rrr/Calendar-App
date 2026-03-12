@@ -482,13 +482,19 @@ def compute_anomaly_scores(profiles: dict, labels: dict, mm_addrs: set) -> dict:
     return metrics
 
 
-def process_token(coin_id: str, db: LabelDB) -> Optional[dict]:
+def process_token(coin_id: str, db: LabelDB, max_transfers: int = 200000) -> Optional[dict]:
     """Process a single token: cluster addresses, detect MMs, compute anomalies."""
     data = load_token_data(coin_id)
     if not data or not data.get("transfers"):
         return None
 
     transfers = data["transfers"]
+
+    # Cap transfers to keep analysis tractable on large BSC tokens
+    if len(transfers) > max_transfers:
+        step = len(transfers) / max_transfers
+        transfers = [transfers[int(i * step)] for i in range(max_transfers)]
+
     chain_id = data.get("chain_id", 1)
     category = data.get("category", "unknown")
 

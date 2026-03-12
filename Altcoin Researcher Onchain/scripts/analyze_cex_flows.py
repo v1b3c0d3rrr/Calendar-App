@@ -281,7 +281,7 @@ def compute_cex_metrics(
     }
 
 
-def process_token(filepath: Path, db: LabelDB) -> Optional[dict]:
+def process_token(filepath: Path, db: LabelDB, max_transfers: int = 200000) -> Optional[dict]:
     """Process one token: filter rotations, compute CEX metrics per period."""
     with open(filepath) as f:
         data = json.load(f)
@@ -289,6 +289,11 @@ def process_token(filepath: Path, db: LabelDB) -> Optional[dict]:
     transfers = data.get("transfers", [])
     if not transfers or len(transfers) < 5:
         return None
+
+    # For very large files, sample evenly to keep analysis tractable
+    if len(transfers) > max_transfers:
+        step = len(transfers) / max_transfers
+        transfers = [transfers[int(i * step)] for i in range(max_transfers)]
 
     chain_id = data["chain_id"]
     token_decimals = int(transfers[0].get("tokenDecimal", 18))

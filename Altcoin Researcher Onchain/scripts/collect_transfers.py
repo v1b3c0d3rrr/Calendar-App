@@ -130,8 +130,14 @@ def date_to_timestamp(date_str: str) -> int:
     return int(dt.timestamp())
 
 
-def collect_all_transfers(chain_id: int, contract: str, start_block: int, end_block: int) -> list:
-    """Collect all transfers with pagination. Returns list of transfer dicts."""
+def collect_all_transfers(chain_id: int, contract: str, start_block: int, end_block: int,
+                          max_transfers: int = 500000) -> list:
+    """
+    Collect all transfers with pagination + recursive block splitting.
+
+    Etherscan V2 returns max 10k results per query. If page 2 returns None/empty
+    (common on BSC), we split the block range in half and recurse.
+    """
     all_transfers = []
     page = 1
     page_size = 10000  # Etherscan max
@@ -154,16 +160,33 @@ def collect_all_transfers(chain_id: int, contract: str, start_block: int, end_bl
             break
 
         if not transfers or not isinstance(transfers, list):
+            if page > 1:
+                # Pagination failed — split block range and recurse
+                last_block = int(all_transfers[-1]["blockNumber"]) if all_transfers else start_block
+                remaining_start = last_block + 1
+                if remaining_start < end_block:
+                    mid = (remaining_start + end_block) // 2
+                    print(f"    Pagination stopped at page {page}, splitting: {remaining_start}-{mid}, {mid+1}-{end_block}")
+                    left = collect_all_transfers(chain_id, contract, remaining_start, mid, max_transfers - len(all_transfers))
+                    all_transfers.extend(left)
+                    if len(all_transfers) < max_transfers:
+                        right = collect_all_transfers(chain_id, contract, mid + 1, end_block, max_transfers - len(all_transfers))
+                        all_transfers.extend(right)
             break
 
         all_transfers.extend(transfers)
         print(f"    Page {page}: {len(transfers)} transfers (total: {len(all_transfers)})")
 
+        if len(all_transfers) >= max_transfers:
+            print(f"    Hit max_transfers limit ({max_transfers})")
+            break
+
         if len(transfers) < page_size:
             break
 
+        # Try next page first; if it fails, the loop handles splitting
         page += 1
-        time.sleep(0.3)  # Small delay between pages
+        time.sleep(0.3)
 
     return all_transfers
 

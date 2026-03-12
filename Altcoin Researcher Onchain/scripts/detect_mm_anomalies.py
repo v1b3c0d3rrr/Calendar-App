@@ -47,7 +47,7 @@ WHALE_VOLUME_PCT = 0.03  # >3% of total volume = whale
 TEMPORAL_WINDOW = 300  # 5 minutes
 
 
-def compute_token_anomalies(coin_id: str, db: LabelDB) -> Optional[dict]:
+def compute_token_anomalies(coin_id: str, db: LabelDB, max_transfers: int = 200000) -> Optional[dict]:
     """Compute all anomaly metrics for a single token."""
     fpath = TRANSFERS_DIR / f"{coin_id}.json"
     if not fpath.exists():
@@ -58,6 +58,11 @@ def compute_token_anomalies(coin_id: str, db: LabelDB) -> Optional[dict]:
     transfers = data.get("transfers", [])
     if len(transfers) < 10:
         return None
+
+    # Cap transfers to keep analysis tractable on large BSC tokens
+    if len(transfers) > max_transfers:
+        step = len(transfers) / max_transfers
+        transfers = [transfers[int(i * step)] for i in range(max_transfers)]
 
     category = data.get("category", "unknown")
     chain_id = data.get("chain_id", 1)
